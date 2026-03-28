@@ -96,6 +96,8 @@ def sample_env_data_given_profile(user_dir, user_profile, llm_config_high, llm_c
         states, updates = state_transition["states"], state_transition["updates"]
         logger.info(f"Loaded existing state transitions from {transition_path}")
 
+    lang = config.get("lang", "en")
+
     # sample personalized answers & reflection
     answer_path = os.path.join(user_dir, "personalized_answers.json")
     if not os.path.exists(answer_path):
@@ -108,22 +110,22 @@ def sample_env_data_given_profile(user_dir, user_profile, llm_config_high, llm_c
             q = question["question"]
             variants = state_variants[q]
             answers = sample_personalized_answers(
-                llm_config_low, question, variants
+                llm_config_low, question, variants, lang=lang
             )
             for ai, answer in enumerate(answers):
                 answer_text = answer["answer"]
                 check_ret = check_personalized_answer(
-                    llm_config_low, question, answer_text, variants, ai
+                    llm_config_low, question, answer_text, variants, ai, lang=lang
                 )
                 retry_cnt = 20
                 while not check_ret and retry_cnt > 0:
                     logger.warning(f"Answer validation failed for question '{question['question']}' and variant {answer['variant']}.\nCurrent Answer:{answer_text}\nRetrying...")
                     answer_text = refine_personalized_answer(
-                        llm_config_low, question, answer_text, variants, ai
+                        llm_config_low, question, answer_text, variants, ai, lang=lang
                     )
                     logger.info(f"After refinement: {answer_text}")
                     check_ret = check_personalized_answer(
-                        llm_config_low, question, answer_text, variants, ai
+                        llm_config_low, question, answer_text, variants, ai, lang=lang
                     )
                     logger.info(f"After refinement, validation result: {check_ret}")
                     retry_cnt -= 1
@@ -141,22 +143,22 @@ def sample_env_data_given_profile(user_dir, user_profile, llm_config_high, llm_c
     sessions = []
     init_queries = sample_init_queries(
         llm_config_low, config["start_date"], user_profile["formatted_str"],
-        schema, states[0]
+        schema, states[0], lang=lang
     )
     for query in init_queries:
         query_text = query["query"]
         query_exposed_states = query["exposed_states"]
         check_ret = check_query_state_exposure(
-            llm_config_low, query_text, query_exposed_states, schema
+            llm_config_low, query_text, query_exposed_states, schema, lang=lang
         )
         retry_cnt = 20
         while not check_ret and retry_cnt > 0:
             logger.warning(f"Query validation failed for initial query '{query_text}'. Retrying...")
             query_text = refine_query(
-                llm_config_low, query_text, query_exposed_states, schema
+                llm_config_low, query_text, query_exposed_states, schema, lang=lang
             )
             check_ret = check_query_state_exposure(
-                llm_config_low, query_text, query_exposed_states, schema
+                llm_config_low, query_text, query_exposed_states, schema, lang=lang
             )
             retry_cnt -= 1
         if not check_ret:
@@ -172,22 +174,22 @@ def sample_env_data_given_profile(user_dir, user_profile, llm_config_high, llm_c
     for pi in range(config["num_periods"]):
         update_queries = sample_update_queries(
             llm_config_low, config["start_date"], user_profile["formatted_str"],
-            schema, updates[pi+1]
+            schema, updates[pi+1], lang=lang
         )
         for query in update_queries:
             query_text = query["query"]
             query_exposed_states = query["exposed_states"]
             check_ret = check_query_state_exposure(
-                llm_config_low, query_text, query_exposed_states, schema
+                llm_config_low, query_text, query_exposed_states, schema, lang=lang
             )
             retry_cnt = 20
             while not check_ret and retry_cnt > 0:
                 logger.warning(f"Query validation failed for update query '{query_text}'. Retrying...")
                 query_text = refine_query(
-                    llm_config_low, query_text, query_exposed_states, schema
+                    llm_config_low, query_text, query_exposed_states, schema, lang=lang
                 )
                 check_ret = check_query_state_exposure(
-                    llm_config_low, query_text, query_exposed_states, schema
+                    llm_config_low, query_text, query_exposed_states, schema, lang=lang
                 )
                 retry_cnt -= 1
             if not check_ret:

@@ -1,8 +1,7 @@
 """Agentic Write & Internal Storage (AWI) assistant."""
 
 from loguru import logger
-from amemgym.utils import load_json, save_json, call_llm
-from .prompts import IN_CONTEXT_MEMORY_UPDATE_PROMPT, get_in_context_hack_prompt
+from amemgym.utils import load_json, save_json, call_llm, load_prompts, escape_prompt
 import os
 import json
 from datetime import datetime
@@ -17,12 +16,17 @@ class InContextMemAgent(BaseAgent):
     def reset(self):
         self.in_context_memory = []
         self.local_msgs = []
+        lang = self.config.get("lang", "en")
+        prompts = load_prompts("assistants", lang=lang)
         info_types = self.config.get("info_types", None)
         if info_types is None:
-            self.memory_update_prompt = IN_CONTEXT_MEMORY_UPDATE_PROMPT
+            self.memory_update_prompt = prompts["in_context_memory_update_prompt"]
         else:
             logger.info(f"Using in-context memory update prompt with info types: {info_types}")
-            self.memory_update_prompt = get_in_context_hack_prompt(info_types)
+            prefix = prompts["in_context_hack_prompt_prefix"]
+            suffix = prompts["in_context_hack_prompt_suffix"]
+            raw_prompt = prefix + str(info_types) + suffix
+            self.memory_update_prompt = escape_prompt(raw_prompt)
             logger.debug(f"memory_update_prompt: {self.memory_update_prompt}")
 
     def act(self, obs: str) -> str:
@@ -47,7 +51,6 @@ class InContextMemAgent(BaseAgent):
 
     def answer_question(self, question: str):
         new_msg = {"role": "user", "content": question}
-        # system prompt w/ memories
         sorted_memories = sorted(self.in_context_memory, key=lambda x: x["timestamp"])
         memories_str = "\n".join([f"- {entry['label']}: {entry['value']}" for entry in sorted_memories])
         system_prompt = f"You are a helpful AI. Respond according to memories of the user.\nUser memories ordered by time (earliest to latest):\n{memories_str}"
@@ -55,13 +58,11 @@ class InContextMemAgent(BaseAgent):
         return call_llm(messages, self.config["llm_config"], return_token_usage=True)
 
     def add_msgs(self, messages: list):
-        # load interactions to update internal state
         assert len(messages) == 2, "Only support two-turn interactions in one batch"
         limit = self.config["agent_config"]["update_bsz"] + \
             self.config["agent_config"]["local_length"]
         self.local_msgs += messages
         if len(self.local_msgs) >= limit:
-            # update memory
             update_bsz = self.config["agent_config"]["update_bsz"]
             msgs_to_insert, self.local_msgs = self.local_msgs[:update_bsz], self.local_msgs[update_bsz:]
             logger.trace(
@@ -79,17 +80,15 @@ class InContextMemAgent(BaseAgent):
             [{"role": "user", "content": memory_prompt}], self.config["llm_config"], json=True)
         memory_updates = json.loads(memory_updates)
         timestamp = datetime.now().strftime(
-            '%Y-%m-%dT%H:%M:%S.%f')[:-3]  # ISO 8601 format
+            '%Y-%m-%dT%H:%M:%S.%f')[:-3]
         logger.trace(f"memory update {timestamp}: {memory_updates}")
 
-        # added new entries
         for entry in self.in_context_memory:
             if entry["label"] in memory_updates:
                 entry["value"] = memory_updates[entry["label"]]
                 entry["timestamp"] = timestamp
                 del memory_updates[entry["label"]]
 
-        # updated existing entries
         for label, value in memory_updates.items():
             assert label not in current_memories
             self.in_context_memory.append(
@@ -97,25 +96,7 @@ class InContextMemAgent(BaseAgent):
 
         logger.trace(f"updated memory {timestamp}: {self.in_context_memory}")
 
-    def set_prompts(self, prompts):
-        """Set memory update prompt"""
+    def set_prompts(self, prompts: dict):
+        """Set memory update prompt, applying brace escaping via the central utility."""
         if "memory_update_prompt" in prompts:
-            prompt = prompts['memory_update_prompt']
-            
-            # Use a more sophisticated approach that only escapes single braces
-            import re
-
-            # First, protect our placeholder patterns
-            prompt = prompt.replace('{current_memories}', '___PLACEHOLDER_CURRENT___')
-            prompt = prompt.replace('{conversation}', '___PLACEHOLDER_CONVERSATION___')
-            
-            # Escape single braces that aren't already escaped
-            # This regex finds single { or } that aren't part of {{ or }}
-            prompt = re.sub(r'(?<!\{)\{(?!\{)', '{{', prompt)  # { not preceded by { and not followed by {
-            prompt = re.sub(r'(?<!\})\}(?!\})', '}}', prompt)  # } not preceded by } and not followed by }
-            
-            # Restore placeholders
-            prompt = prompt.replace('___PLACEHOLDER_CURRENT___', '{current_memories}')
-            prompt = prompt.replace('___PLACEHOLDER_CONVERSATION___', '{conversation}')
-
-            self.memory_update_prompt = prompt
+            self.memory_update_prompt = escape_prompt(prompts["memory_update_prompt"])

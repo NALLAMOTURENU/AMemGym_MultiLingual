@@ -5,22 +5,13 @@ with the ability to evolve their prompts based on feedback from evaluation resul
 """
 
 import os
-import re
 import json
 from datetime import datetime
 from loguru import logger
 
-from amemgym.utils import call_llm, load_json, save_json, parse_json
+from amemgym.utils import call_llm, load_json, save_json, parse_json, load_prompts, escape_prompt
 from .awi import InContextMemAgent
 from .mem0 import Mem0Agent, format_mem0_memories
-from .prompts import (
-    IN_CONTEXT_MEMORY_UPDATE_PROMPT,
-    IN_CONTEXT_MEMORY_UPDATE_PROMPT_TEMPLATE,
-    MEMORY_TYPES_SECTION,
-    MINIMAL_MEMORY_PROMPT_V2,
-    MINIMAL_FACT_EXTRACTION_PROMPT,
-    MEDIUM_FACT_EXTRACTION_PROMPT,
-)
 
 
 class EvolvableInContextAgent(InContextMemAgent):
@@ -54,22 +45,25 @@ class EvolvableInContextAgent(InContextMemAgent):
                 - "info_type" or "guided_info_type": Template-based with memory types
                 - "default": Standard full prompt
         """
+        lang = self.config.get("lang", "en")
+        prompts = load_prompts("assistants", lang=lang)
+
         if init_prompt_type == "minimal":
-            self.memory_update_prompt = MINIMAL_MEMORY_PROMPT_V2
+            self.memory_update_prompt = prompts["minimal_memory_prompt_v2"]
             logger.debug("Using minimal memory update prompt V2")
 
         elif init_prompt_type in ["info_type", "guided_info_type"]:
-            self.memory_types_section = MEMORY_TYPES_SECTION
-            self.memory_update_prompt = IN_CONTEXT_MEMORY_UPDATE_PROMPT_TEMPLATE.format(
-                memory_types_section=MEMORY_TYPES_SECTION)
+            self.memory_types_section = prompts["memory_types_section"]
+            self.memory_update_prompt = prompts["in_context_memory_update_prompt_template"].format(
+                memory_types_section=self.memory_types_section)
             logger.debug("Using memory update prompt as default (info type update only)")
 
         elif init_prompt_type == "default":
-            self.memory_update_prompt = IN_CONTEXT_MEMORY_UPDATE_PROMPT
+            self.memory_update_prompt = prompts["in_context_memory_update_prompt"]
 
         else:
             logger.debug("Using default memory update prompt")
-            self.memory_update_prompt = IN_CONTEXT_MEMORY_UPDATE_PROMPT
+            self.memory_update_prompt = prompts["in_context_memory_update_prompt"]
 
     def get_current_prompts(self):
         """Get current memory update prompt.
@@ -78,35 +72,23 @@ class EvolvableInContextAgent(InContextMemAgent):
             dict: Dictionary containing current prompts.
         """
         if self.evolution_config.get("init_prompt_type") in ["info_type", "guided_info_type"]:
-            self.memory_update_prompt = IN_CONTEXT_MEMORY_UPDATE_PROMPT_TEMPLATE.format(
+            lang = self.config.get("lang", "en")
+            template = load_prompts("assistants", lang=lang)["in_context_memory_update_prompt_template"]
+            self.memory_update_prompt = template.format(
                 memory_types_section=self.memory_types_section)
 
         return {
             "memory_update_prompt": self.memory_update_prompt
         }
 
-    def set_prompts(self, prompts):
-        """Set memory update prompt with proper brace escaping.
+    def set_prompts(self, prompts: dict):
+        """Set memory update prompt with proper brace escaping via the central utility.
 
         Args:
             prompts: Dictionary containing prompts to set.
         """
         if "memory_update_prompt" in prompts:
-            prompt = prompts['memory_update_prompt']
-
-            # First, protect our placeholder patterns
-            prompt = prompt.replace('{current_memories}', '___PLACEHOLDER_CURRENT___')
-            prompt = prompt.replace('{conversation}', '___PLACEHOLDER_CONVERSATION___')
-
-            # Escape single braces that aren't already escaped
-            prompt = re.sub(r'(?<!\{)\{(?!\{)', '{{', prompt)
-            prompt = re.sub(r'(?<!\})\}(?!\})', '}}', prompt)
-
-            # Restore placeholders
-            prompt = prompt.replace('___PLACEHOLDER_CURRENT___', '{current_memories}')
-            prompt = prompt.replace('___PLACEHOLDER_CONVERSATION___', '{conversation}')
-
-            self.memory_update_prompt = prompt
+            self.memory_update_prompt = escape_prompt(prompts["memory_update_prompt"])
 
     def _update_memory(self, messages):
         """Update memory using instance variable prompt instead of global constant."""
@@ -222,8 +204,9 @@ class EvolvableInContextAgent(InContextMemAgent):
 
                 # Set new prompt and memory_update_prompt
                 self.memory_types_section = new_types
-                new_prompt = IN_CONTEXT_MEMORY_UPDATE_PROMPT_TEMPLATE.format(
-                    memory_types_section=self.memory_types_section)
+                lang = self.config.get("lang", "en")
+                template = load_prompts("assistants", lang=lang)["in_context_memory_update_prompt_template"]
+                new_prompt = template.format(memory_types_section=self.memory_types_section)
 
             else:   # Evolve the whole prompt
                 messages = self._build_evolution_prompt(
@@ -400,14 +383,17 @@ class EvolvableMem0Agent(Mem0Agent):
                 - "medium": Medium fact extraction prompt with types
                 - default: Use Mem0's default heavy prompt
         """
+        lang = self.config.get("lang", "en")
+        prompts = load_prompts("assistants", lang=lang)
+
         if init_prompt_type == "minimal":
             self.set_prompts(
-                {"fact_extraction_prompt": MINIMAL_FACT_EXTRACTION_PROMPT})
+                {"fact_extraction_prompt": prompts["minimal_fact_extraction_prompt"]})
             logger.debug(
                 "Using minimal memory extraction prompt. (Minimal instruction)")
         elif init_prompt_type == "medium":
             self.set_prompts(
-                {"fact_extraction_prompt": MEDIUM_FACT_EXTRACTION_PROMPT})
+                {"fact_extraction_prompt": prompts["medium_fact_extraction_prompt"]})
             logger.debug(
                 "Using medium memory extraction prompt. (Medium instruction)")
         else:
