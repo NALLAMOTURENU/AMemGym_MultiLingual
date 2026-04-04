@@ -1,10 +1,10 @@
 {
     "type": "awi-hack",
-    "name": "gpt-4.1-mini-awi",
+    "name": "qwen-14b-awi-hack",
     "llm_config": {
         "base_url": null,
         "api_key": null,
-        "llm_model": "gpt-4.1-mini",
+        "llm_model": "qwen-local",
         "temperature": 0.0,
         "max_tokens": 8192,
         "source": "agent:interaction"

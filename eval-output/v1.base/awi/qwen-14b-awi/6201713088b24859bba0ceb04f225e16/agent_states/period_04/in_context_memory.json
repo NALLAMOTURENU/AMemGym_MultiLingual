@@ -1,0 +1,27 @@
+[
+  {
+    "label": "hobbies_and_activities",
+    "value": "Engaged in hobbies alongside job and studies; looking for ways to balance hobbies with studies and work.",
+    "timestamp": "2026-04-02T20:34:17.011"
+  },
+  {
+    "label": "professional_details",
+    "value": "Completed an associate degree in Industrial Technology with a project on IoT sensors for production efficiency; looking for ways to apply this knowledge in the current job by integrating IoT solutions; interested in user-friendly IoT platforms such as Particle, Blynk, Adafruit IO, Ubidots, The Things Network, AWS IoT Core, and Microsoft Azure IoT Hub.",
+    "timestamp": "2026-04-02T20:36:10.431"
+  },
+  {
+    "label": "plans_and_intentions",
+    "value": "Planning a team-building event for over twenty people on the team; considering activities like escape room challenge, scavenger hunt, workshops and creative activities, sports day, volunteer day, outdoor adventure, board game tournament, cook-off competition, charades or pictionary, team building workshops, photo scavenger hunt, and virtual escape room simulation.",
+    "timestamp": "2026-04-02T20:36:32.560"
+  },
+  {
+    "label": "health_and_wellness_preferences",
+    "value": "Doing yoga and joined a running club to manage stress. Interested in other physical activities to unwind after a tough day, such as cycling, swimming, hiking, Pilates, Tai Chi, gardening, dance classes, rock climbing, kayaking or paddleboarding, and team sports.",
+    "timestamp": "2026-04-02T20:35:02.489"
+  },
+  {
+    "label": "activity_and_service_preferences",
+    "value": "Interested in apps and tools to track progress and set goals for physical activities, including Strava, MyFitnessPal, Fitbit App, Yoga Wake Up, Couch to 5K, 7 Minute Workout, Forest, Headspace, Garmin Connect, Trello, Google Fit, MapMyRun/MapMyRide.",
+    "timestamp": "2026-04-02T20:35:28.914"
+  }
+]

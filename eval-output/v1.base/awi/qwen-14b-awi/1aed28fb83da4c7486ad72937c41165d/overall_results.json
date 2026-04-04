@@ -1,0 +1,2774 @@
+[
+  [
+    {
+      "query": "What budget should I allocate for my community cultural festival this year?",
+      "answer": 1,
+      "answer_state": [
+        "medium_community_event",
+        "moderate_volunteers"
+      ],
+      "answer_choice": "With a community-focused event and moderate volunteer involvement, focus on creating a warm and inclusive atmosphere. Allocate funds towards local artists, food vendors, and interactive activities that engage the community. This approach ensures a vibrant celebration without overwhelming your volunteer base.",
+      "raw_response": "```json\n{\n    \"answer\": 2\n}\n```",
+      "response": 2,
+      "response_state": [
+        "medium_community_event",
+        "moderate_volunteers"
+      ],
+      "response_choice": "With a community-focused event and moderate volunteer involvement, focus on creating a warm and inclusive atmosphere. Allocate funds towards local artists, food vendors, and interactive activities that engage the community. This approach ensures a vibrant celebration without overwhelming your volunteer base.",
+      "json_error": false,
+      "llm_usage_statistics": {
+        "input_tokens": 875,
+        "output_tokens": 889,
+        "time_elapsed": 0.46161651611328125
+      },
+      "scores": {
+        "accuracy": 1.0
+      }
+    },
+    {
+      "query": "How often should I hold community workshops for teaching traditional Mexican crafts?",
+      "answer": 0,
+      "answer_state": [
+        "high_interest",
+        "adequate_spaces"
+      ],
+      "answer_choice": "Given the strong interest in traditional Mexican crafts within the community and the availability of suitable spaces, consider hosting workshops every month to keep the enthusiasm high and provide consistent learning opportunities.",
+      "raw_response": "```json\n{\n    \"answer\": 2\n}\n```",
+      "response": 2,
+      "response_state": [
+        "moderate_interest",
+        "ample_spaces"
+      ],
+      "response_choice": "With a steady interest from the community and plenty of space available, bi-monthly workshops could be ideal. This frequency allows participants to look forward to new sessions without feeling overwhelmed by too many consecutive events.",
+      "json_error": false,
+      "llm_usage_statistics": {
+        "input_tokens": 835,
+        "output_tokens": 849,
+        "time_elapsed": 0.3787257671356201
+      },
+      "scores": {
+        "accuracy": 0.0
+      }
+    },
+    {
+      "query": "Should I focus on embroidery or quilting more in my next project?",
+      "answer": 0,
+      "answer_state": [
+        "moderate_materials",
+        "flexible_medium_term"
+      ],
+      "answer_choice": "Given your current situation with a good supply of materials and a timeline that allows for some flexibility, you might consider focusing on embroidery. This will allow you to take your time to create intricate designs and enjoy the process without feeling rushed.",
+      "raw_response": "```json\n{\n    \"answer\": 2\n}\n```",
+      "response": 2,
+      "response_state": [
+        "abundant_materials",
+        "flexible_medium_term"
+      ],
+      "response_choice": "With an abundance of materials at hand and a similarly flexible timeline, quilting could be a great choice. The variety of fabrics and patterns available can enhance your creativity and result in a stunning piece of work that reflects your artistic vision.",
+      "json_error": false,
+      "llm_usage_statistics": {
+        "input_tokens": 856,
+        "output_tokens": 870,
+        "time_elapsed": 0.3801610469818115
+      },
+      "scores": {
+        "accuracy": 0.0
+      }
+    },
+    {
+      "query": "What type of local sports team should I follow for motivation?",
+      "answer": 0,
+      "answer_state": [
+        "nostalgically_significant_team",
+        "nostalgically_significant_team"
+      ],
+      "answer_choice": "Following a team that holds nostalgic significance can be incredibly motivating, especially if it brings back fond memories and a sense of community. Consider revisiting a team you cheered for during your childhood or high school days; their victories and milestones can serve as a reminder of the joy and excitement you once felt.",
+      "raw_response": "```json\n{\n    \"answer\": 1\n}\n```",
+      "response": 1,
+      "response_state": [
+        "nostalgically_significant_team",
+        "nostalgically_significant_team"
+      ],
+      "response_choice": "Following a team that holds nostalgic significance can be incredibly motivating, especially if it brings back fond memories and a sense of community. Consider revisiting a team you cheered for during your childhood or high school days; their victories and milestones can serve as a reminder of the joy and excitement you once felt.",
+      "json_error": false,
+      "llm_usage_statistics": {
+        "input_tokens": 882,
+        "output_tokens": 896,
+        "time_elapsed": 0.384965181350708
+      },
+      "scores": {
+        "accuracy": 1.0
+      }
+    },
+    {
+      "query": "How should I organize my garden for maximum yield?",
+      "answer": 0,
+      "answer_state": [
+        "medium_garden",
+        "some_free_time"
+      ],
+      "answer_choice": "For your space, consider implementing raised beds or container gardening to maximize efficiency with the available area. Focus on crops that require less maintenance and have a higher yield per square foot, such as tomatoes, peppers, and leafy greens.",
+      "raw_response": "```json\n{\n    \"answer\": 1\n}\n```",
+      "response": 1,
+      "response_state": [
+        "medium_garden",
+        "some_free_time"
+      ],
+      "response_choice": "For your space, consider implementing raised beds or container gardening to maximize efficiency with the available area. Focus on crops that require less maintenance and have a higher yield per square foot, such as tomatoes, peppers, and leafy greens.",
+      "json_error": false,
+      "llm_usage_statistics": {
+        "input_tokens": 860,
+        "output_tokens": 874,
+        "time_elapsed": 0.38460469245910645
+      },
+      "scores": {
+        "accuracy": 1.0
+      }
+    },
+    {
+      "query": "Which type of traditional Mexican dish should I focus on cooking for my next festival?",
+      "answer": 6,
+      "answer_state": [
+        "moderately_complex_dishes",
+        "general_audience"
+      ],
+      "answer_choice": "Moderately complex dishes like enchiladas can be a hit with a general audience. They are flavorful and visually appealing, and while they do involve some steps, they are rewarding to cook and serve.",
+      "raw_response": "```json\n{\n    \"answer\": 7\n}\n```",
+      "response": 7,
+      "response_state": [
+        "moderately_complex_dishes",
+        "general_audience"
+      ],
+      "response_choice": "Moderately complex dishes like enchiladas can be a hit with a general audience. They are flavorful and visually appealing, and while they do involve some steps, they are rewarding to cook and serve.",
+      "json_error": false,
+      "llm_usage_statistics": {
+        "input_tokens": 996,
+        "output_tokens": 1010,
+        "time_elapsed": 0.4040489196777344
+      },
+      "scores": {
+        "accuracy": 1.0
+      }
+    },
+    {
+      "query": "How should I structure my memoir about my family's migration story?",
+      "answer": 3,
+      "answer_state": [
+        "moderate_sources",
+        "middle_stages"
+      ],
+      "answer_choice": "In the middle stages of your memoir, with a moderate amount of research, concentrate on developing a strong narrative arc. Use the resources you have effectively to flesh out characters and events, ensuring that each element contributes meaningfully to the overall story.",
+      "raw_response": "```json\n{\n    \"answer\": 4\n}\n```",
+      "response": 4,
+      "response_state": [
+        "moderate_sources",
+        "middle_stages"
+      ],
+      "response_choice": "In the middle stages of your memoir, with a moderate amount of research, concentrate on developing a strong narrative arc. Use the resources you have effectively to flesh out characters and events, ensuring that each element contributes meaningfully to the overall story.",
+      "json_error": false,
+      "llm_usage_statistics": {
+        "input_tokens": 858,
+        "output_tokens": 872,
+        "time_elapsed": 0.3833198547363281
+      },
+      "scores": {
+        "accuracy": 1.0
+      }
+    },
+    {
+      "query": "What topics should I cover in my humanities tutoring sessions for seniors and youth?",
+      "answer": 0,
+      "answer_state": [
+        "both_age_groups",
+        "specific_topics"
+      ],
+      "answer_choice": "For both seniors and youth, focus on specific topics such as classical literature and historical events that have shaped society. This approach allows you to delve deeply into texts like Shakespeare's plays or pivotal moments in world history, making the material engaging and relevant for all ages.",
+      "raw_response": "```json\n{\n    \"answer\": 2\n}\n```",
+      "response": 2,
+      "response_state": [
+        "both_age_groups",
+        "customized_topics"
+      ],
+      "response_choice": "Tailor your sessions to the interests and needs of both seniors and youth by offering a range of topics from philosophy to cultural studies. This customization ensures that each student finds value in the content, whether they are exploring existential questions or learning about diverse cultures around the world.",
+      "json_error": false,
+      "llm_usage_statistics": {
+        "input_tokens": 872,
+        "output_tokens": 886,
+        "time_elapsed": 0.38107800483703613
+      },
+      "scores": {
+        "accuracy": 0.0
+      }
+    },
+    {
+      "query": "How can I better manage my volunteer commitments?",
+      "answer": 3,
+      "answer_state": [
+        "moderate_volunteer_roles",
+        "moderate_schedule"
+      ],
+      "answer_choice": "With a moderate number of volunteer roles and a balanced schedule, focus on maintaining a consistent routine that allows you to fulfill all your commitments effectively while also ensuring you have time for rest and personal activities.",
+      "raw_response": "```json\n{\n    \"answer\": 4\n}\n```",
+      "response": 4,
+      "response_state": [
+        "moderate_volunteer_roles",
+        "moderate_schedule"
+      ],
+      "response_choice": "With a moderate number of volunteer roles and a balanced schedule, focus on maintaining a consistent routine that allows you to fulfill all your commitments effectively while also ensuring you have time for rest and personal activities.",
+      "json_error": false,
+      "llm_usage_statistics": {
+        "input_tokens": 804,
+        "output_tokens": 818,
+        "time_elapsed": 0.3708958625793457
+      },
+      "scores": {
+        "accuracy": 1.0
+      }
+    },
+    {
+      "query": "What genre of historical fiction should I read next?",
+      "answer": 0,
+      "answer_state": [
+        "modern_history",
+        "local_setting"
+      ],
+      "answer_choice": "If you're interested in modern history with a focus on a local setting, consider reading 'The Sympathizer' by Viet Thanh Nguyen. This novel offers a deep dive into the aftermath of the Vietnam War and its impact on a community, making it both historically rich and personally engaging.",
+      "raw_response": "```json\n{\n    \"answer\": 1\n}\n```",
+      "response": 1,
+      "response_state": [
+        "modern_history",
+        "local_setting"
+      ],
+      "response_choice": "If you're interested in modern history with a focus on a local setting, consider reading 'The Sympathizer' by Viet Thanh Nguyen. This novel offers a deep dive into the aftermath of the Vietnam War and its impact on a community, making it both historically rich and personally engaging.",
+      "json_error": false,
+      "llm_usage_statistics": {
+        "input_tokens": 960,
+        "output_tokens": 974,
+        "time_elapsed": 0.3900940418243408
+      },
+      "scores": {
+        "accuracy": 1.0
+      }
+    }
+  ],
+  [
+    {
+      "query": "What budget should I allocate for my community cultural festival this year?",
+      "answer": 0,
+      "answer_state": [
+        "large_citywide_event",
+        "moderate_volunteers"
+      ],
+      "answer_choice": "For a significant citywide event with a good level of volunteer support, consider allocating a budget that covers extensive marketing efforts, high-quality entertainment, and substantial logistical support. Aim for a budget that allows for a memorable experience while ensuring efficient use of volunteer contributions.",
+      "raw_response": "```json\n{\n    \"answer\": 2\n}\n```",
+      "response": 2,
+      "response_state": [
+        "medium_community_event",
+        "moderate_volunteers"
+      ],
+      "response_choice": "With a community-focused event and moderate volunteer involvement, focus on creating a warm and inclusive atmosphere. Allocate funds towards local artists, food vendors, and interactive activities that engage the community. This approach ensures a vibrant celebration without overwhelming your volunteer base.",
+      "json_error": false,
+      "llm_usage_statistics": {
+        "input_tokens": 1569,
+        "output_tokens": 1583,
+        "time_elapsed": 0.553797721862793
+      },
+      "scores": {
+        "accuracy": 0.0
+      }
+    },
+    {
+      "query": "How often should I hold community workshops for teaching traditional Mexican crafts?",
+      "answer": 2,
+      "answer_state": [
+        "high_interest",
+        "ample_spaces"
+      ],
+      "answer_choice": "The high level of community engagement paired with ample spaces suggests that you could organize workshops more frequently, perhaps even weekly or every other week, to cater to the eager learners and maintain their interest.",
+      "raw_response": "```json\n{\n    \"answer\": 1\n}\n```",
+      "response": 1,
+      "response_state": [
+        "high_interest",
+        "adequate_spaces"
+      ],
+      "response_choice": "Given the strong interest in traditional Mexican crafts within the community and the availability of suitable spaces, consider hosting workshops every month to keep the enthusiasm high and provide consistent learning opportunities.",
+      "json_error": false,
+      "llm_usage_statistics": {
+        "input_tokens": 1529,
+        "output_tokens": 1543,
+        "time_elapsed": 0.3855628967285156
+      },
+      "scores": {
+        "accuracy": 0.0
+      }
+    },
+    {
+      "query": "Should I focus on embroidery or quilting more in my next project?",
+      "answer": 1,
+      "answer_state": [
+        "abundant_materials",
+        "flexible_medium_term"
+      ],
+      "answer_choice": "With an abundance of materials at hand and a similarly flexible timeline, quilting could be a great choice. The variety of fabrics and patterns available can enhance your creativity and result in a stunning piece of work that reflects your artistic vision.",
+      "raw_response": "```json\n{\n    \"answer\": 2\n}\n```",
+      "response": 2,
+      "response_state": [
+        "abundant_materials",
+        "flexible_medium_term"
+      ],
+      "response_choice": "With an abundance of materials at hand and a similarly flexible timeline, quilting could be a great choice. The variety of fabrics and patterns available can enhance your creativity and result in a stunning piece of work that reflects your artistic vision.",
+      "json_error": false,
+      "llm_usage_statistics": {
+        "input_tokens": 1550,
+        "output_tokens": 1564,
+        "time_elapsed": 0.38656187057495117
+      },
+      "scores": {
+        "accuracy": 1.0
+      }
+    },
+    {
+      "query": "What type of local sports team should I follow for motivation?",
+      "answer": 0,
+      "answer_state": [
+        "nostalgically_significant_team",
+        "nostalgically_significant_team"
+      ],
+      "answer_choice": "Following a team that holds nostalgic significance can be incredibly motivating, especially if it brings back fond memories and a sense of community. Consider revisiting a team you cheered for during your childhood or high school days; their victories and milestones can serve as a reminder of the joy and excitement you once felt.",
+      "raw_response": "```json\n{\n    \"answer\": 3\n}\n```",
+      "response": 3,
+      "response_state": [
+        "specific_baseball_team",
+        "longstanding_familiar_team"
+      ],
+      "response_choice": "Supporting a specific baseball team can be both exciting and motivating, especially if this team has been a part of your life for many years. Their dedication to the sport and the camaraderie among fans can inspire you to stay committed and passionate about your goals.",
+      "json_error": false,
+      "llm_usage_statistics": {
+        "input_tokens": 1576,
+        "output_tokens": 1590,
+        "time_elapsed": 0.38733434677124023
+      },
+      "scores": {
+        "accuracy": 0.0
+      }
+    },
+    {
+      "query": "How should I organize my garden for maximum yield?",
+      "answer": 0,
+      "answer_state": [
+        "medium_garden",
+        "some_free_time"
+      ],
+      "answer_choice": "For your space, consider implementing raised beds or container gardening to maximize efficiency with the available area. Focus on crops that require less maintenance and have a higher yield per square foot, such as tomatoes, peppers, and leafy greens.",
+      "raw_response": "```json\n{\n    \"answer\": 1\n}\n```",
+      "response": 1,
+      "response_state": [
+        "medium_garden",
+        "some_free_time"
+      ],
+      "response_choice": "For your space, consider implementing raised beds or container gardening to maximize efficiency with the available area. Focus on crops that require less maintenance and have a higher yield per square foot, such as tomatoes, peppers, and leafy greens.",
+      "json_error": false,
+      "llm_usage_statistics": {
+        "input_tokens": 1554,
+        "output_tokens": 1568,
+        "time_elapsed": 0.38646626472473145
+      },
+      "scores": {
+        "accuracy": 1.0
+      }
+    },
+    {
+      "query": "Which type of traditional Mexican dish should I focus on cooking for my next festival?",
+      "answer": 6,
+      "answer_state": [
+        "moderately_complex_dishes",
+        "general_audience"
+      ],
+      "answer_choice": "Moderately complex dishes like enchiladas can be a hit with a general audience. They are flavorful and visually appealing, and while they do involve some steps, they are rewarding to cook and serve.",
+      "raw_response": "```json\n{\n    \"answer\": 7\n}\n```",
+      "response": 7,
+      "response_state": [
+        "moderately_complex_dishes",
+        "general_audience"
+      ],
+      "response_choice": "Moderately complex dishes like enchiladas can be a hit with a general audience. They are flavorful and visually appealing, and while they do involve some steps, they are rewarding to cook and serve.",
+      "json_error": false,
+      "llm_usage_statistics": {
+        "input_tokens": 1690,
+        "output_tokens": 1704,
+        "time_elapsed": 0.4048950672149658
+      },
+      "scores": {
+        "accuracy": 1.0
+      }
+    },
+    {
+      "query": "How should I structure my memoir about my family's migration story?",
+      "answer": 3,
+      "answer_state": [
+        "moderate_sources",
+        "middle_stages"
+      ],
+      "answer_choice": "In the middle stages of your memoir, with a moderate amount of research, concentrate on developing a strong narrative arc. Use the resources you have effectively to flesh out characters and events, ensuring that each element contributes meaningfully to the overall story.",
+      "raw_response": "```json\n{\n    \"answer\": 4\n}\n```",
+      "response": 4,
+      "response_state": [
+        "moderate_sources",
+        "middle_stages"
+      ],
+      "response_choice": "In the middle stages of your memoir, with a moderate amount of research, concentrate on developing a strong narrative arc. Use the resources you have effectively to flesh out characters and events, ensuring that each element contributes meaningfully to the overall story.",
+      "json_error": false,
+      "llm_usage_statistics": {
+        "input_tokens": 1552,
+        "output_tokens": 1566,
+        "time_elapsed": 0.3862767219543457
+      },
+      "scores": {
+        "accuracy": 1.0
+      }
+    },
+    {
+      "query": "What topics should I cover in my humanities tutoring sessions for seniors and youth?",
+      "answer": 0,
+      "answer_state": [
+        "both_age_groups",
+        "specific_topics"
+      ],
+      "answer_choice": "For both seniors and youth, focus on specific topics such as classical literature and historical events that have shaped society. This approach allows you to delve deeply into texts like Shakespeare's plays or pivotal moments in world history, making the material engaging and relevant for all ages.",
+      "raw_response": "```json\n{\n    \"answer\": 2\n}\n```",
+      "response": 2,
+      "response_state": [
+        "both_age_groups",
+        "customized_topics"
+      ],
+      "response_choice": "Tailor your sessions to the interests and needs of both seniors and youth by offering a range of topics from philosophy to cultural studies. This customization ensures that each student finds value in the content, whether they are exploring existential questions or learning about diverse cultures around the world.",
+      "json_error": false,
+      "llm_usage_statistics": {
+        "input_tokens": 1566,
+        "output_tokens": 1580,
+        "time_elapsed": 0.3864774703979492
+      },
+      "scores": {
+        "accuracy": 0.0
+      }
+    },
+    {
+      "query": "How can I better manage my volunteer commitments?",
+      "answer": 3,
+      "answer_state": [
+        "moderate_volunteer_roles",
+        "moderate_schedule"
+      ],
+      "answer_choice": "With a moderate number of volunteer roles and a balanced schedule, focus on maintaining a consistent routine that allows you to fulfill all your commitments effectively while also ensuring you have time for rest and personal activities.",
+      "raw_response": "```json\n{\n    \"answer\": 4\n}\n```",
+      "response": 4,
+      "response_state": [
+        "moderate_volunteer_roles",
+        "moderate_schedule"
+      ],
+      "response_choice": "With a moderate number of volunteer roles and a balanced schedule, focus on maintaining a consistent routine that allows you to fulfill all your commitments effectively while also ensuring you have time for rest and personal activities.",
+      "json_error": false,
+      "llm_usage_statistics": {
+        "input_tokens": 1498,
+        "output_tokens": 1512,
+        "time_elapsed": 0.3697075843811035
+      },
+      "scores": {
+        "accuracy": 1.0
+      }
+    },
+    {
+      "query": "What genre of historical fiction should I read next?",
+      "answer": 1,
+      "answer_state": [
+        "modern_history",
+        "regional_setting"
+      ],
+      "answer_choice": "For those who enjoy modern history with a broader regional scope, 'The Brief Wondrous Life of Oscar Wao' by Junot Díaz provides a compelling look at the Dominican Republic's recent past and its influence on contemporary life, blending personal stories with larger historical narratives.",
+      "raw_response": "```json\n{\n    \"answer\": 2\n}\n```",
+      "response": 2,
+      "response_state": [
+        "modern_history",
+        "regional_setting"
+      ],
+      "response_choice": "For those who enjoy modern history with a broader regional scope, 'The Brief Wondrous Life of Oscar Wao' by Junot Díaz provides a compelling look at the Dominican Republic's recent past and its influence on contemporary life, blending personal stories with larger historical narratives.",
+      "json_error": false,
+      "llm_usage_statistics": {
+        "input_tokens": 1654,
+        "output_tokens": 1668,
+        "time_elapsed": 0.4017038345336914
+      },
+      "scores": {
+        "accuracy": 1.0
+      }
+    }
+  ],
+  [
+    {
+      "query": "What budget should I allocate for my community cultural festival this year?",
+      "answer": 2,
+      "answer_state": [
+        "large_citywide_event",
+        "high_volunteers"
+      ],
+      "answer_choice": "Given the scale of a large citywide event and a high level of volunteer participation, you can stretch your budget further by leveraging volunteer skills and enthusiasm. Concentrate on key areas like venue setup, security, and technology needs, while volunteers can handle more operational tasks.",
+      "raw_response": "```json\n{\n    \"answer\": 2\n}\n```",
+      "response": 2,
+      "response_state": [
+        "medium_community_event",
+        "moderate_volunteers"
+      ],
+      "response_choice": "With a community-focused event and moderate volunteer involvement, focus on creating a warm and inclusive atmosphere. Allocate funds towards local artists, food vendors, and interactive activities that engage the community. This approach ensures a vibrant celebration without overwhelming your volunteer base.",
+      "json_error": false,
+      "llm_usage_statistics": {
+        "input_tokens": 2441,
+        "output_tokens": 2455,
+        "time_elapsed": 0.674560546875
+      },
+      "scores": {
+        "accuracy": 0.0
+      }
+    },
+    {
+      "query": "How often should I hold community workshops for teaching traditional Mexican crafts?",
+      "answer": 2,
+      "answer_state": [
+        "high_interest",
+        "ample_spaces"
+      ],
+      "answer_choice": "The high level of community engagement paired with ample spaces suggests that you could organize workshops more frequently, perhaps even weekly or every other week, to cater to the eager learners and maintain their interest.",
+      "raw_response": "```json\n{\n    \"answer\": 1\n}\n```",
+      "response": 1,
+      "response_state": [
+        "high_interest",
+        "adequate_spaces"
+      ],
+      "response_choice": "Given the strong interest in traditional Mexican crafts within the community and the availability of suitable spaces, consider hosting workshops every month to keep the enthusiasm high and provide consistent learning opportunities.",
+      "json_error": false,
+      "llm_usage_statistics": {
+        "input_tokens": 2401,
+        "output_tokens": 2415,
+        "time_elapsed": 0.38717079162597656
+      },
+      "scores": {
+        "accuracy": 0.0
+      }
+    },
+    {
+      "query": "Should I focus on embroidery or quilting more in my next project?",
+      "answer": 1,
+      "answer_state": [
+        "abundant_materials",
+        "flexible_medium_term"
+      ],
+      "answer_choice": "With an abundance of materials at hand and a similarly flexible timeline, quilting could be a great choice. The variety of fabrics and patterns available can enhance your creativity and result in a stunning piece of work that reflects your artistic vision.",
+      "raw_response": "```json\n{\n    \"answer\": 2\n}\n```",
+      "response": 2,
+      "response_state": [
+        "abundant_materials",
+        "flexible_medium_term"
+      ],
+      "response_choice": "With an abundance of materials at hand and a similarly flexible timeline, quilting could be a great choice. The variety of fabrics and patterns available can enhance your creativity and result in a stunning piece of work that reflects your artistic vision.",
+      "json_error": false,
+      "llm_usage_statistics": {
+        "input_tokens": 2422,
+        "output_tokens": 2436,
+        "time_elapsed": 0.3877685070037842
+      },
+      "scores": {
+        "accuracy": 1.0
+      }
+    },
+    {
+      "query": "What type of local sports team should I follow for motivation?",
+      "answer": 0,
+      "answer_state": [
+        "nostalgically_significant_team",
+        "nostalgically_significant_team"
+      ],
+      "answer_choice": "Following a team that holds nostalgic significance can be incredibly motivating, especially if it brings back fond memories and a sense of community. Consider revisiting a team you cheered for during your childhood or high school days; their victories and milestones can serve as a reminder of the joy and excitement you once felt.",
+      "raw_response": "```json\n{\n    \"answer\": 3\n}\n```",
+      "response": 3,
+      "response_state": [
+        "specific_baseball_team",
+        "longstanding_familiar_team"
+      ],
+      "response_choice": "Supporting a specific baseball team can be both exciting and motivating, especially if this team has been a part of your life for many years. Their dedication to the sport and the camaraderie among fans can inspire you to stay committed and passionate about your goals.",
+      "json_error": false,
+      "llm_usage_statistics": {
+        "input_tokens": 2448,
+        "output_tokens": 2462,
+        "time_elapsed": 0.38893628120422363
+      },
+      "scores": {
+        "accuracy": 0.0
+      }
+    },
+    {
+      "query": "How should I organize my garden for maximum yield?",
+      "answer": 0,
+      "answer_state": [
+        "medium_garden",
+        "some_free_time"
+      ],
+      "answer_choice": "For your space, consider implementing raised beds or container gardening to maximize efficiency with the available area. Focus on crops that require less maintenance and have a higher yield per square foot, such as tomatoes, peppers, and leafy greens.",
+      "raw_response": "```json\n{\n    \"answer\": 2\n}\n```",
+      "response": 2,
+      "response_state": [
+        "medium_garden",
+        "plenty_of_time"
+      ],
+      "response_choice": "With ample time and space, you could explore more intensive gardening techniques like succession planting and intercropping to boost your yields. This approach allows you to grow a variety of vegetables throughout the season without gaps in production.",
+      "json_error": false,
+      "llm_usage_statistics": {
+        "input_tokens": 2426,
+        "output_tokens": 2440,
+        "time_elapsed": 0.3897707462310791
+      },
+      "scores": {
+        "accuracy": 0.0
+      }
+    },
+    {
+      "query": "Which type of traditional Mexican dish should I focus on cooking for my next festival?",
+      "answer": 5,
+      "answer_state": [
+        "complex_dishes",
+        "general_audience"
+      ],
+      "answer_choice": "To engage a general audience with a more challenging dish, you might want to prepare tamales. While they require careful preparation and assembly, they are deeply satisfying and offer a traditional Mexican experience that many will appreciate.",
+      "raw_response": "```json\n{\n    \"answer\": 6\n}\n```",
+      "response": 6,
+      "response_state": [
+        "complex_dishes",
+        "general_audience"
+      ],
+      "response_choice": "To engage a general audience with a more challenging dish, you might want to prepare tamales. While they require careful preparation and assembly, they are deeply satisfying and offer a traditional Mexican experience that many will appreciate.",
+      "json_error": false,
+      "llm_usage_statistics": {
+        "input_tokens": 2562,
+        "output_tokens": 2576,
+        "time_elapsed": 0.4080498218536377
+      },
+      "scores": {
+        "accuracy": 1.0
+      }
+    },
+    {
+      "query": "How should I structure my memoir about my family's migration story?",
+      "answer": 2,
+      "answer_state": [
+        "moderate_sources",
+        "near_completion"
+      ],
+      "answer_choice": "As you approach the final stages of your memoir with a moderate amount of research, ensure that every piece of information you include is well-supported and adds value to the story. Consider revisiting key sections to enhance their impact based on the available sources.",
+      "raw_response": "```json\n{\n    \"answer\": 2\n}\n```",
+      "response": 2,
+      "response_state": [
+        "abundant_sources",
+        "middle_stages"
+      ],
+      "response_choice": "At this stage in your writing, with plenty of research material at hand, focus on integrating your findings seamlessly into the existing narrative. This will help maintain a cohesive flow while adding valuable insights and details to your family's journey.",
+      "json_error": false,
+      "llm_usage_statistics": {
+        "input_tokens": 2424,
+        "output_tokens": 2438,
+        "time_elapsed": 0.3873896598815918
+      },
+      "scores": {
+        "accuracy": 0.0
+      }
+    },
+    {
+      "query": "What topics should I cover in my humanities tutoring sessions for seniors and youth?",
+      "answer": 1,
+      "answer_state": [
+        "both_age_groups",
+        "customized_topics"
+      ],
+      "answer_choice": "Tailor your sessions to the interests and needs of both seniors and youth by offering a range of topics from philosophy to cultural studies. This customization ensures that each student finds value in the content, whether they are exploring existential questions or learning about diverse cultures around the world.",
+      "raw_response": "```json\n{\n    \"answer\": 2\n}\n```",
+      "response": 2,
+      "response_state": [
+        "both_age_groups",
+        "customized_topics"
+      ],
+      "response_choice": "Tailor your sessions to the interests and needs of both seniors and youth by offering a range of topics from philosophy to cultural studies. This customization ensures that each student finds value in the content, whether they are exploring existential questions or learning about diverse cultures around the world.",
+      "json_error": false,
+      "llm_usage_statistics": {
+        "input_tokens": 2438,
+        "output_tokens": 2452,
+        "time_elapsed": 0.38842129707336426
+      },
+      "scores": {
+        "accuracy": 1.0
+      }
+    },
+    {
+      "query": "How can I better manage my volunteer commitments?",
+      "answer": 3,
+      "answer_state": [
+        "moderate_volunteer_roles",
+        "moderate_schedule"
+      ],
+      "answer_choice": "With a moderate number of volunteer roles and a balanced schedule, focus on maintaining a consistent routine that allows you to fulfill all your commitments effectively while also ensuring you have time for rest and personal activities.",
+      "raw_response": "```json\n{\n    \"answer\": 4\n}\n```",
+      "response": 4,
+      "response_state": [
+        "moderate_volunteer_roles",
+        "moderate_schedule"
+      ],
+      "response_choice": "With a moderate number of volunteer roles and a balanced schedule, focus on maintaining a consistent routine that allows you to fulfill all your commitments effectively while also ensuring you have time for rest and personal activities.",
+      "json_error": false,
+      "llm_usage_statistics": {
+        "input_tokens": 2370,
+        "output_tokens": 2384,
+        "time_elapsed": 0.3732626438140869
+      },
+      "scores": {
+        "accuracy": 1.0
+      }
+    },
+    {
+      "query": "What genre of historical fiction should I read next?",
+      "answer": 1,
+      "answer_state": [
+        "modern_history",
+        "regional_setting"
+      ],
+      "answer_choice": "For those who enjoy modern history with a broader regional scope, 'The Brief Wondrous Life of Oscar Wao' by Junot Díaz provides a compelling look at the Dominican Republic's recent past and its influence on contemporary life, blending personal stories with larger historical narratives.",
+      "raw_response": "```json\n{\n    \"answer\": 2\n}\n```",
+      "response": 2,
+      "response_state": [
+        "modern_history",
+        "regional_setting"
+      ],
+      "response_choice": "For those who enjoy modern history with a broader regional scope, 'The Brief Wondrous Life of Oscar Wao' by Junot Díaz provides a compelling look at the Dominican Republic's recent past and its influence on contemporary life, blending personal stories with larger historical narratives.",
+      "json_error": false,
+      "llm_usage_statistics": {
+        "input_tokens": 2526,
+        "output_tokens": 2540,
+        "time_elapsed": 0.3940422534942627
+      },
+      "scores": {
+        "accuracy": 1.0
+      }
+    }
+  ],
+  [
+    {
+      "query": "What budget should I allocate for my community cultural festival this year?",
+      "answer": 2,
+      "answer_state": [
+        "large_citywide_event",
+        "high_volunteers"
+      ],
+      "answer_choice": "Given the scale of a large citywide event and a high level of volunteer participation, you can stretch your budget further by leveraging volunteer skills and enthusiasm. Concentrate on key areas like venue setup, security, and technology needs, while volunteers can handle more operational tasks.",
+      "raw_response": "```json\n{\n    \"answer\": 2\n}\n```",
+      "response": 2,
+      "response_state": [
+        "medium_community_event",
+        "moderate_volunteers"
+      ],
+      "response_choice": "With a community-focused event and moderate volunteer involvement, focus on creating a warm and inclusive atmosphere. Allocate funds towards local artists, food vendors, and interactive activities that engage the community. This approach ensures a vibrant celebration without overwhelming your volunteer base.",
+      "json_error": false,
+      "llm_usage_statistics": {
+        "input_tokens": 1826,
+        "output_tokens": 1840,
+        "time_elapsed": 0.5927901268005371
+      },
+      "scores": {
+        "accuracy": 0.0
+      }
+    },
+    {
+      "query": "How often should I hold community workshops for teaching traditional Mexican crafts?",
+      "answer": 1,
+      "answer_state": [
+        "moderate_interest",
+        "ample_spaces"
+      ],
+      "answer_choice": "With a steady interest from the community and plenty of space available, bi-monthly workshops could be ideal. This frequency allows participants to look forward to new sessions without feeling overwhelmed by too many consecutive events.",
+      "raw_response": "```json\n{\n    \"answer\": 1\n}\n```",
+      "response": 1,
+      "response_state": [
+        "high_interest",
+        "adequate_spaces"
+      ],
+      "response_choice": "Given the strong interest in traditional Mexican crafts within the community and the availability of suitable spaces, consider hosting workshops every month to keep the enthusiasm high and provide consistent learning opportunities.",
+      "json_error": false,
+      "llm_usage_statistics": {
+        "input_tokens": 1786,
+        "output_tokens": 1800,
+        "time_elapsed": 0.38571882247924805
+      },
+      "scores": {
+        "accuracy": 0.0
+      }
+    },
+    {
+      "query": "Should I focus on embroidery or quilting more in my next project?",
+      "answer": 1,
+      "answer_state": [
+        "abundant_materials",
+        "flexible_medium_term"
+      ],
+      "answer_choice": "With an abundance of materials at hand and a similarly flexible timeline, quilting could be a great choice. The variety of fabrics and patterns available can enhance your creativity and result in a stunning piece of work that reflects your artistic vision.",
+      "raw_response": "```json\n{\n    \"answer\": 2\n}\n```",
+      "response": 2,
+      "response_state": [
+        "abundant_materials",
+        "flexible_medium_term"
+      ],
+      "response_choice": "With an abundance of materials at hand and a similarly flexible timeline, quilting could be a great choice. The variety of fabrics and patterns available can enhance your creativity and result in a stunning piece of work that reflects your artistic vision.",
+      "json_error": false,
+      "llm_usage_statistics": {
+        "input_tokens": 1807,
+        "output_tokens": 1821,
+        "time_elapsed": 0.3859107494354248
+      },
+      "scores": {
+        "accuracy": 1.0
+      }
+    },
+    {
+      "query": "What type of local sports team should I follow for motivation?",
+      "answer": 0,
+      "answer_state": [
+        "nostalgically_significant_team",
+        "nostalgically_significant_team"
+      ],
+      "answer_choice": "Following a team that holds nostalgic significance can be incredibly motivating, especially if it brings back fond memories and a sense of community. Consider revisiting a team you cheered for during your childhood or high school days; their victories and milestones can serve as a reminder of the joy and excitement you once felt.",
+      "raw_response": "```json\n{\n    \"answer\": 2\n}\n```",
+      "response": 2,
+      "response_state": [
+        "longstanding_familiar_team",
+        "specific_baseball_team"
+      ],
+      "response_choice": "Choosing a longstanding familiar team, such as a specific baseball team you've watched since you were young, can provide a steady source of inspiration. This team's rich history and consistent presence in your life can offer a comforting routine and a strong connection to your roots.",
+      "json_error": false,
+      "llm_usage_statistics": {
+        "input_tokens": 1833,
+        "output_tokens": 1847,
+        "time_elapsed": 0.38695478439331055
+      },
+      "scores": {
+        "accuracy": 0.0
+      }
+    },
+    {
+      "query": "How should I organize my garden for maximum yield?",
+      "answer": 0,
+      "answer_state": [
+        "medium_garden",
+        "some_free_time"
+      ],
+      "answer_choice": "For your space, consider implementing raised beds or container gardening to maximize efficiency with the available area. Focus on crops that require less maintenance and have a higher yield per square foot, such as tomatoes, peppers, and leafy greens.",
+      "raw_response": "```json\n{\n    \"answer\": 1\n}\n```",
+      "response": 1,
+      "response_state": [
+        "medium_garden",
+        "some_free_time"
+      ],
+      "response_choice": "For your space, consider implementing raised beds or container gardening to maximize efficiency with the available area. Focus on crops that require less maintenance and have a higher yield per square foot, such as tomatoes, peppers, and leafy greens.",
+      "json_error": false,
+      "llm_usage_statistics": {
+        "input_tokens": 1811,
+        "output_tokens": 1825,
+        "time_elapsed": 0.38669872283935547
+      },
+      "scores": {
+        "accuracy": 1.0
+      }
+    },
+    {
+      "query": "Which type of traditional Mexican dish should I focus on cooking for my next festival?",
+      "answer": 1,
+      "answer_state": [
+        "complex_dishes",
+        "kids_and_families"
+      ],
+      "answer_choice": "If you're catering to kids and families with a more complex dish, try your hand at mole poblano. It's rich in flavor and history, though it might take some time to prepare, making it a great project for a family event where everyone can help out.",
+      "raw_response": "```json\n{\n    \"answer\": 5\n}\n```",
+      "response": 5,
+      "response_state": [
+        "simple_dishes",
+        "kids_and_families"
+      ],
+      "response_choice": "When cooking for kids and families with a simpler approach, think about serving quesadillas. They are quick to make, fun to eat, and can be customized with various fillings to cater to different tastes, ensuring everyone enjoys their meal.",
+      "json_error": false,
+      "llm_usage_statistics": {
+        "input_tokens": 1947,
+        "output_tokens": 1961,
+        "time_elapsed": 0.4058823585510254
+      },
+      "scores": {
+        "accuracy": 0.0
+      }
+    },
+    {
+      "query": "How should I structure my memoir about my family's migration story?",
+      "answer": 2,
+      "answer_state": [
+        "moderate_sources",
+        "near_completion"
+      ],
+      "answer_choice": "As you approach the final stages of your memoir with a moderate amount of research, ensure that every piece of information you include is well-supported and adds value to the story. Consider revisiting key sections to enhance their impact based on the available sources.",
+      "raw_response": "```json\n{\n    \"answer\": 2\n}\n```",
+      "response": 2,
+      "response_state": [
+        "abundant_sources",
+        "middle_stages"
+      ],
+      "response_choice": "At this stage in your writing, with plenty of research material at hand, focus on integrating your findings seamlessly into the existing narrative. This will help maintain a cohesive flow while adding valuable insights and details to your family's journey.",
+      "json_error": false,
+      "llm_usage_statistics": {
+        "input_tokens": 1809,
+        "output_tokens": 1823,
+        "time_elapsed": 0.3861398696899414
+      },
+      "scores": {
+        "accuracy": 0.0
+      }
+    },
+    {
+      "query": "What topics should I cover in my humanities tutoring sessions for seniors and youth?",
+      "answer": 1,
+      "answer_state": [
+        "both_age_groups",
+        "customized_topics"
+      ],
+      "answer_choice": "Tailor your sessions to the interests and needs of both seniors and youth by offering a range of topics from philosophy to cultural studies. This customization ensures that each student finds value in the content, whether they are exploring existential questions or learning about diverse cultures around the world.",
+      "raw_response": "```json\n{\n    \"answer\": 2\n}\n```",
+      "response": 2,
+      "response_state": [
+        "both_age_groups",
+        "customized_topics"
+      ],
+      "response_choice": "Tailor your sessions to the interests and needs of both seniors and youth by offering a range of topics from philosophy to cultural studies. This customization ensures that each student finds value in the content, whether they are exploring existential questions or learning about diverse cultures around the world.",
+      "json_error": false,
+      "llm_usage_statistics": {
+        "input_tokens": 1823,
+        "output_tokens": 1837,
+        "time_elapsed": 0.3858494758605957
+      },
+      "scores": {
+        "accuracy": 1.0
+      }
+    },
+    {
+      "query": "How can I better manage my volunteer commitments?",
+      "answer": 3,
+      "answer_state": [
+        "moderate_volunteer_roles",
+        "moderate_schedule"
+      ],
+      "answer_choice": "With a moderate number of volunteer roles and a balanced schedule, focus on maintaining a consistent routine that allows you to fulfill all your commitments effectively while also ensuring you have time for rest and personal activities.",
+      "raw_response": "```json\n{\n    \"answer\": 4\n}\n```",
+      "response": 4,
+      "response_state": [
+        "moderate_volunteer_roles",
+        "moderate_schedule"
+      ],
+      "response_choice": "With a moderate number of volunteer roles and a balanced schedule, focus on maintaining a consistent routine that allows you to fulfill all your commitments effectively while also ensuring you have time for rest and personal activities.",
+      "json_error": false,
+      "llm_usage_statistics": {
+        "input_tokens": 1755,
+        "output_tokens": 1769,
+        "time_elapsed": 0.3716700077056885
+      },
+      "scores": {
+        "accuracy": 1.0
+      }
+    },
+    {
+      "query": "What genre of historical fiction should I read next?",
+      "answer": 3,
+      "answer_state": [
+        "medieval_history",
+        "regional_setting"
+      ],
+      "answer_choice": "For fans of medieval history with a regional twist, 'The Name of the Rose' by Umberto Eco is highly recommended. It takes place in an Italian monastery and delves into the intrigue and intellectual debates of the time, offering a vivid portrayal of medieval society.",
+      "raw_response": "```json\n{\n    \"answer\": 4\n}\n```",
+      "response": 4,
+      "response_state": [
+        "medieval_history",
+        "regional_setting"
+      ],
+      "response_choice": "For fans of medieval history with a regional twist, 'The Name of the Rose' by Umberto Eco is highly recommended. It takes place in an Italian monastery and delves into the intrigue and intellectual debates of the time, offering a vivid portrayal of medieval society.",
+      "json_error": false,
+      "llm_usage_statistics": {
+        "input_tokens": 1911,
+        "output_tokens": 1925,
+        "time_elapsed": 0.40175795555114746
+      },
+      "scores": {
+        "accuracy": 1.0
+      }
+    }
+  ],
+  [
+    {
+      "query": "What budget should I allocate for my community cultural festival this year?",
+      "answer": 2,
+      "answer_state": [
+        "large_citywide_event",
+        "high_volunteers"
+      ],
+      "answer_choice": "Given the scale of a large citywide event and a high level of volunteer participation, you can stretch your budget further by leveraging volunteer skills and enthusiasm. Concentrate on key areas like venue setup, security, and technology needs, while volunteers can handle more operational tasks.",
+      "raw_response": "```json\n{\n    \"answer\": 2\n}\n```",
+      "response": 2,
+      "response_state": [
+        "medium_community_event",
+        "moderate_volunteers"
+      ],
+      "response_choice": "With a community-focused event and moderate volunteer involvement, focus on creating a warm and inclusive atmosphere. Allocate funds towards local artists, food vendors, and interactive activities that engage the community. This approach ensures a vibrant celebration without overwhelming your volunteer base.",
+      "json_error": false,
+      "llm_usage_statistics": {
+        "input_tokens": 1994,
+        "output_tokens": 2008,
+        "time_elapsed": 0.5925939083099365
+      },
+      "scores": {
+        "accuracy": 0.0
+      }
+    },
+    {
+      "query": "How often should I hold community workshops for teaching traditional Mexican crafts?",
+      "answer": 3,
+      "answer_state": [
+        "high_interest",
+        "limited_spaces"
+      ],
+      "answer_choice": "Considering the high demand for these workshops and the limited space available, it might be best to schedule them less frequently, maybe once a month, to ensure that all interested participants have a chance to attend and that the facilities aren't overburdened.",
+      "raw_response": "```json\n{\n    \"answer\": 2\n}\n```",
+      "response": 2,
+      "response_state": [
+        "moderate_interest",
+        "ample_spaces"
+      ],
+      "response_choice": "With a steady interest from the community and plenty of space available, bi-monthly workshops could be ideal. This frequency allows participants to look forward to new sessions without feeling overwhelmed by too many consecutive events.",
+      "json_error": false,
+      "llm_usage_statistics": {
+        "input_tokens": 1954,
+        "output_tokens": 1968,
+        "time_elapsed": 0.3867757320404053
+      },
+      "scores": {
+        "accuracy": 0.0
+      }
+    },
+    {
+      "query": "Should I focus on embroidery or quilting more in my next project?",
+      "answer": 1,
+      "answer_state": [
+        "abundant_materials",
+        "flexible_medium_term"
+      ],
+      "answer_choice": "With an abundance of materials at hand and a similarly flexible timeline, quilting could be a great choice. The variety of fabrics and patterns available can enhance your creativity and result in a stunning piece of work that reflects your artistic vision.",
+      "raw_response": "```json\n{\n    \"answer\": 2\n}\n```",
+      "response": 2,
+      "response_state": [
+        "abundant_materials",
+        "flexible_medium_term"
+      ],
+      "response_choice": "With an abundance of materials at hand and a similarly flexible timeline, quilting could be a great choice. The variety of fabrics and patterns available can enhance your creativity and result in a stunning piece of work that reflects your artistic vision.",
+      "json_error": false,
+      "llm_usage_statistics": {
+        "input_tokens": 1975,
+        "output_tokens": 1989,
+        "time_elapsed": 0.38511180877685547
+      },
+      "scores": {
+        "accuracy": 1.0
+      }
+    },
+    {
+      "query": "What type of local sports team should I follow for motivation?",
+      "answer": 0,
+      "answer_state": [
+        "nostalgically_significant_team",
+        "nostalgically_significant_team"
+      ],
+      "answer_choice": "Following a team that holds nostalgic significance can be incredibly motivating, especially if it brings back fond memories and a sense of community. Consider revisiting a team you cheered for during your childhood or high school days; their victories and milestones can serve as a reminder of the joy and excitement you once felt.",
+      "raw_response": "```json\n{\n    \"answer\": 2\n}\n```",
+      "response": 2,
+      "response_state": [
+        "longstanding_familiar_team",
+        "specific_baseball_team"
+      ],
+      "response_choice": "Choosing a longstanding familiar team, such as a specific baseball team you've watched since you were young, can provide a steady source of inspiration. This team's rich history and consistent presence in your life can offer a comforting routine and a strong connection to your roots.",
+      "json_error": false,
+      "llm_usage_statistics": {
+        "input_tokens": 2001,
+        "output_tokens": 2015,
+        "time_elapsed": 0.3877582550048828
+      },
+      "scores": {
+        "accuracy": 0.0
+      }
+    },
+    {
+      "query": "How should I organize my garden for maximum yield?",
+      "answer": 1,
+      "answer_state": [
+        "medium_garden",
+        "plenty_of_time"
+      ],
+      "answer_choice": "With ample time and space, you could explore more intensive gardening techniques like succession planting and intercropping to boost your yields. This approach allows you to grow a variety of vegetables throughout the season without gaps in production.",
+      "raw_response": "```json\n{\n    \"answer\": 2\n}\n```",
+      "response": 2,
+      "response_state": [
+        "medium_garden",
+        "plenty_of_time"
+      ],
+      "response_choice": "With ample time and space, you could explore more intensive gardening techniques like succession planting and intercropping to boost your yields. This approach allows you to grow a variety of vegetables throughout the season without gaps in production.",
+      "json_error": false,
+      "llm_usage_statistics": {
+        "input_tokens": 1979,
+        "output_tokens": 1993,
+        "time_elapsed": 0.38582634925842285
+      },
+      "scores": {
+        "accuracy": 1.0
+      }
+    },
+    {
+      "query": "Which type of traditional Mexican dish should I focus on cooking for my next festival?",
+      "answer": 1,
+      "answer_state": [
+        "complex_dishes",
+        "kids_and_families"
+      ],
+      "answer_choice": "If you're catering to kids and families with a more complex dish, try your hand at mole poblano. It's rich in flavor and history, though it might take some time to prepare, making it a great project for a family event where everyone can help out.",
+      "raw_response": "```json\n{\n    \"answer\": 7\n}\n```",
+      "response": 7,
+      "response_state": [
+        "moderately_complex_dishes",
+        "general_audience"
+      ],
+      "response_choice": "Moderately complex dishes like enchiladas can be a hit with a general audience. They are flavorful and visually appealing, and while they do involve some steps, they are rewarding to cook and serve.",
+      "json_error": false,
+      "llm_usage_statistics": {
+        "input_tokens": 2115,
+        "output_tokens": 2129,
+        "time_elapsed": 0.40747642517089844
+      },
+      "scores": {
+        "accuracy": 0.0
+      }
+    },
+    {
+      "query": "How should I structure my memoir about my family's migration story?",
+      "answer": 2,
+      "answer_state": [
+        "moderate_sources",
+        "near_completion"
+      ],
+      "answer_choice": "As you approach the final stages of your memoir with a moderate amount of research, ensure that every piece of information you include is well-supported and adds value to the story. Consider revisiting key sections to enhance their impact based on the available sources.",
+      "raw_response": "```json\n{\n    \"answer\": 2\n}\n```",
+      "response": 2,
+      "response_state": [
+        "abundant_sources",
+        "middle_stages"
+      ],
+      "response_choice": "At this stage in your writing, with plenty of research material at hand, focus on integrating your findings seamlessly into the existing narrative. This will help maintain a cohesive flow while adding valuable insights and details to your family's journey.",
+      "json_error": false,
+      "llm_usage_statistics": {
+        "input_tokens": 1977,
+        "output_tokens": 1991,
+        "time_elapsed": 0.38611268997192383
+      },
+      "scores": {
+        "accuracy": 0.0
+      }
+    },
+    {
+      "query": "What topics should I cover in my humanities tutoring sessions for seniors and youth?",
+      "answer": 1,
+      "answer_state": [
+        "both_age_groups",
+        "customized_topics"
+      ],
+      "answer_choice": "Tailor your sessions to the interests and needs of both seniors and youth by offering a range of topics from philosophy to cultural studies. This customization ensures that each student finds value in the content, whether they are exploring existential questions or learning about diverse cultures around the world.",
+      "raw_response": "```json\n{\n    \"answer\": 2\n}\n```",
+      "response": 2,
+      "response_state": [
+        "both_age_groups",
+        "customized_topics"
+      ],
+      "response_choice": "Tailor your sessions to the interests and needs of both seniors and youth by offering a range of topics from philosophy to cultural studies. This customization ensures that each student finds value in the content, whether they are exploring existential questions or learning about diverse cultures around the world.",
+      "json_error": false,
+      "llm_usage_statistics": {
+        "input_tokens": 1991,
+        "output_tokens": 2005,
+        "time_elapsed": 0.3860182762145996
+      },
+      "scores": {
+        "accuracy": 1.0
+      }
+    },
+    {
+      "query": "How can I better manage my volunteer commitments?",
+      "answer": 3,
+      "answer_state": [
+        "moderate_volunteer_roles",
+        "moderate_schedule"
+      ],
+      "answer_choice": "With a moderate number of volunteer roles and a balanced schedule, focus on maintaining a consistent routine that allows you to fulfill all your commitments effectively while also ensuring you have time for rest and personal activities.",
+      "raw_response": "```json\n{\n    \"answer\": 4\n}\n```",
+      "response": 4,
+      "response_state": [
+        "moderate_volunteer_roles",
+        "moderate_schedule"
+      ],
+      "response_choice": "With a moderate number of volunteer roles and a balanced schedule, focus on maintaining a consistent routine that allows you to fulfill all your commitments effectively while also ensuring you have time for rest and personal activities.",
+      "json_error": false,
+      "llm_usage_statistics": {
+        "input_tokens": 1923,
+        "output_tokens": 1937,
+        "time_elapsed": 0.3719632625579834
+      },
+      "scores": {
+        "accuracy": 1.0
+      }
+    },
+    {
+      "query": "What genre of historical fiction should I read next?",
+      "answer": 3,
+      "answer_state": [
+        "medieval_history",
+        "regional_setting"
+      ],
+      "answer_choice": "For fans of medieval history with a regional twist, 'The Name of the Rose' by Umberto Eco is highly recommended. It takes place in an Italian monastery and delves into the intrigue and intellectual debates of the time, offering a vivid portrayal of medieval society.",
+      "raw_response": "```json\n{\n    \"answer\": 3\n}\n```",
+      "response": 3,
+      "response_state": [
+        "ancient_history",
+        "global_setting"
+      ],
+      "response_choice": "If ancient history fascinates you and you prefer a global perspective, 'Pillars of the Earth' by Ken Follett might be perfect. Set during the medieval period, this book explores the construction of a cathedral in England while touching on broader themes of power, religion, and societal change across Europe.",
+      "json_error": false,
+      "llm_usage_statistics": {
+        "input_tokens": 2079,
+        "output_tokens": 2093,
+        "time_elapsed": 0.3958282470703125
+      },
+      "scores": {
+        "accuracy": 0.0
+      }
+    }
+  ],
+  [
+    {
+      "query": "What budget should I allocate for my community cultural festival this year?",
+      "answer": 2,
+      "answer_state": [
+        "large_citywide_event",
+        "high_volunteers"
+      ],
+      "answer_choice": "Given the scale of a large citywide event and a high level of volunteer participation, you can stretch your budget further by leveraging volunteer skills and enthusiasm. Concentrate on key areas like venue setup, security, and technology needs, while volunteers can handle more operational tasks.",
+      "raw_response": "```json\n{\n    \"answer\": 2\n}\n```",
+      "response": 2,
+      "response_state": [
+        "medium_community_event",
+        "moderate_volunteers"
+      ],
+      "response_choice": "With a community-focused event and moderate volunteer involvement, focus on creating a warm and inclusive atmosphere. Allocate funds towards local artists, food vendors, and interactive activities that engage the community. This approach ensures a vibrant celebration without overwhelming your volunteer base.",
+      "json_error": false,
+      "llm_usage_statistics": {
+        "input_tokens": 2395,
+        "output_tokens": 2409,
+        "time_elapsed": 0.6721339225769043
+      },
+      "scores": {
+        "accuracy": 0.0
+      }
+    },
+    {
+      "query": "How often should I hold community workshops for teaching traditional Mexican crafts?",
+      "answer": 3,
+      "answer_state": [
+        "high_interest",
+        "limited_spaces"
+      ],
+      "answer_choice": "Considering the high demand for these workshops and the limited space available, it might be best to schedule them less frequently, maybe once a month, to ensure that all interested participants have a chance to attend and that the facilities aren't overburdened.",
+      "raw_response": "```json\n{\n    \"answer\": 1\n}\n```",
+      "response": 1,
+      "response_state": [
+        "high_interest",
+        "adequate_spaces"
+      ],
+      "response_choice": "Given the strong interest in traditional Mexican crafts within the community and the availability of suitable spaces, consider hosting workshops every month to keep the enthusiasm high and provide consistent learning opportunities.",
+      "json_error": false,
+      "llm_usage_statistics": {
+        "input_tokens": 2355,
+        "output_tokens": 2369,
+        "time_elapsed": 0.3876664638519287
+      },
+      "scores": {
+        "accuracy": 0.0
+      }
+    },
+    {
+      "query": "Should I focus on embroidery or quilting more in my next project?",
+      "answer": 1,
+      "answer_state": [
+        "abundant_materials",
+        "flexible_medium_term"
+      ],
+      "answer_choice": "With an abundance of materials at hand and a similarly flexible timeline, quilting could be a great choice. The variety of fabrics and patterns available can enhance your creativity and result in a stunning piece of work that reflects your artistic vision.",
+      "raw_response": "```json\n{\n    \"answer\": 2\n}\n```",
+      "response": 2,
+      "response_state": [
+        "abundant_materials",
+        "flexible_medium_term"
+      ],
+      "response_choice": "With an abundance of materials at hand and a similarly flexible timeline, quilting could be a great choice. The variety of fabrics and patterns available can enhance your creativity and result in a stunning piece of work that reflects your artistic vision.",
+      "json_error": false,
+      "llm_usage_statistics": {
+        "input_tokens": 2376,
+        "output_tokens": 2390,
+        "time_elapsed": 0.38844823837280273
+      },
+      "scores": {
+        "accuracy": 1.0
+      }
+    },
+    {
+      "query": "What type of local sports team should I follow for motivation?",
+      "answer": 0,
+      "answer_state": [
+        "nostalgically_significant_team",
+        "nostalgically_significant_team"
+      ],
+      "answer_choice": "Following a team that holds nostalgic significance can be incredibly motivating, especially if it brings back fond memories and a sense of community. Consider revisiting a team you cheered for during your childhood or high school days; their victories and milestones can serve as a reminder of the joy and excitement you once felt.",
+      "raw_response": "```json\n{\n    \"answer\": 2\n}\n```",
+      "response": 2,
+      "response_state": [
+        "longstanding_familiar_team",
+        "specific_baseball_team"
+      ],
+      "response_choice": "Choosing a longstanding familiar team, such as a specific baseball team you've watched since you were young, can provide a steady source of inspiration. This team's rich history and consistent presence in your life can offer a comforting routine and a strong connection to your roots.",
+      "json_error": false,
+      "llm_usage_statistics": {
+        "input_tokens": 2402,
+        "output_tokens": 2416,
+        "time_elapsed": 0.3884303569793701
+      },
+      "scores": {
+        "accuracy": 0.0
+      }
+    },
+    {
+      "query": "How should I organize my garden for maximum yield?",
+      "answer": 1,
+      "answer_state": [
+        "medium_garden",
+        "plenty_of_time"
+      ],
+      "answer_choice": "With ample time and space, you could explore more intensive gardening techniques like succession planting and intercropping to boost your yields. This approach allows you to grow a variety of vegetables throughout the season without gaps in production.",
+      "raw_response": "```json\n{\n    \"answer\": 1\n}\n```",
+      "response": 1,
+      "response_state": [
+        "medium_garden",
+        "some_free_time"
+      ],
+      "response_choice": "For your space, consider implementing raised beds or container gardening to maximize efficiency with the available area. Focus on crops that require less maintenance and have a higher yield per square foot, such as tomatoes, peppers, and leafy greens.",
+      "json_error": false,
+      "llm_usage_statistics": {
+        "input_tokens": 2380,
+        "output_tokens": 2394,
+        "time_elapsed": 0.38736891746520996
+      },
+      "scores": {
+        "accuracy": 0.0
+      }
+    },
+    {
+      "query": "Which type of traditional Mexican dish should I focus on cooking for my next festival?",
+      "answer": 2,
+      "answer_state": [
+        "moderately_complex_dishes",
+        "kids_and_families"
+      ],
+      "answer_choice": "A good choice for kids and families that isn't too complicated could be chiles en nogada. This dish is colorful and festive, perfect for a celebration, and while it does require some effort, it's manageable for those who enjoy spending time in the kitchen together.",
+      "raw_response": "```json\n{\n    \"answer\": 7\n}\n```",
+      "response": 7,
+      "response_state": [
+        "moderately_complex_dishes",
+        "general_audience"
+      ],
+      "response_choice": "Moderately complex dishes like enchiladas can be a hit with a general audience. They are flavorful and visually appealing, and while they do involve some steps, they are rewarding to cook and serve.",
+      "json_error": false,
+      "llm_usage_statistics": {
+        "input_tokens": 2516,
+        "output_tokens": 2530,
+        "time_elapsed": 0.40844273567199707
+      },
+      "scores": {
+        "accuracy": 0.0
+      }
+    },
+    {
+      "query": "How should I structure my memoir about my family's migration story?",
+      "answer": 0,
+      "answer_state": [
+        "abundant_sources",
+        "near_completion"
+      ],
+      "answer_choice": "With your memoir nearing completion and having access to a wealth of resources, consider weaving in additional personal anecdotes or historical context that might enrich your narrative further. This could add depth and authenticity to your family's migration story.",
+      "raw_response": "```json\n{\n    \"answer\": 2\n}\n```",
+      "response": 2,
+      "response_state": [
+        "abundant_sources",
+        "middle_stages"
+      ],
+      "response_choice": "At this stage in your writing, with plenty of research material at hand, focus on integrating your findings seamlessly into the existing narrative. This will help maintain a cohesive flow while adding valuable insights and details to your family's journey.",
+      "json_error": false,
+      "llm_usage_statistics": {
+        "input_tokens": 2378,
+        "output_tokens": 2392,
+        "time_elapsed": 0.3872208595275879
+      },
+      "scores": {
+        "accuracy": 0.0
+      }
+    },
+    {
+      "query": "What topics should I cover in my humanities tutoring sessions for seniors and youth?",
+      "answer": 1,
+      "answer_state": [
+        "both_age_groups",
+        "customized_topics"
+      ],
+      "answer_choice": "Tailor your sessions to the interests and needs of both seniors and youth by offering a range of topics from philosophy to cultural studies. This customization ensures that each student finds value in the content, whether they are exploring existential questions or learning about diverse cultures around the world.",
+      "raw_response": "```json\n{\n    \"answer\": 2\n}\n```",
+      "response": 2,
+      "response_state": [
+        "both_age_groups",
+        "customized_topics"
+      ],
+      "response_choice": "Tailor your sessions to the interests and needs of both seniors and youth by offering a range of topics from philosophy to cultural studies. This customization ensures that each student finds value in the content, whether they are exploring existential questions or learning about diverse cultures around the world.",
+      "json_error": false,
+      "llm_usage_statistics": {
+        "input_tokens": 2392,
+        "output_tokens": 2406,
+        "time_elapsed": 0.3880727291107178
+      },
+      "scores": {
+        "accuracy": 1.0
+      }
+    },
+    {
+      "query": "How can I better manage my volunteer commitments?",
+      "answer": 1,
+      "answer_state": [
+        "moderate_volunteer_roles",
+        "spare_schedule"
+      ],
+      "answer_choice": "Given your moderate number of volunteer roles and ample availability, you might benefit from organizing your schedule to ensure you're maximizing your contributions without overextending yourself.",
+      "raw_response": "```json\n{\n    \"answer\": 4\n}\n```",
+      "response": 4,
+      "response_state": [
+        "moderate_volunteer_roles",
+        "moderate_schedule"
+      ],
+      "response_choice": "With a moderate number of volunteer roles and a balanced schedule, focus on maintaining a consistent routine that allows you to fulfill all your commitments effectively while also ensuring you have time for rest and personal activities.",
+      "json_error": false,
+      "llm_usage_statistics": {
+        "input_tokens": 2324,
+        "output_tokens": 2338,
+        "time_elapsed": 0.3728806972503662
+      },
+      "scores": {
+        "accuracy": 0.0
+      }
+    },
+    {
+      "query": "What genre of historical fiction should I read next?",
+      "answer": 3,
+      "answer_state": [
+        "medieval_history",
+        "regional_setting"
+      ],
+      "answer_choice": "For fans of medieval history with a regional twist, 'The Name of the Rose' by Umberto Eco is highly recommended. It takes place in an Italian monastery and delves into the intrigue and intellectual debates of the time, offering a vivid portrayal of medieval society.",
+      "raw_response": "```json\n{\n    \"answer\": 3\n}\n```",
+      "response": 3,
+      "response_state": [
+        "ancient_history",
+        "global_setting"
+      ],
+      "response_choice": "If ancient history fascinates you and you prefer a global perspective, 'Pillars of the Earth' by Ken Follett might be perfect. Set during the medieval period, this book explores the construction of a cathedral in England while touching on broader themes of power, religion, and societal change across Europe.",
+      "json_error": false,
+      "llm_usage_statistics": {
+        "input_tokens": 2480,
+        "output_tokens": 2494,
+        "time_elapsed": 0.39380455017089844
+      },
+      "scores": {
+        "accuracy": 0.0
+      }
+    }
+  ],
+  [
+    {
+      "query": "What budget should I allocate for my community cultural festival this year?",
+      "answer": 2,
+      "answer_state": [
+        "large_citywide_event",
+        "high_volunteers"
+      ],
+      "answer_choice": "Given the scale of a large citywide event and a high level of volunteer participation, you can stretch your budget further by leveraging volunteer skills and enthusiasm. Concentrate on key areas like venue setup, security, and technology needs, while volunteers can handle more operational tasks.",
+      "raw_response": "```json\n{\n    \"answer\": 2\n}\n```",
+      "response": 2,
+      "response_state": [
+        "medium_community_event",
+        "moderate_volunteers"
+      ],
+      "response_choice": "With a community-focused event and moderate volunteer involvement, focus on creating a warm and inclusive atmosphere. Allocate funds towards local artists, food vendors, and interactive activities that engage the community. This approach ensures a vibrant celebration without overwhelming your volunteer base.",
+      "json_error": false,
+      "llm_usage_statistics": {
+        "input_tokens": 1868,
+        "output_tokens": 1882,
+        "time_elapsed": 0.5750577449798584
+      },
+      "scores": {
+        "accuracy": 0.0
+      }
+    },
+    {
+      "query": "How often should I hold community workshops for teaching traditional Mexican crafts?",
+      "answer": 0,
+      "answer_state": [
+        "high_interest",
+        "adequate_spaces"
+      ],
+      "answer_choice": "Given the strong interest in traditional Mexican crafts within the community and the availability of suitable spaces, consider hosting workshops every month to keep the enthusiasm high and provide consistent learning opportunities.",
+      "raw_response": "```json\n{\n    \"answer\": 2\n}\n```",
+      "response": 2,
+      "response_state": [
+        "moderate_interest",
+        "ample_spaces"
+      ],
+      "response_choice": "With a steady interest from the community and plenty of space available, bi-monthly workshops could be ideal. This frequency allows participants to look forward to new sessions without feeling overwhelmed by too many consecutive events.",
+      "json_error": false,
+      "llm_usage_statistics": {
+        "input_tokens": 1828,
+        "output_tokens": 1842,
+        "time_elapsed": 0.3837893009185791
+      },
+      "scores": {
+        "accuracy": 0.0
+      }
+    },
+    {
+      "query": "Should I focus on embroidery or quilting more in my next project?",
+      "answer": 0,
+      "answer_state": [
+        "moderate_materials",
+        "flexible_medium_term"
+      ],
+      "answer_choice": "Given your current situation with a good supply of materials and a timeline that allows for some flexibility, you might consider focusing on embroidery. This will allow you to take your time to create intricate designs and enjoy the process without feeling rushed.",
+      "raw_response": "```json\n{\n    \"answer\": 2\n}\n```",
+      "response": 2,
+      "response_state": [
+        "abundant_materials",
+        "flexible_medium_term"
+      ],
+      "response_choice": "With an abundance of materials at hand and a similarly flexible timeline, quilting could be a great choice. The variety of fabrics and patterns available can enhance your creativity and result in a stunning piece of work that reflects your artistic vision.",
+      "json_error": false,
+      "llm_usage_statistics": {
+        "input_tokens": 1849,
+        "output_tokens": 1863,
+        "time_elapsed": 0.3850891590118408
+      },
+      "scores": {
+        "accuracy": 0.0
+      }
+    },
+    {
+      "query": "What type of local sports team should I follow for motivation?",
+      "answer": 0,
+      "answer_state": [
+        "nostalgically_significant_team",
+        "nostalgically_significant_team"
+      ],
+      "answer_choice": "Following a team that holds nostalgic significance can be incredibly motivating, especially if it brings back fond memories and a sense of community. Consider revisiting a team you cheered for during your childhood or high school days; their victories and milestones can serve as a reminder of the joy and excitement you once felt.",
+      "raw_response": "```json\n{\n    \"answer\": 2\n}\n```",
+      "response": 2,
+      "response_state": [
+        "longstanding_familiar_team",
+        "specific_baseball_team"
+      ],
+      "response_choice": "Choosing a longstanding familiar team, such as a specific baseball team you've watched since you were young, can provide a steady source of inspiration. This team's rich history and consistent presence in your life can offer a comforting routine and a strong connection to your roots.",
+      "json_error": false,
+      "llm_usage_statistics": {
+        "input_tokens": 1875,
+        "output_tokens": 1889,
+        "time_elapsed": 0.38553905487060547
+      },
+      "scores": {
+        "accuracy": 0.0
+      }
+    },
+    {
+      "query": "How should I organize my garden for maximum yield?",
+      "answer": 1,
+      "answer_state": [
+        "medium_garden",
+        "plenty_of_time"
+      ],
+      "answer_choice": "With ample time and space, you could explore more intensive gardening techniques like succession planting and intercropping to boost your yields. This approach allows you to grow a variety of vegetables throughout the season without gaps in production.",
+      "raw_response": "```json\n{\n    \"answer\": 1\n}\n```",
+      "response": 1,
+      "response_state": [
+        "medium_garden",
+        "some_free_time"
+      ],
+      "response_choice": "For your space, consider implementing raised beds or container gardening to maximize efficiency with the available area. Focus on crops that require less maintenance and have a higher yield per square foot, such as tomatoes, peppers, and leafy greens.",
+      "json_error": false,
+      "llm_usage_statistics": {
+        "input_tokens": 1853,
+        "output_tokens": 1867,
+        "time_elapsed": 0.3851194381713867
+      },
+      "scores": {
+        "accuracy": 0.0
+      }
+    },
+    {
+      "query": "Which type of traditional Mexican dish should I focus on cooking for my next festival?",
+      "answer": 4,
+      "answer_state": [
+        "simple_dishes",
+        "kids_and_families"
+      ],
+      "answer_choice": "When cooking for kids and families with a simpler approach, think about serving quesadillas. They are quick to make, fun to eat, and can be customized with various fillings to cater to different tastes, ensuring everyone enjoys their meal.",
+      "raw_response": "```json\n{\n    \"answer\": 5\n}\n```",
+      "response": 5,
+      "response_state": [
+        "simple_dishes",
+        "kids_and_families"
+      ],
+      "response_choice": "When cooking for kids and families with a simpler approach, think about serving quesadillas. They are quick to make, fun to eat, and can be customized with various fillings to cater to different tastes, ensuring everyone enjoys their meal.",
+      "json_error": false,
+      "llm_usage_statistics": {
+        "input_tokens": 1989,
+        "output_tokens": 2003,
+        "time_elapsed": 0.40521931648254395
+      },
+      "scores": {
+        "accuracy": 1.0
+      }
+    },
+    {
+      "query": "How should I structure my memoir about my family's migration story?",
+      "answer": 0,
+      "answer_state": [
+        "abundant_sources",
+        "near_completion"
+      ],
+      "answer_choice": "With your memoir nearing completion and having access to a wealth of resources, consider weaving in additional personal anecdotes or historical context that might enrich your narrative further. This could add depth and authenticity to your family's migration story.",
+      "raw_response": "```json\n{\n    \"answer\": 4\n}\n```",
+      "response": 4,
+      "response_state": [
+        "moderate_sources",
+        "middle_stages"
+      ],
+      "response_choice": "In the middle stages of your memoir, with a moderate amount of research, concentrate on developing a strong narrative arc. Use the resources you have effectively to flesh out characters and events, ensuring that each element contributes meaningfully to the overall story.",
+      "json_error": false,
+      "llm_usage_statistics": {
+        "input_tokens": 1851,
+        "output_tokens": 1865,
+        "time_elapsed": 0.38489484786987305
+      },
+      "scores": {
+        "accuracy": 0.0
+      }
+    },
+    {
+      "query": "What topics should I cover in my humanities tutoring sessions for seniors and youth?",
+      "answer": 1,
+      "answer_state": [
+        "both_age_groups",
+        "customized_topics"
+      ],
+      "answer_choice": "Tailor your sessions to the interests and needs of both seniors and youth by offering a range of topics from philosophy to cultural studies. This customization ensures that each student finds value in the content, whether they are exploring existential questions or learning about diverse cultures around the world.",
+      "raw_response": "```json\n{\n    \"answer\": 2\n}\n```",
+      "response": 2,
+      "response_state": [
+        "both_age_groups",
+        "customized_topics"
+      ],
+      "response_choice": "Tailor your sessions to the interests and needs of both seniors and youth by offering a range of topics from philosophy to cultural studies. This customization ensures that each student finds value in the content, whether they are exploring existential questions or learning about diverse cultures around the world.",
+      "json_error": false,
+      "llm_usage_statistics": {
+        "input_tokens": 1865,
+        "output_tokens": 1879,
+        "time_elapsed": 0.38559556007385254
+      },
+      "scores": {
+        "accuracy": 1.0
+      }
+    },
+    {
+      "query": "How can I better manage my volunteer commitments?",
+      "answer": 3,
+      "answer_state": [
+        "moderate_volunteer_roles",
+        "moderate_schedule"
+      ],
+      "answer_choice": "With a moderate number of volunteer roles and a balanced schedule, focus on maintaining a consistent routine that allows you to fulfill all your commitments effectively while also ensuring you have time for rest and personal activities.",
+      "raw_response": "```json\n{\n    \"answer\": 3\n}\n```",
+      "response": 3,
+      "response_state": [
+        "many_volunteer_roles",
+        "moderate_schedule"
+      ],
+      "response_choice": "Balancing many volunteer roles with a more limited schedule requires careful planning. Prioritize tasks based on their importance and impact, and don't hesitate to delegate responsibilities when possible.",
+      "json_error": false,
+      "llm_usage_statistics": {
+        "input_tokens": 1797,
+        "output_tokens": 1811,
+        "time_elapsed": 0.3701932430267334
+      },
+      "scores": {
+        "accuracy": 0.0
+      }
+    },
+    {
+      "query": "What genre of historical fiction should I read next?",
+      "answer": 3,
+      "answer_state": [
+        "medieval_history",
+        "regional_setting"
+      ],
+      "answer_choice": "For fans of medieval history with a regional twist, 'The Name of the Rose' by Umberto Eco is highly recommended. It takes place in an Italian monastery and delves into the intrigue and intellectual debates of the time, offering a vivid portrayal of medieval society.",
+      "raw_response": "```json\n{\n    \"answer\": 3\n}\n```",
+      "response": 3,
+      "response_state": [
+        "ancient_history",
+        "global_setting"
+      ],
+      "response_choice": "If ancient history fascinates you and you prefer a global perspective, 'Pillars of the Earth' by Ken Follett might be perfect. Set during the medieval period, this book explores the construction of a cathedral in England while touching on broader themes of power, religion, and societal change across Europe.",
+      "json_error": false,
+      "llm_usage_statistics": {
+        "input_tokens": 1953,
+        "output_tokens": 1967,
+        "time_elapsed": 0.40178775787353516
+      },
+      "scores": {
+        "accuracy": 0.0
+      }
+    }
+  ],
+  [
+    {
+      "query": "What budget should I allocate for my community cultural festival this year?",
+      "answer": 0,
+      "answer_state": [
+        "large_citywide_event",
+        "moderate_volunteers"
+      ],
+      "answer_choice": "For a significant citywide event with a good level of volunteer support, consider allocating a budget that covers extensive marketing efforts, high-quality entertainment, and substantial logistical support. Aim for a budget that allows for a memorable experience while ensuring efficient use of volunteer contributions.",
+      "raw_response": "```json\n{\n    \"answer\": 2\n}\n```",
+      "response": 2,
+      "response_state": [
+        "medium_community_event",
+        "moderate_volunteers"
+      ],
+      "response_choice": "With a community-focused event and moderate volunteer involvement, focus on creating a warm and inclusive atmosphere. Allocate funds towards local artists, food vendors, and interactive activities that engage the community. This approach ensures a vibrant celebration without overwhelming your volunteer base.",
+      "json_error": false,
+      "llm_usage_statistics": {
+        "input_tokens": 2243,
+        "output_tokens": 2257,
+        "time_elapsed": 0.60939621925354
+      },
+      "scores": {
+        "accuracy": 0.0
+      }
+    },
+    {
+      "query": "How often should I hold community workshops for teaching traditional Mexican crafts?",
+      "answer": 0,
+      "answer_state": [
+        "high_interest",
+        "adequate_spaces"
+      ],
+      "answer_choice": "Given the strong interest in traditional Mexican crafts within the community and the availability of suitable spaces, consider hosting workshops every month to keep the enthusiasm high and provide consistent learning opportunities.",
+      "raw_response": "```json\n{\n    \"answer\": 2\n}\n```",
+      "response": 2,
+      "response_state": [
+        "moderate_interest",
+        "ample_spaces"
+      ],
+      "response_choice": "With a steady interest from the community and plenty of space available, bi-monthly workshops could be ideal. This frequency allows participants to look forward to new sessions without feeling overwhelmed by too many consecutive events.",
+      "json_error": false,
+      "llm_usage_statistics": {
+        "input_tokens": 2203,
+        "output_tokens": 2217,
+        "time_elapsed": 0.38639092445373535
+      },
+      "scores": {
+        "accuracy": 0.0
+      }
+    },
+    {
+      "query": "Should I focus on embroidery or quilting more in my next project?",
+      "answer": 0,
+      "answer_state": [
+        "moderate_materials",
+        "flexible_medium_term"
+      ],
+      "answer_choice": "Given your current situation with a good supply of materials and a timeline that allows for some flexibility, you might consider focusing on embroidery. This will allow you to take your time to create intricate designs and enjoy the process without feeling rushed.",
+      "raw_response": "```json\n{\n    \"answer\": 2\n}\n```",
+      "response": 2,
+      "response_state": [
+        "abundant_materials",
+        "flexible_medium_term"
+      ],
+      "response_choice": "With an abundance of materials at hand and a similarly flexible timeline, quilting could be a great choice. The variety of fabrics and patterns available can enhance your creativity and result in a stunning piece of work that reflects your artistic vision.",
+      "json_error": false,
+      "llm_usage_statistics": {
+        "input_tokens": 2224,
+        "output_tokens": 2238,
+        "time_elapsed": 0.38695621490478516
+      },
+      "scores": {
+        "accuracy": 0.0
+      }
+    },
+    {
+      "query": "What type of local sports team should I follow for motivation?",
+      "answer": 0,
+      "answer_state": [
+        "nostalgically_significant_team",
+        "nostalgically_significant_team"
+      ],
+      "answer_choice": "Following a team that holds nostalgic significance can be incredibly motivating, especially if it brings back fond memories and a sense of community. Consider revisiting a team you cheered for during your childhood or high school days; their victories and milestones can serve as a reminder of the joy and excitement you once felt.",
+      "raw_response": "```json\n{\n    \"answer\": 2\n}\n```",
+      "response": 2,
+      "response_state": [
+        "longstanding_familiar_team",
+        "specific_baseball_team"
+      ],
+      "response_choice": "Choosing a longstanding familiar team, such as a specific baseball team you've watched since you were young, can provide a steady source of inspiration. This team's rich history and consistent presence in your life can offer a comforting routine and a strong connection to your roots.",
+      "json_error": false,
+      "llm_usage_statistics": {
+        "input_tokens": 2250,
+        "output_tokens": 2264,
+        "time_elapsed": 0.38800644874572754
+      },
+      "scores": {
+        "accuracy": 0.0
+      }
+    },
+    {
+      "query": "How should I organize my garden for maximum yield?",
+      "answer": 2,
+      "answer_state": [
+        "large_garden",
+        "plenty_of_time"
+      ],
+      "answer_choice": "Given your extensive space and time, consider dividing your garden into sections dedicated to different types of plants, such as a fruit section, a vegetable patch, and a herb garden. This layout not only maximizes yield but also simplifies management and enhances biodiversity.",
+      "raw_response": "```json\n{\n    \"answer\": 4\n}\n```",
+      "response": 4,
+      "response_state": [
+        "large_garden",
+        "some_free_time"
+      ],
+      "response_choice": "To make the most of your larger garden while managing your time effectively, focus on creating efficient pathways and using vertical gardening methods like trellises and stakes for climbing plants. This setup saves space and reduces the need for constant weeding and tending.",
+      "json_error": false,
+      "llm_usage_statistics": {
+        "input_tokens": 2228,
+        "output_tokens": 2242,
+        "time_elapsed": 0.3887031078338623
+      },
+      "scores": {
+        "accuracy": 0.0
+      }
+    },
+    {
+      "query": "Which type of traditional Mexican dish should I focus on cooking for my next festival?",
+      "answer": 4,
+      "answer_state": [
+        "simple_dishes",
+        "kids_and_families"
+      ],
+      "answer_choice": "When cooking for kids and families with a simpler approach, think about serving quesadillas. They are quick to make, fun to eat, and can be customized with various fillings to cater to different tastes, ensuring everyone enjoys their meal.",
+      "raw_response": "```json\n{\n    \"answer\": 5\n}\n```",
+      "response": 5,
+      "response_state": [
+        "simple_dishes",
+        "kids_and_families"
+      ],
+      "response_choice": "When cooking for kids and families with a simpler approach, think about serving quesadillas. They are quick to make, fun to eat, and can be customized with various fillings to cater to different tastes, ensuring everyone enjoys their meal.",
+      "json_error": false,
+      "llm_usage_statistics": {
+        "input_tokens": 2364,
+        "output_tokens": 2378,
+        "time_elapsed": 0.40801310539245605
+      },
+      "scores": {
+        "accuracy": 1.0
+      }
+    },
+    {
+      "query": "How should I structure my memoir about my family's migration story?",
+      "answer": 0,
+      "answer_state": [
+        "abundant_sources",
+        "near_completion"
+      ],
+      "answer_choice": "With your memoir nearing completion and having access to a wealth of resources, consider weaving in additional personal anecdotes or historical context that might enrich your narrative further. This could add depth and authenticity to your family's migration story.",
+      "raw_response": "```json\n{\n    \"answer\": 4\n}\n```",
+      "response": 4,
+      "response_state": [
+        "moderate_sources",
+        "middle_stages"
+      ],
+      "response_choice": "In the middle stages of your memoir, with a moderate amount of research, concentrate on developing a strong narrative arc. Use the resources you have effectively to flesh out characters and events, ensuring that each element contributes meaningfully to the overall story.",
+      "json_error": false,
+      "llm_usage_statistics": {
+        "input_tokens": 2226,
+        "output_tokens": 2240,
+        "time_elapsed": 0.38704466819763184
+      },
+      "scores": {
+        "accuracy": 0.0
+      }
+    },
+    {
+      "query": "What topics should I cover in my humanities tutoring sessions for seniors and youth?",
+      "answer": 1,
+      "answer_state": [
+        "both_age_groups",
+        "customized_topics"
+      ],
+      "answer_choice": "Tailor your sessions to the interests and needs of both seniors and youth by offering a range of topics from philosophy to cultural studies. This customization ensures that each student finds value in the content, whether they are exploring existential questions or learning about diverse cultures around the world.",
+      "raw_response": "```json\n{\n    \"answer\": 2\n}\n```",
+      "response": 2,
+      "response_state": [
+        "both_age_groups",
+        "customized_topics"
+      ],
+      "response_choice": "Tailor your sessions to the interests and needs of both seniors and youth by offering a range of topics from philosophy to cultural studies. This customization ensures that each student finds value in the content, whether they are exploring existential questions or learning about diverse cultures around the world.",
+      "json_error": false,
+      "llm_usage_statistics": {
+        "input_tokens": 2240,
+        "output_tokens": 2254,
+        "time_elapsed": 0.38781070709228516
+      },
+      "scores": {
+        "accuracy": 1.0
+      }
+    },
+    {
+      "query": "How can I better manage my volunteer commitments?",
+      "answer": 1,
+      "answer_state": [
+        "moderate_volunteer_roles",
+        "spare_schedule"
+      ],
+      "answer_choice": "Given your moderate number of volunteer roles and ample availability, you might benefit from organizing your schedule to ensure you're maximizing your contributions without overextending yourself.",
+      "raw_response": "```json\n{\n    \"answer\": 4\n}\n```",
+      "response": 4,
+      "response_state": [
+        "moderate_volunteer_roles",
+        "moderate_schedule"
+      ],
+      "response_choice": "With a moderate number of volunteer roles and a balanced schedule, focus on maintaining a consistent routine that allows you to fulfill all your commitments effectively while also ensuring you have time for rest and personal activities.",
+      "json_error": false,
+      "llm_usage_statistics": {
+        "input_tokens": 2172,
+        "output_tokens": 2186,
+        "time_elapsed": 0.3725094795227051
+      },
+      "scores": {
+        "accuracy": 0.0
+      }
+    },
+    {
+      "query": "What genre of historical fiction should I read next?",
+      "answer": 4,
+      "answer_state": [
+        "ancient_history",
+        "regional_setting"
+      ],
+      "answer_choice": "If ancient history and a regional setting appeal to you, 'The Persian Boy' by Mary Renault is a great choice. This novel follows the life of Bagoas, a eunuch in the court of Alexander the Great, providing insights into the political and cultural landscape of ancient Persia.",
+      "raw_response": "```json\n{\n    \"answer\": 5\n}\n```",
+      "response": 5,
+      "response_state": [
+        "ancient_history",
+        "regional_setting"
+      ],
+      "response_choice": "If ancient history and a regional setting appeal to you, 'The Persian Boy' by Mary Renault is a great choice. This novel follows the life of Bagoas, a eunuch in the court of Alexander the Great, providing insights into the political and cultural landscape of ancient Persia.",
+      "json_error": false,
+      "llm_usage_statistics": {
+        "input_tokens": 2328,
+        "output_tokens": 2342,
+        "time_elapsed": 0.40352678298950195
+      },
+      "scores": {
+        "accuracy": 1.0
+      }
+    }
+  ],
+  [
+    {
+      "query": "What budget should I allocate for my community cultural festival this year?",
+      "answer": 0,
+      "answer_state": [
+        "large_citywide_event",
+        "moderate_volunteers"
+      ],
+      "answer_choice": "For a significant citywide event with a good level of volunteer support, consider allocating a budget that covers extensive marketing efforts, high-quality entertainment, and substantial logistical support. Aim for a budget that allows for a memorable experience while ensuring efficient use of volunteer contributions.",
+      "raw_response": "```json\n{\n    \"answer\": 2\n}\n```",
+      "response": 2,
+      "response_state": [
+        "medium_community_event",
+        "moderate_volunteers"
+      ],
+      "response_choice": "With a community-focused event and moderate volunteer involvement, focus on creating a warm and inclusive atmosphere. Allocate funds towards local artists, food vendors, and interactive activities that engage the community. This approach ensures a vibrant celebration without overwhelming your volunteer base.",
+      "json_error": false,
+      "llm_usage_statistics": {
+        "input_tokens": 2134,
+        "output_tokens": 2148,
+        "time_elapsed": 0.6096169948577881
+      },
+      "scores": {
+        "accuracy": 0.0
+      }
+    },
+    {
+      "query": "How often should I hold community workshops for teaching traditional Mexican crafts?",
+      "answer": 2,
+      "answer_state": [
+        "high_interest",
+        "ample_spaces"
+      ],
+      "answer_choice": "The high level of community engagement paired with ample spaces suggests that you could organize workshops more frequently, perhaps even weekly or every other week, to cater to the eager learners and maintain their interest.",
+      "raw_response": "```json\n{\n    \"answer\": 2\n}\n```",
+      "response": 2,
+      "response_state": [
+        "moderate_interest",
+        "ample_spaces"
+      ],
+      "response_choice": "With a steady interest from the community and plenty of space available, bi-monthly workshops could be ideal. This frequency allows participants to look forward to new sessions without feeling overwhelmed by too many consecutive events.",
+      "json_error": false,
+      "llm_usage_statistics": {
+        "input_tokens": 2094,
+        "output_tokens": 2108,
+        "time_elapsed": 0.3862297534942627
+      },
+      "scores": {
+        "accuracy": 0.0
+      }
+    },
+    {
+      "query": "Should I focus on embroidery or quilting more in my next project?",
+      "answer": 0,
+      "answer_state": [
+        "moderate_materials",
+        "flexible_medium_term"
+      ],
+      "answer_choice": "Given your current situation with a good supply of materials and a timeline that allows for some flexibility, you might consider focusing on embroidery. This will allow you to take your time to create intricate designs and enjoy the process without feeling rushed.",
+      "raw_response": "```json\n{\n    \"answer\": 2\n}\n```",
+      "response": 2,
+      "response_state": [
+        "abundant_materials",
+        "flexible_medium_term"
+      ],
+      "response_choice": "With an abundance of materials at hand and a similarly flexible timeline, quilting could be a great choice. The variety of fabrics and patterns available can enhance your creativity and result in a stunning piece of work that reflects your artistic vision.",
+      "json_error": false,
+      "llm_usage_statistics": {
+        "input_tokens": 2115,
+        "output_tokens": 2129,
+        "time_elapsed": 0.38614511489868164
+      },
+      "scores": {
+        "accuracy": 0.0
+      }
+    },
+    {
+      "query": "What type of local sports team should I follow for motivation?",
+      "answer": 0,
+      "answer_state": [
+        "nostalgically_significant_team",
+        "nostalgically_significant_team"
+      ],
+      "answer_choice": "Following a team that holds nostalgic significance can be incredibly motivating, especially if it brings back fond memories and a sense of community. Consider revisiting a team you cheered for during your childhood or high school days; their victories and milestones can serve as a reminder of the joy and excitement you once felt.",
+      "raw_response": "```json\n{\n    \"answer\": 2\n}\n```",
+      "response": 2,
+      "response_state": [
+        "longstanding_familiar_team",
+        "specific_baseball_team"
+      ],
+      "response_choice": "Choosing a longstanding familiar team, such as a specific baseball team you've watched since you were young, can provide a steady source of inspiration. This team's rich history and consistent presence in your life can offer a comforting routine and a strong connection to your roots.",
+      "json_error": false,
+      "llm_usage_statistics": {
+        "input_tokens": 2141,
+        "output_tokens": 2155,
+        "time_elapsed": 0.3873138427734375
+      },
+      "scores": {
+        "accuracy": 0.0
+      }
+    },
+    {
+      "query": "How should I organize my garden for maximum yield?",
+      "answer": 2,
+      "answer_state": [
+        "large_garden",
+        "plenty_of_time"
+      ],
+      "answer_choice": "Given your extensive space and time, consider dividing your garden into sections dedicated to different types of plants, such as a fruit section, a vegetable patch, and a herb garden. This layout not only maximizes yield but also simplifies management and enhances biodiversity.",
+      "raw_response": "```json\n{\n    \"answer\": 1\n}\n```",
+      "response": 1,
+      "response_state": [
+        "medium_garden",
+        "some_free_time"
+      ],
+      "response_choice": "For your space, consider implementing raised beds or container gardening to maximize efficiency with the available area. Focus on crops that require less maintenance and have a higher yield per square foot, such as tomatoes, peppers, and leafy greens.",
+      "json_error": false,
+      "llm_usage_statistics": {
+        "input_tokens": 2119,
+        "output_tokens": 2133,
+        "time_elapsed": 0.38756370544433594
+      },
+      "scores": {
+        "accuracy": 0.0
+      }
+    },
+    {
+      "query": "Which type of traditional Mexican dish should I focus on cooking for my next festival?",
+      "answer": 0,
+      "answer_state": [
+        "simple_dishes",
+        "general_audience"
+      ],
+      "answer_choice": "For a general audience, consider making tacos al pastor. This dish is not only easy to prepare but also widely loved, offering a delightful taste of Mexico without requiring advanced cooking skills.",
+      "raw_response": "```json\n{\n    \"answer\": 7\n}\n```",
+      "response": 7,
+      "response_state": [
+        "moderately_complex_dishes",
+        "general_audience"
+      ],
+      "response_choice": "Moderately complex dishes like enchiladas can be a hit with a general audience. They are flavorful and visually appealing, and while they do involve some steps, they are rewarding to cook and serve.",
+      "json_error": false,
+      "llm_usage_statistics": {
+        "input_tokens": 2255,
+        "output_tokens": 2269,
+        "time_elapsed": 0.40635013580322266
+      },
+      "scores": {
+        "accuracy": 0.0
+      }
+    },
+    {
+      "query": "How should I structure my memoir about my family's migration story?",
+      "answer": 0,
+      "answer_state": [
+        "abundant_sources",
+        "near_completion"
+      ],
+      "answer_choice": "With your memoir nearing completion and having access to a wealth of resources, consider weaving in additional personal anecdotes or historical context that might enrich your narrative further. This could add depth and authenticity to your family's migration story.",
+      "raw_response": "```json\n{\n    \"answer\": 4\n}\n```",
+      "response": 4,
+      "response_state": [
+        "moderate_sources",
+        "middle_stages"
+      ],
+      "response_choice": "In the middle stages of your memoir, with a moderate amount of research, concentrate on developing a strong narrative arc. Use the resources you have effectively to flesh out characters and events, ensuring that each element contributes meaningfully to the overall story.",
+      "json_error": false,
+      "llm_usage_statistics": {
+        "input_tokens": 2117,
+        "output_tokens": 2131,
+        "time_elapsed": 0.3861112594604492
+      },
+      "scores": {
+        "accuracy": 0.0
+      }
+    },
+    {
+      "query": "What topics should I cover in my humanities tutoring sessions for seniors and youth?",
+      "answer": 1,
+      "answer_state": [
+        "both_age_groups",
+        "customized_topics"
+      ],
+      "answer_choice": "Tailor your sessions to the interests and needs of both seniors and youth by offering a range of topics from philosophy to cultural studies. This customization ensures that each student finds value in the content, whether they are exploring existential questions or learning about diverse cultures around the world.",
+      "raw_response": "```json\n{\n    \"answer\": 2\n}\n```",
+      "response": 2,
+      "response_state": [
+        "both_age_groups",
+        "customized_topics"
+      ],
+      "response_choice": "Tailor your sessions to the interests and needs of both seniors and youth by offering a range of topics from philosophy to cultural studies. This customization ensures that each student finds value in the content, whether they are exploring existential questions or learning about diverse cultures around the world.",
+      "json_error": false,
+      "llm_usage_statistics": {
+        "input_tokens": 2131,
+        "output_tokens": 2145,
+        "time_elapsed": 0.3862907886505127
+      },
+      "scores": {
+        "accuracy": 1.0
+      }
+    },
+    {
+      "query": "How can I better manage my volunteer commitments?",
+      "answer": 3,
+      "answer_state": [
+        "moderate_volunteer_roles",
+        "moderate_schedule"
+      ],
+      "answer_choice": "With a moderate number of volunteer roles and a balanced schedule, focus on maintaining a consistent routine that allows you to fulfill all your commitments effectively while also ensuring you have time for rest and personal activities.",
+      "raw_response": "```json\n{\n    \"answer\": 4\n}\n```",
+      "response": 4,
+      "response_state": [
+        "moderate_volunteer_roles",
+        "moderate_schedule"
+      ],
+      "response_choice": "With a moderate number of volunteer roles and a balanced schedule, focus on maintaining a consistent routine that allows you to fulfill all your commitments effectively while also ensuring you have time for rest and personal activities.",
+      "json_error": false,
+      "llm_usage_statistics": {
+        "input_tokens": 2063,
+        "output_tokens": 2077,
+        "time_elapsed": 0.3717985153198242
+      },
+      "scores": {
+        "accuracy": 1.0
+      }
+    },
+    {
+      "query": "What genre of historical fiction should I read next?",
+      "answer": 2,
+      "answer_state": [
+        "ancient_history",
+        "global_setting"
+      ],
+      "answer_choice": "If ancient history fascinates you and you prefer a global perspective, 'Pillars of the Earth' by Ken Follett might be perfect. Set during the medieval period, this book explores the construction of a cathedral in England while touching on broader themes of power, religion, and societal change across Europe.",
+      "raw_response": "```json\n{\n    \"answer\": 5\n}\n```",
+      "response": 5,
+      "response_state": [
+        "ancient_history",
+        "regional_setting"
+      ],
+      "response_choice": "If ancient history and a regional setting appeal to you, 'The Persian Boy' by Mary Renault is a great choice. This novel follows the life of Bagoas, a eunuch in the court of Alexander the Great, providing insights into the political and cultural landscape of ancient Persia.",
+      "json_error": false,
+      "llm_usage_statistics": {
+        "input_tokens": 2219,
+        "output_tokens": 2233,
+        "time_elapsed": 0.3922245502471924
+      },
+      "scores": {
+        "accuracy": 0.0
+      }
+    }
+  ],
+  [
+    {
+      "query": "What budget should I allocate for my community cultural festival this year?",
+      "answer": 0,
+      "answer_state": [
+        "large_citywide_event",
+        "moderate_volunteers"
+      ],
+      "answer_choice": "For a significant citywide event with a good level of volunteer support, consider allocating a budget that covers extensive marketing efforts, high-quality entertainment, and substantial logistical support. Aim for a budget that allows for a memorable experience while ensuring efficient use of volunteer contributions.",
+      "raw_response": "```json\n{\n    \"answer\": 2\n}\n```",
+      "response": 2,
+      "response_state": [
+        "medium_community_event",
+        "moderate_volunteers"
+      ],
+      "response_choice": "With a community-focused event and moderate volunteer involvement, focus on creating a warm and inclusive atmosphere. Allocate funds towards local artists, food vendors, and interactive activities that engage the community. This approach ensures a vibrant celebration without overwhelming your volunteer base.",
+      "json_error": false,
+      "llm_usage_statistics": {
+        "input_tokens": 2182,
+        "output_tokens": 2196,
+        "time_elapsed": 0.6248517036437988
+      },
+      "scores": {
+        "accuracy": 0.0
+      }
+    },
+    {
+      "query": "How often should I hold community workshops for teaching traditional Mexican crafts?",
+      "answer": 2,
+      "answer_state": [
+        "high_interest",
+        "ample_spaces"
+      ],
+      "answer_choice": "The high level of community engagement paired with ample spaces suggests that you could organize workshops more frequently, perhaps even weekly or every other week, to cater to the eager learners and maintain their interest.",
+      "raw_response": "```json\n{\n    \"answer\": 2\n}\n```",
+      "response": 2,
+      "response_state": [
+        "moderate_interest",
+        "ample_spaces"
+      ],
+      "response_choice": "With a steady interest from the community and plenty of space available, bi-monthly workshops could be ideal. This frequency allows participants to look forward to new sessions without feeling overwhelmed by too many consecutive events.",
+      "json_error": false,
+      "llm_usage_statistics": {
+        "input_tokens": 2142,
+        "output_tokens": 2156,
+        "time_elapsed": 0.3847503662109375
+      },
+      "scores": {
+        "accuracy": 0.0
+      }
+    },
+    {
+      "query": "Should I focus on embroidery or quilting more in my next project?",
+      "answer": 1,
+      "answer_state": [
+        "abundant_materials",
+        "flexible_medium_term"
+      ],
+      "answer_choice": "With an abundance of materials at hand and a similarly flexible timeline, quilting could be a great choice. The variety of fabrics and patterns available can enhance your creativity and result in a stunning piece of work that reflects your artistic vision.",
+      "raw_response": "```json\n{\n    \"answer\": 2\n}\n```",
+      "response": 2,
+      "response_state": [
+        "abundant_materials",
+        "flexible_medium_term"
+      ],
+      "response_choice": "With an abundance of materials at hand and a similarly flexible timeline, quilting could be a great choice. The variety of fabrics and patterns available can enhance your creativity and result in a stunning piece of work that reflects your artistic vision.",
+      "json_error": false,
+      "llm_usage_statistics": {
+        "input_tokens": 2163,
+        "output_tokens": 2177,
+        "time_elapsed": 0.38501930236816406
+      },
+      "scores": {
+        "accuracy": 1.0
+      }
+    },
+    {
+      "query": "What type of local sports team should I follow for motivation?",
+      "answer": 0,
+      "answer_state": [
+        "nostalgically_significant_team",
+        "nostalgically_significant_team"
+      ],
+      "answer_choice": "Following a team that holds nostalgic significance can be incredibly motivating, especially if it brings back fond memories and a sense of community. Consider revisiting a team you cheered for during your childhood or high school days; their victories and milestones can serve as a reminder of the joy and excitement you once felt.",
+      "raw_response": "```json\n{\n    \"answer\": 2\n}\n```",
+      "response": 2,
+      "response_state": [
+        "longstanding_familiar_team",
+        "specific_baseball_team"
+      ],
+      "response_choice": "Choosing a longstanding familiar team, such as a specific baseball team you've watched since you were young, can provide a steady source of inspiration. This team's rich history and consistent presence in your life can offer a comforting routine and a strong connection to your roots.",
+      "json_error": false,
+      "llm_usage_statistics": {
+        "input_tokens": 2189,
+        "output_tokens": 2203,
+        "time_elapsed": 0.38723254203796387
+      },
+      "scores": {
+        "accuracy": 0.0
+      }
+    },
+    {
+      "query": "How should I organize my garden for maximum yield?",
+      "answer": 2,
+      "answer_state": [
+        "large_garden",
+        "plenty_of_time"
+      ],
+      "answer_choice": "Given your extensive space and time, consider dividing your garden into sections dedicated to different types of plants, such as a fruit section, a vegetable patch, and a herb garden. This layout not only maximizes yield but also simplifies management and enhances biodiversity.",
+      "raw_response": "```json\n{\n    \"answer\": 1\n}\n```",
+      "response": 1,
+      "response_state": [
+        "medium_garden",
+        "some_free_time"
+      ],
+      "response_choice": "For your space, consider implementing raised beds or container gardening to maximize efficiency with the available area. Focus on crops that require less maintenance and have a higher yield per square foot, such as tomatoes, peppers, and leafy greens.",
+      "json_error": false,
+      "llm_usage_statistics": {
+        "input_tokens": 2167,
+        "output_tokens": 2181,
+        "time_elapsed": 0.38443613052368164
+      },
+      "scores": {
+        "accuracy": 0.0
+      }
+    },
+    {
+      "query": "Which type of traditional Mexican dish should I focus on cooking for my next festival?",
+      "answer": 3,
+      "answer_state": [
+        "simple_dishes",
+        "culinary_enthusiasts"
+      ],
+      "answer_choice": "For culinary enthusiasts who appreciate simplicity, focus on making ceviche. It's straightforward to make, highlighting fresh seafood and vibrant flavors, which will surely impress your guests with its authenticity and freshness.",
+      "raw_response": "```json\n{\n    \"answer\": 7\n}\n```",
+      "response": 7,
+      "response_state": [
+        "moderately_complex_dishes",
+        "general_audience"
+      ],
+      "response_choice": "Moderately complex dishes like enchiladas can be a hit with a general audience. They are flavorful and visually appealing, and while they do involve some steps, they are rewarding to cook and serve.",
+      "json_error": false,
+      "llm_usage_statistics": {
+        "input_tokens": 2303,
+        "output_tokens": 2317,
+        "time_elapsed": 0.4067878723144531
+      },
+      "scores": {
+        "accuracy": 0.0
+      }
+    },
+    {
+      "query": "How should I structure my memoir about my family's migration story?",
+      "answer": 0,
+      "answer_state": [
+        "abundant_sources",
+        "near_completion"
+      ],
+      "answer_choice": "With your memoir nearing completion and having access to a wealth of resources, consider weaving in additional personal anecdotes or historical context that might enrich your narrative further. This could add depth and authenticity to your family's migration story.",
+      "raw_response": "```json\n{\n    \"answer\": 4\n}\n```",
+      "response": 4,
+      "response_state": [
+        "moderate_sources",
+        "middle_stages"
+      ],
+      "response_choice": "In the middle stages of your memoir, with a moderate amount of research, concentrate on developing a strong narrative arc. Use the resources you have effectively to flesh out characters and events, ensuring that each element contributes meaningfully to the overall story.",
+      "json_error": false,
+      "llm_usage_statistics": {
+        "input_tokens": 2165,
+        "output_tokens": 2179,
+        "time_elapsed": 0.3840763568878174
+      },
+      "scores": {
+        "accuracy": 0.0
+      }
+    },
+    {
+      "query": "What topics should I cover in my humanities tutoring sessions for seniors and youth?",
+      "answer": 1,
+      "answer_state": [
+        "both_age_groups",
+        "customized_topics"
+      ],
+      "answer_choice": "Tailor your sessions to the interests and needs of both seniors and youth by offering a range of topics from philosophy to cultural studies. This customization ensures that each student finds value in the content, whether they are exploring existential questions or learning about diverse cultures around the world.",
+      "raw_response": "```json\n{\n    \"answer\": 2\n}\n```",
+      "response": 2,
+      "response_state": [
+        "both_age_groups",
+        "customized_topics"
+      ],
+      "response_choice": "Tailor your sessions to the interests and needs of both seniors and youth by offering a range of topics from philosophy to cultural studies. This customization ensures that each student finds value in the content, whether they are exploring existential questions or learning about diverse cultures around the world.",
+      "json_error": false,
+      "llm_usage_statistics": {
+        "input_tokens": 2179,
+        "output_tokens": 2193,
+        "time_elapsed": 0.3869478702545166
+      },
+      "scores": {
+        "accuracy": 1.0
+      }
+    },
+    {
+      "query": "How can I better manage my volunteer commitments?",
+      "answer": 2,
+      "answer_state": [
+        "many_volunteer_roles",
+        "moderate_schedule"
+      ],
+      "answer_choice": "Balancing many volunteer roles with a more limited schedule requires careful planning. Prioritize tasks based on their importance and impact, and don't hesitate to delegate responsibilities when possible.",
+      "raw_response": "```json\n{\n    \"answer\": 4\n}\n```",
+      "response": 4,
+      "response_state": [
+        "moderate_volunteer_roles",
+        "moderate_schedule"
+      ],
+      "response_choice": "With a moderate number of volunteer roles and a balanced schedule, focus on maintaining a consistent routine that allows you to fulfill all your commitments effectively while also ensuring you have time for rest and personal activities.",
+      "json_error": false,
+      "llm_usage_statistics": {
+        "input_tokens": 2111,
+        "output_tokens": 2125,
+        "time_elapsed": 0.3716881275177002
+      },
+      "scores": {
+        "accuracy": 0.0
+      }
+    },
+    {
+      "query": "What genre of historical fiction should I read next?",
+      "answer": 2,
+      "answer_state": [
+        "ancient_history",
+        "global_setting"
+      ],
+      "answer_choice": "If ancient history fascinates you and you prefer a global perspective, 'Pillars of the Earth' by Ken Follett might be perfect. Set during the medieval period, this book explores the construction of a cathedral in England while touching on broader themes of power, religion, and societal change across Europe.",
+      "raw_response": "```json\n{\n    \"answer\": 5\n}\n```",
+      "response": 5,
+      "response_state": [
+        "ancient_history",
+        "regional_setting"
+      ],
+      "response_choice": "If ancient history and a regional setting appeal to you, 'The Persian Boy' by Mary Renault is a great choice. This novel follows the life of Bagoas, a eunuch in the court of Alexander the Great, providing insights into the political and cultural landscape of ancient Persia.",
+      "json_error": false,
+      "llm_usage_statistics": {
+        "input_tokens": 2267,
+        "output_tokens": 2281,
+        "time_elapsed": 0.3902018070220947
+      },
+      "scores": {
+        "accuracy": 0.0
+      }
+    }
+  ],
+  [
+    {
+      "query": "What budget should I allocate for my community cultural festival this year?",
+      "answer": 0,
+      "answer_state": [
+        "large_citywide_event",
+        "moderate_volunteers"
+      ],
+      "answer_choice": "For a significant citywide event with a good level of volunteer support, consider allocating a budget that covers extensive marketing efforts, high-quality entertainment, and substantial logistical support. Aim for a budget that allows for a memorable experience while ensuring efficient use of volunteer contributions.",
+      "raw_response": "```json\n{\n    \"answer\": 2\n}\n```",
+      "response": 2,
+      "response_state": [
+        "medium_community_event",
+        "moderate_volunteers"
+      ],
+      "response_choice": "With a community-focused event and moderate volunteer involvement, focus on creating a warm and inclusive atmosphere. Allocate funds towards local artists, food vendors, and interactive activities that engage the community. This approach ensures a vibrant celebration without overwhelming your volunteer base.",
+      "json_error": false,
+      "llm_usage_statistics": {
+        "input_tokens": 2117,
+        "output_tokens": 2131,
+        "time_elapsed": 0.6090846061706543
+      },
+      "scores": {
+        "accuracy": 0.0
+      }
+    },
+    {
+      "query": "How often should I hold community workshops for teaching traditional Mexican crafts?",
+      "answer": 1,
+      "answer_state": [
+        "moderate_interest",
+        "ample_spaces"
+      ],
+      "answer_choice": "With a steady interest from the community and plenty of space available, bi-monthly workshops could be ideal. This frequency allows participants to look forward to new sessions without feeling overwhelmed by too many consecutive events.",
+      "raw_response": "```json\n{\n    \"answer\": 2\n}\n```",
+      "response": 2,
+      "response_state": [
+        "moderate_interest",
+        "ample_spaces"
+      ],
+      "response_choice": "With a steady interest from the community and plenty of space available, bi-monthly workshops could be ideal. This frequency allows participants to look forward to new sessions without feeling overwhelmed by too many consecutive events.",
+      "json_error": false,
+      "llm_usage_statistics": {
+        "input_tokens": 2077,
+        "output_tokens": 2091,
+        "time_elapsed": 0.38676905632019043
+      },
+      "scores": {
+        "accuracy": 1.0
+      }
+    },
+    {
+      "query": "Should I focus on embroidery or quilting more in my next project?",
+      "answer": 1,
+      "answer_state": [
+        "abundant_materials",
+        "flexible_medium_term"
+      ],
+      "answer_choice": "With an abundance of materials at hand and a similarly flexible timeline, quilting could be a great choice. The variety of fabrics and patterns available can enhance your creativity and result in a stunning piece of work that reflects your artistic vision.",
+      "raw_response": "```json\n{\n    \"answer\": 2\n}\n```",
+      "response": 2,
+      "response_state": [
+        "abundant_materials",
+        "flexible_medium_term"
+      ],
+      "response_choice": "With an abundance of materials at hand and a similarly flexible timeline, quilting could be a great choice. The variety of fabrics and patterns available can enhance your creativity and result in a stunning piece of work that reflects your artistic vision.",
+      "json_error": false,
+      "llm_usage_statistics": {
+        "input_tokens": 2098,
+        "output_tokens": 2112,
+        "time_elapsed": 0.38593578338623047
+      },
+      "scores": {
+        "accuracy": 1.0
+      }
+    },
+    {
+      "query": "What type of local sports team should I follow for motivation?",
+      "answer": 0,
+      "answer_state": [
+        "nostalgically_significant_team",
+        "nostalgically_significant_team"
+      ],
+      "answer_choice": "Following a team that holds nostalgic significance can be incredibly motivating, especially if it brings back fond memories and a sense of community. Consider revisiting a team you cheered for during your childhood or high school days; their victories and milestones can serve as a reminder of the joy and excitement you once felt.",
+      "raw_response": "```json\n{\n    \"answer\": 1\n}\n```",
+      "response": 1,
+      "response_state": [
+        "nostalgically_significant_team",
+        "nostalgically_significant_team"
+      ],
+      "response_choice": "Following a team that holds nostalgic significance can be incredibly motivating, especially if it brings back fond memories and a sense of community. Consider revisiting a team you cheered for during your childhood or high school days; their victories and milestones can serve as a reminder of the joy and excitement you once felt.",
+      "json_error": false,
+      "llm_usage_statistics": {
+        "input_tokens": 2124,
+        "output_tokens": 2138,
+        "time_elapsed": 0.3900935649871826
+      },
+      "scores": {
+        "accuracy": 1.0
+      }
+    },
+    {
+      "query": "How should I organize my garden for maximum yield?",
+      "answer": 2,
+      "answer_state": [
+        "large_garden",
+        "plenty_of_time"
+      ],
+      "answer_choice": "Given your extensive space and time, consider dividing your garden into sections dedicated to different types of plants, such as a fruit section, a vegetable patch, and a herb garden. This layout not only maximizes yield but also simplifies management and enhances biodiversity.",
+      "raw_response": "```json\n{\n    \"answer\": 1\n}\n```",
+      "response": 1,
+      "response_state": [
+        "medium_garden",
+        "some_free_time"
+      ],
+      "response_choice": "For your space, consider implementing raised beds or container gardening to maximize efficiency with the available area. Focus on crops that require less maintenance and have a higher yield per square foot, such as tomatoes, peppers, and leafy greens.",
+      "json_error": false,
+      "llm_usage_statistics": {
+        "input_tokens": 2102,
+        "output_tokens": 2116,
+        "time_elapsed": 0.4020712375640869
+      },
+      "scores": {
+        "accuracy": 0.0
+      }
+    },
+    {
+      "query": "Which type of traditional Mexican dish should I focus on cooking for my next festival?",
+      "answer": 3,
+      "answer_state": [
+        "simple_dishes",
+        "culinary_enthusiasts"
+      ],
+      "answer_choice": "For culinary enthusiasts who appreciate simplicity, focus on making ceviche. It's straightforward to make, highlighting fresh seafood and vibrant flavors, which will surely impress your guests with its authenticity and freshness.",
+      "raw_response": "```json\n{\n    \"answer\": 7\n}\n```",
+      "response": 7,
+      "response_state": [
+        "moderately_complex_dishes",
+        "general_audience"
+      ],
+      "response_choice": "Moderately complex dishes like enchiladas can be a hit with a general audience. They are flavorful and visually appealing, and while they do involve some steps, they are rewarding to cook and serve.",
+      "json_error": false,
+      "llm_usage_statistics": {
+        "input_tokens": 2238,
+        "output_tokens": 2252,
+        "time_elapsed": 0.4198763370513916
+      },
+      "scores": {
+        "accuracy": 0.0
+      }
+    },
+    {
+      "query": "How should I structure my memoir about my family's migration story?",
+      "answer": 1,
+      "answer_state": [
+        "abundant_sources",
+        "middle_stages"
+      ],
+      "answer_choice": "At this stage in your writing, with plenty of research material at hand, focus on integrating your findings seamlessly into the existing narrative. This will help maintain a cohesive flow while adding valuable insights and details to your family's journey.",
+      "raw_response": "```json\n{\n    \"answer\": 4\n}\n```",
+      "response": 4,
+      "response_state": [
+        "moderate_sources",
+        "middle_stages"
+      ],
+      "response_choice": "In the middle stages of your memoir, with a moderate amount of research, concentrate on developing a strong narrative arc. Use the resources you have effectively to flesh out characters and events, ensuring that each element contributes meaningfully to the overall story.",
+      "json_error": false,
+      "llm_usage_statistics": {
+        "input_tokens": 2100,
+        "output_tokens": 2114,
+        "time_elapsed": 0.3908069133758545
+      },
+      "scores": {
+        "accuracy": 0.0
+      }
+    },
+    {
+      "query": "What topics should I cover in my humanities tutoring sessions for seniors and youth?",
+      "answer": 1,
+      "answer_state": [
+        "both_age_groups",
+        "customized_topics"
+      ],
+      "answer_choice": "Tailor your sessions to the interests and needs of both seniors and youth by offering a range of topics from philosophy to cultural studies. This customization ensures that each student finds value in the content, whether they are exploring existential questions or learning about diverse cultures around the world.",
+      "raw_response": "```json\n{\n    \"answer\": 2\n}\n```",
+      "response": 2,
+      "response_state": [
+        "both_age_groups",
+        "customized_topics"
+      ],
+      "response_choice": "Tailor your sessions to the interests and needs of both seniors and youth by offering a range of topics from philosophy to cultural studies. This customization ensures that each student finds value in the content, whether they are exploring existential questions or learning about diverse cultures around the world.",
+      "json_error": false,
+      "llm_usage_statistics": {
+        "input_tokens": 2114,
+        "output_tokens": 2128,
+        "time_elapsed": 0.3934657573699951
+      },
+      "scores": {
+        "accuracy": 1.0
+      }
+    },
+    {
+      "query": "How can I better manage my volunteer commitments?",
+      "answer": 0,
+      "answer_state": [
+        "few_volunteer_roles",
+        "spare_schedule"
+      ],
+      "answer_choice": "With a light load of volunteer roles and plenty of free time, consider exploring new opportunities that align with your interests or skills to enhance your experience and impact.",
+      "raw_response": "```json\n{\n    \"answer\": 4\n}\n```",
+      "response": 4,
+      "response_state": [
+        "moderate_volunteer_roles",
+        "moderate_schedule"
+      ],
+      "response_choice": "With a moderate number of volunteer roles and a balanced schedule, focus on maintaining a consistent routine that allows you to fulfill all your commitments effectively while also ensuring you have time for rest and personal activities.",
+      "json_error": false,
+      "llm_usage_statistics": {
+        "input_tokens": 2046,
+        "output_tokens": 2060,
+        "time_elapsed": 0.37862396240234375
+      },
+      "scores": {
+        "accuracy": 0.0
+      }
+    },
+    {
+      "query": "What genre of historical fiction should I read next?",
+      "answer": 2,
+      "answer_state": [
+        "ancient_history",
+        "global_setting"
+      ],
+      "answer_choice": "If ancient history fascinates you and you prefer a global perspective, 'Pillars of the Earth' by Ken Follett might be perfect. Set during the medieval period, this book explores the construction of a cathedral in England while touching on broader themes of power, religion, and societal change across Europe.",
+      "raw_response": "```json\n{\n    \"answer\": 5\n}\n```",
+      "response": 5,
+      "response_state": [
+        "ancient_history",
+        "regional_setting"
+      ],
+      "response_choice": "If ancient history and a regional setting appeal to you, 'The Persian Boy' by Mary Renault is a great choice. This novel follows the life of Bagoas, a eunuch in the court of Alexander the Great, providing insights into the political and cultural landscape of ancient Persia.",
+      "json_error": false,
+      "llm_usage_statistics": {
+        "input_tokens": 2202,
+        "output_tokens": 2216,
+        "time_elapsed": 0.40740084648132324
+      },
+      "scores": {
+        "accuracy": 0.0
+      }
+    }
+  ]
+]
