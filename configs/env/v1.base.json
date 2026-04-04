@@ -1,9 +1,9 @@
 {
   "start_date": "2020-10-01",
   "lang": "en",
-  "num_user_profiles": 20,
+  "num_user_profiles": 5,
   "num_questions": 10,
-  "num_periods": 10,
+  "num_periods": 20,
   "num_months_per_period": 3,
   "num_states_per_question": 2,
   "num_choices_per_state": 3,
@@ -12,14 +12,18 @@
   "min_state_variants": 4,
   "num_rounds_init": 1,
   "num_rounds_update": 2,
-  "llm_config_high_temp": {
-    "llm_model": "gpt-4.1",
-    "temperature": 1.0,
+"llm_config_high_temp": {
+    "base_url": "http://localhost:8000/v1",
+    "api_key": "EMPTY",
+    "llm_model": "qwen-local",
+    "temperature": 0.5,
     "max_tokens": 8192,
     "source": "env:data-generation"
   },
   "llm_config_low_temp": {
-    "llm_model": "gpt-4.1",
+    "base_url": "http://localhost:8000/v1",
+    "api_key": "EMPTY",
+    "llm_model": "qwen-local",
     "temperature": 0.2,
     "max_tokens": 8192,
     "source": "env:data-generation"

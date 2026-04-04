@@ -4,6 +4,21 @@ from amemgym.utils.prompt_loader import load_prompts
 from loguru import logger
 
 
+def _normalize_value(value):
+    """
+    Normalize a value by converting single-element lists to strings.
+
+    Args:
+        value: The value to normalize
+
+    Returns:
+        The normalized value (string if it was a single-element list)
+    """
+    if isinstance(value, list) and len(value) > 0:
+        return value[0]
+    return value
+
+
 def sample_update_queries(llm_config, start_date, user_profile, state_schema, updates, lang: str = "en"):
     """
     Sample user queries that can be used to update the user's personal state.
@@ -54,6 +69,8 @@ def sample_update_queries(llm_config, start_date, user_profile, state_schema, up
             raise ValueError(f"Number of queries {len(queries)} does not match number of updates {len(updates['events'])}")
         outputs = []
         for query, event in zip(queries, updates["events"]):
+            # Normalize query format
+            query = _normalize_value(query)
             exposed_states = {k: new_state[k] for k in event["states"]}
             outputs.append({
                 "query": query,
@@ -96,7 +113,11 @@ def sample_init_queries(llm_config, start_date, user_profile, state_schema, init
         queries = json.loads(response)["queries"]
         exposed_states = set()
         for state in queries:
+            # Normalize query format
+            state["query"] = _normalize_value(state.get("query", ""))
             for key, value in state["exposed_states"].items():
+                # Normalize exposed state values
+                value = _normalize_value(value)
                 assert value == initial_state[key], f"Exposed state {key} has unexpected value {value}, expected {initial_state[key]}"
                 exposed_states.add(key)
         assert len(exposed_states) == len(initial_state), "Not all initial states were exposed in the queries"
@@ -138,8 +159,12 @@ def check_query_state_exposure(llm_config, query, exposed_states, state_schema, 
             if state_var not in predicted_states:
                 logger.warning(f"State variable '{state_var}' not predicted")
                 return False
-            if predicted_states[state_var] != expected_value:
-                logger.warning(f"State variable '{state_var}': predicted '{predicted_states[state_var]}', expected '{expected_value}'")
+
+            # Normalize format: convert list to string if needed
+            predicted_value = _normalize_value(predicted_states[state_var])
+
+            if predicted_value != expected_value:
+                logger.warning(f"State variable '{state_var}': predicted '{predicted_value}', expected '{expected_value}'")
                 return False
         return True
 
@@ -178,6 +203,7 @@ def refine_query(llm_config, query, exposed_states, state_schema, lang: str = "e
 
     try:
         refined_query = json.loads(response)["query"]
+        refined_query = _normalize_value(refined_query)
         return refined_query.strip()
     except Exception as e:
         logger.error(f"Error processing LLM response: {e}")

@@ -117,7 +117,7 @@ def sample_env_data_given_profile(user_dir, user_profile, llm_config_high, llm_c
                 check_ret = check_personalized_answer(
                     llm_config_low, question, answer_text, variants, ai, lang=lang
                 )
-                retry_cnt = 20
+                retry_cnt = 5
                 while not check_ret and retry_cnt > 0:
                     logger.warning(f"Answer validation failed for question '{question['question']}' and variant {answer['variant']}.\nCurrent Answer:{answer_text}\nRetrying...")
                     answer_text = refine_personalized_answer(
@@ -131,7 +131,7 @@ def sample_env_data_given_profile(user_dir, user_profile, llm_config_high, llm_c
                     retry_cnt -= 1
                 if not check_ret:
                     logger.error(f"Failed to generate a valid answer for question '{question['question']}' and variant {answer['variant']} after 10 retries. Exiting.")
-                    exit(1)  # fail to generate valid answer after retries
+                    break  # fail to generate valid answer after retries
                 answer["answer"] = answer_text
             all_answers.append(answers)
         save_json(answer_path, all_answers)
@@ -151,7 +151,7 @@ def sample_env_data_given_profile(user_dir, user_profile, llm_config_high, llm_c
         check_ret = check_query_state_exposure(
             llm_config_low, query_text, query_exposed_states, schema, lang=lang
         )
-        retry_cnt = 20
+        retry_cnt = 5
         while not check_ret and retry_cnt > 0:
             logger.warning(f"Query validation failed for initial query '{query_text}'. Retrying...")
             query_text = refine_query(
@@ -163,7 +163,7 @@ def sample_env_data_given_profile(user_dir, user_profile, llm_config_high, llm_c
             retry_cnt -= 1
         if not check_ret:
             logger.error(f"Failed to generate a valid initial query '{query_text}' after retries. Exiting.")
-            exit(1)  # fail to generate valid query after retries
+            break  # fail to generate valid query after retries
         query["query"] = query_text
     timestamps = sample_session_timestamps(None, start_date, len(init_queries))
     for query, ts in zip(init_queries, timestamps):
@@ -182,7 +182,7 @@ def sample_env_data_given_profile(user_dir, user_profile, llm_config_high, llm_c
             check_ret = check_query_state_exposure(
                 llm_config_low, query_text, query_exposed_states, schema, lang=lang
             )
-            retry_cnt = 20
+            retry_cnt = 5
             while not check_ret and retry_cnt > 0:
                 logger.warning(f"Query validation failed for update query '{query_text}'. Retrying...")
                 query_text = refine_query(
@@ -194,7 +194,7 @@ def sample_env_data_given_profile(user_dir, user_profile, llm_config_high, llm_c
                 retry_cnt -= 1
             if not check_ret:
                 logger.error(f"Failed to generate a valid update query '{query_text}' after retries. Exiting.")
-                exit(1)  # fail to generate valid query after retries
+                break  # fail to generate valid query after retries
             query["query"] = query_text
         start_date = load_date(updates[pi+1]["period_start"])
         end_date = load_date(updates[pi+1]["period_end"])

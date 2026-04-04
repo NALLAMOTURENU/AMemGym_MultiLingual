@@ -1,2 +1,0 @@
-Data source: https://huggingface.co/datasets/nvidia/Nemotron-Personas
-Get data and rename it as nemotron.parquet in this folder.

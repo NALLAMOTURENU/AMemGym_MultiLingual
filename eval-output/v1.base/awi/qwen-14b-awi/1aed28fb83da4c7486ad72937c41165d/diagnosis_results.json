@@ -1,0 +1,2664 @@
+[
+  [
+    {
+      "query": "{\n  \"cultural_event_scale\": [\n    \"small_local_event\",\n    \"medium_community_event\",\n    \"large_citywide_event\"\n  ],\n  \"volunteer_participation_level\": [\n    \"low_volunteers\",\n    \"moderate_volunteers\",\n    \"high_volunteers\"\n  ]\n}\n\nBased on our previous conversation, select the most appropriate option for each state type listed above. The selected option should be as close as possible to my current situation. \nMake sure that every state type in the schema above has a corresponding choice in your output.\n\nPlease respond strictly in the following JSON format:\n```json\n{\n    \"info_type1\": \"choice\",\n    \"info_type2\": \"choice\",\n    ...\n}\n```\nWhere each \"info_type\" is a given state type, and \"choice\" is the exact option selected from its corresponding choices.\n\nOnly keep the JSON format output, do not include any other content.\n",
+      "raw_response": "```json\n{\n    \"cultural_event_scale\": \"medium_community_event\",\n    \"volunteer_participation_level\": \"moderate_volunteers\"\n}\n```",
+      "results": [
+        {
+          "info_type": "cultural_event_scale",
+          "json_error": false,
+          "answer_state": "medium_community_event",
+          "response_state": "medium_community_event",
+          "write_pos": 0,
+          "read_pos": 0,
+          "score": 1.0
+        },
+        {
+          "info_type": "volunteer_participation_level",
+          "json_error": false,
+          "answer_state": "moderate_volunteers",
+          "response_state": "moderate_volunteers",
+          "write_pos": 0,
+          "read_pos": 0,
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "query": "{\n  \"community_engagement_interest\": [\n    \"low_interest\",\n    \"moderate_interest\",\n    \"high_interest\"\n  ],\n  \"workshop_facility_capacity\": [\n    \"limited_spaces\",\n    \"adequate_spaces\",\n    \"ample_spaces\"\n  ]\n}\n\nBased on our previous conversation, select the most appropriate option for each state type listed above. The selected option should be as close as possible to my current situation. \nMake sure that every state type in the schema above has a corresponding choice in your output.\n\nPlease respond strictly in the following JSON format:\n```json\n{\n    \"info_type1\": \"choice\",\n    \"info_type2\": \"choice\",\n    ...\n}\n```\nWhere each \"info_type\" is a given state type, and \"choice\" is the exact option selected from its corresponding choices.\n\nOnly keep the JSON format output, do not include any other content.\n",
+      "raw_response": "```json\n{\n    \"community_engagement_interest\": \"moderate_interest\",\n    \"workshop_facility_capacity\": \"adequate_spaces\"\n}\n```",
+      "results": [
+        {
+          "info_type": "community_engagement_interest",
+          "json_error": false,
+          "answer_state": "high_interest",
+          "response_state": "moderate_interest",
+          "write_pos": 0,
+          "read_pos": 0,
+          "score": 0.0
+        },
+        {
+          "info_type": "workshop_facility_capacity",
+          "json_error": false,
+          "answer_state": "adequate_spaces",
+          "response_state": "adequate_spaces",
+          "write_pos": 0,
+          "read_pos": 0,
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "query": "{\n  \"craft_material_availability\": [\n    \"abundant_materials\",\n    \"moderate_materials\",\n    \"scarce_materials\"\n  ],\n  \"project_timing_requirements\": [\n    \"urgent_short_term\",\n    \"flexible_medium_term\",\n    \"long_term\"\n  ]\n}\n\nBased on our previous conversation, select the most appropriate option for each state type listed above. The selected option should be as close as possible to my current situation. \nMake sure that every state type in the schema above has a corresponding choice in your output.\n\nPlease respond strictly in the following JSON format:\n```json\n{\n    \"info_type1\": \"choice\",\n    \"info_type2\": \"choice\",\n    ...\n}\n```\nWhere each \"info_type\" is a given state type, and \"choice\" is the exact option selected from its corresponding choices.\n\nOnly keep the JSON format output, do not include any other content.\n",
+      "raw_response": "```json\n{\n    \"craft_material_availability\": \"moderate_materials\",\n    \"project_timing_requirements\": \"flexible_medium_term\"\n}\n```",
+      "results": [
+        {
+          "info_type": "craft_material_availability",
+          "json_error": false,
+          "answer_state": "moderate_materials",
+          "response_state": "moderate_materials",
+          "write_pos": 0,
+          "read_pos": 0,
+          "score": 1.0
+        },
+        {
+          "info_type": "project_timing_requirements",
+          "json_error": false,
+          "answer_state": "flexible_medium_term",
+          "response_state": "flexible_medium_term",
+          "write_pos": 0,
+          "read_pos": 0,
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "query": "{\n  \"preferred_sports_team_type\": [\n    \"specific_baseball_team\",\n    \"specific_football_team\",\n    \"specific_basketball_team\",\n    \"newly_formed_team\",\n    \"longstanding_familiar_team\",\n    \"nostalgically_significant_team\"\n  ]\n}\n\nBased on our previous conversation, select the most appropriate option for each state type listed above. The selected option should be as close as possible to my current situation. \nMake sure that every state type in the schema above has a corresponding choice in your output.\n\nPlease respond strictly in the following JSON format:\n```json\n{\n    \"info_type1\": \"choice\",\n    \"info_type2\": \"choice\",\n    ...\n}\n```\nWhere each \"info_type\" is a given state type, and \"choice\" is the exact option selected from its corresponding choices.\n\nOnly keep the JSON format output, do not include any other content.\n",
+      "raw_response": "```json\n{\n    \"preferred_sports_team_type\": \"nostalgically_significant_team\"\n}\n```",
+      "results": [
+        {
+          "info_type": "preferred_sports_team_type",
+          "json_error": false,
+          "answer_state": "nostalgically_significant_team",
+          "response_state": "nostalgically_significant_team",
+          "write_pos": 0,
+          "read_pos": 0,
+          "score": 1.0
+        },
+        {
+          "info_type": "preferred_sports_team_type",
+          "json_error": false,
+          "answer_state": "nostalgically_significant_team",
+          "response_state": "nostalgically_significant_team",
+          "write_pos": 0,
+          "read_pos": 0,
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "query": "{\n  \"gardening_space_dimensions\": [\n    \"small_garden\",\n    \"medium_garden\",\n    \"large_garden\"\n  ],\n  \"time_spent_on_gardening\": [\n    \"very_limited_time\",\n    \"some_free_time\",\n    \"plenty_of_time\"\n  ]\n}\n\nBased on our previous conversation, select the most appropriate option for each state type listed above. The selected option should be as close as possible to my current situation. \nMake sure that every state type in the schema above has a corresponding choice in your output.\n\nPlease respond strictly in the following JSON format:\n```json\n{\n    \"info_type1\": \"choice\",\n    \"info_type2\": \"choice\",\n    ...\n}\n```\nWhere each \"info_type\" is a given state type, and \"choice\" is the exact option selected from its corresponding choices.\n\nOnly keep the JSON format output, do not include any other content.\n",
+      "raw_response": "```json\n{\n    \"gardening_space_dimensions\": \"medium_garden\",\n    \"time_spent_on_gardening\": \"some_free_time\"\n}\n```",
+      "results": [
+        {
+          "info_type": "gardening_space_dimensions",
+          "json_error": false,
+          "answer_state": "medium_garden",
+          "response_state": "medium_garden",
+          "write_pos": 0,
+          "read_pos": 0,
+          "score": 1.0
+        },
+        {
+          "info_type": "time_spent_on_gardening",
+          "json_error": false,
+          "answer_state": "some_free_time",
+          "response_state": "some_free_time",
+          "write_pos": 0,
+          "read_pos": 0,
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "query": "{\n  \"cooking_project_difficulty\": [\n    \"simple_dishes\",\n    \"moderately_complex_dishes\",\n    \"complex_dishes\"\n  ],\n  \"target_audience_for_cooking\": [\n    \"general_audience\",\n    \"culinary_enthusiasts\",\n    \"kids_and_families\"\n  ]\n}\n\nBased on our previous conversation, select the most appropriate option for each state type listed above. The selected option should be as close as possible to my current situation. \nMake sure that every state type in the schema above has a corresponding choice in your output.\n\nPlease respond strictly in the following JSON format:\n```json\n{\n    \"info_type1\": \"choice\",\n    \"info_type2\": \"choice\",\n    ...\n}\n```\nWhere each \"info_type\" is a given state type, and \"choice\" is the exact option selected from its corresponding choices.\n\nOnly keep the JSON format output, do not include any other content.\n",
+      "raw_response": "```json\n{\n    \"cooking_project_difficulty\": \"moderately_complex_dishes\",\n    \"target_audience_for_cooking\": \"general_audience\"\n}\n```",
+      "results": [
+        {
+          "info_type": "cooking_project_difficulty",
+          "json_error": false,
+          "answer_state": "moderately_complex_dishes",
+          "response_state": "moderately_complex_dishes",
+          "write_pos": 0,
+          "read_pos": 0,
+          "score": 1.0
+        },
+        {
+          "info_type": "target_audience_for_cooking",
+          "json_error": false,
+          "answer_state": "general_audience",
+          "response_state": "general_audience",
+          "write_pos": 0,
+          "read_pos": 0,
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "query": "{\n  \"memoir_research_resources\": [\n    \"few_sources\",\n    \"moderate_sources\",\n    \"abundant_sources\"\n  ],\n  \"memoir_writing_stage\": [\n    \"beginning_stages\",\n    \"middle_stages\",\n    \"near_completion\"\n  ]\n}\n\nBased on our previous conversation, select the most appropriate option for each state type listed above. The selected option should be as close as possible to my current situation. \nMake sure that every state type in the schema above has a corresponding choice in your output.\n\nPlease respond strictly in the following JSON format:\n```json\n{\n    \"info_type1\": \"choice\",\n    \"info_type2\": \"choice\",\n    ...\n}\n```\nWhere each \"info_type\" is a given state type, and \"choice\" is the exact option selected from its corresponding choices.\n\nOnly keep the JSON format output, do not include any other content.\n",
+      "raw_response": "```json\n{\n    \"memoir_research_resources\": \"moderate_sources\",\n    \"memoir_writing_stage\": \"middle_stages\"\n}\n```",
+      "results": [
+        {
+          "info_type": "memoir_research_resources",
+          "json_error": false,
+          "answer_state": "moderate_sources",
+          "response_state": "moderate_sources",
+          "write_pos": 0,
+          "read_pos": 0,
+          "score": 1.0
+        },
+        {
+          "info_type": "memoir_writing_stage",
+          "json_error": false,
+          "answer_state": "middle_stages",
+          "response_state": "middle_stages",
+          "write_pos": 0,
+          "read_pos": 0,
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "query": "{\n  \"tutoring_target_age_group\": [\n    \"seniors_only\",\n    \"youth_only\",\n    \"both_age_groups\"\n  ],\n  \"tutoring_topic_scope\": [\n    \"broad_topics\",\n    \"specific_topics\",\n    \"customized_topics\"\n  ]\n}\n\nBased on our previous conversation, select the most appropriate option for each state type listed above. The selected option should be as close as possible to my current situation. \nMake sure that every state type in the schema above has a corresponding choice in your output.\n\nPlease respond strictly in the following JSON format:\n```json\n{\n    \"info_type1\": \"choice\",\n    \"info_type2\": \"choice\",\n    ...\n}\n```\nWhere each \"info_type\" is a given state type, and \"choice\" is the exact option selected from its corresponding choices.\n\nOnly keep the JSON format output, do not include any other content.\n",
+      "raw_response": "```json\n{\n    \"tutoring_target_age_group\": \"both_age_groups\",\n    \"tutoring_topic_scope\": \"specific_topics\"\n}\n```",
+      "results": [
+        {
+          "info_type": "tutoring_target_age_group",
+          "json_error": false,
+          "answer_state": "both_age_groups",
+          "response_state": "both_age_groups",
+          "write_pos": 0,
+          "read_pos": 0,
+          "score": 1.0
+        },
+        {
+          "info_type": "tutoring_topic_scope",
+          "json_error": false,
+          "answer_state": "specific_topics",
+          "response_state": "specific_topics",
+          "write_pos": 0,
+          "read_pos": 0,
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "query": "{\n  \"volunteer_role_count\": [\n    \"few_volunteer_roles\",\n    \"moderate_volunteer_roles\",\n    \"many_volunteer_roles\"\n  ],\n  \"personal_availability_for_volunteering\": [\n    \"busy_schedule\",\n    \"moderate_schedule\",\n    \"spare_schedule\"\n  ]\n}\n\nBased on our previous conversation, select the most appropriate option for each state type listed above. The selected option should be as close as possible to my current situation. \nMake sure that every state type in the schema above has a corresponding choice in your output.\n\nPlease respond strictly in the following JSON format:\n```json\n{\n    \"info_type1\": \"choice\",\n    \"info_type2\": \"choice\",\n    ...\n}\n```\nWhere each \"info_type\" is a given state type, and \"choice\" is the exact option selected from its corresponding choices.\n\nOnly keep the JSON format output, do not include any other content.\n",
+      "raw_response": "```json\n{\n    \"volunteer_role_count\": \"moderate_volunteer_roles\",\n    \"personal_availability_for_volunteering\": \"moderate_schedule\"\n}\n```",
+      "results": [
+        {
+          "info_type": "volunteer_role_count",
+          "json_error": false,
+          "answer_state": "moderate_volunteer_roles",
+          "response_state": "moderate_volunteer_roles",
+          "write_pos": 0,
+          "read_pos": 0,
+          "score": 1.0
+        },
+        {
+          "info_type": "personal_availability_for_volunteering",
+          "json_error": false,
+          "answer_state": "moderate_schedule",
+          "response_state": "moderate_schedule",
+          "write_pos": 0,
+          "read_pos": 0,
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "query": "{\n  \"historical_fiction_time_period\": [\n    \"ancient_history\",\n    \"medieval_history\",\n    \"modern_history\"\n  ],\n  \"historical_fiction_geographic_focus\": [\n    \"global_setting\",\n    \"local_setting\",\n    \"regional_setting\"\n  ]\n}\n\nBased on our previous conversation, select the most appropriate option for each state type listed above. The selected option should be as close as possible to my current situation. \nMake sure that every state type in the schema above has a corresponding choice in your output.\n\nPlease respond strictly in the following JSON format:\n```json\n{\n    \"info_type1\": \"choice\",\n    \"info_type2\": \"choice\",\n    ...\n}\n```\nWhere each \"info_type\" is a given state type, and \"choice\" is the exact option selected from its corresponding choices.\n\nOnly keep the JSON format output, do not include any other content.\n",
+      "raw_response": "```json\n{\n    \"historical_fiction_time_period\": \"modern_history\",\n    \"historical_fiction_geographic_focus\": \"local_setting\"\n}\n```",
+      "results": [
+        {
+          "info_type": "historical_fiction_time_period",
+          "json_error": false,
+          "answer_state": "modern_history",
+          "response_state": "modern_history",
+          "write_pos": 0,
+          "read_pos": 0,
+          "score": 1.0
+        },
+        {
+          "info_type": "historical_fiction_geographic_focus",
+          "json_error": false,
+          "answer_state": "local_setting",
+          "response_state": "local_setting",
+          "write_pos": 0,
+          "read_pos": 0,
+          "score": 1.0
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "query": "{\n  \"cultural_event_scale\": [\n    \"small_local_event\",\n    \"medium_community_event\",\n    \"large_citywide_event\"\n  ],\n  \"volunteer_participation_level\": [\n    \"low_volunteers\",\n    \"moderate_volunteers\",\n    \"high_volunteers\"\n  ]\n}\n\nBased on our previous conversation, select the most appropriate option for each state type listed above. The selected option should be as close as possible to my current situation. \nMake sure that every state type in the schema above has a corresponding choice in your output.\n\nPlease respond strictly in the following JSON format:\n```json\n{\n    \"info_type1\": \"choice\",\n    \"info_type2\": \"choice\",\n    ...\n}\n```\nWhere each \"info_type\" is a given state type, and \"choice\" is the exact option selected from its corresponding choices.\n\nOnly keep the JSON format output, do not include any other content.\n",
+      "raw_response": "```json\n{\n    \"cultural_event_scale\": \"large_citywide_event\",\n    \"volunteer_participation_level\": \"high_volunteers\"\n}\n```",
+      "results": [
+        {
+          "info_type": "cultural_event_scale",
+          "json_error": false,
+          "answer_state": "large_citywide_event",
+          "response_state": "large_citywide_event",
+          "write_pos": 1,
+          "read_pos": 1,
+          "score": 1.0
+        },
+        {
+          "info_type": "volunteer_participation_level",
+          "json_error": false,
+          "answer_state": "moderate_volunteers",
+          "response_state": "high_volunteers",
+          "write_pos": 0,
+          "read_pos": 1,
+          "score": 0.0
+        }
+      ]
+    },
+    {
+      "query": "{\n  \"community_engagement_interest\": [\n    \"low_interest\",\n    \"moderate_interest\",\n    \"high_interest\"\n  ],\n  \"workshop_facility_capacity\": [\n    \"limited_spaces\",\n    \"adequate_spaces\",\n    \"ample_spaces\"\n  ]\n}\n\nBased on our previous conversation, select the most appropriate option for each state type listed above. The selected option should be as close as possible to my current situation. \nMake sure that every state type in the schema above has a corresponding choice in your output.\n\nPlease respond strictly in the following JSON format:\n```json\n{\n    \"info_type1\": \"choice\",\n    \"info_type2\": \"choice\",\n    ...\n}\n```\nWhere each \"info_type\" is a given state type, and \"choice\" is the exact option selected from its corresponding choices.\n\nOnly keep the JSON format output, do not include any other content.\n",
+      "raw_response": "```json\n{\n    \"community_engagement_interest\": \"high_interest\",\n    \"workshop_facility_capacity\": \"adequate_spaces\"\n}\n```",
+      "results": [
+        {
+          "info_type": "community_engagement_interest",
+          "json_error": false,
+          "answer_state": "high_interest",
+          "response_state": "high_interest",
+          "write_pos": 0,
+          "read_pos": 1,
+          "score": 1.0
+        },
+        {
+          "info_type": "workshop_facility_capacity",
+          "json_error": false,
+          "answer_state": "ample_spaces",
+          "response_state": "adequate_spaces",
+          "write_pos": 1,
+          "read_pos": 1,
+          "score": 0.0
+        }
+      ]
+    },
+    {
+      "query": "{\n  \"craft_material_availability\": [\n    \"abundant_materials\",\n    \"moderate_materials\",\n    \"scarce_materials\"\n  ],\n  \"project_timing_requirements\": [\n    \"urgent_short_term\",\n    \"flexible_medium_term\",\n    \"long_term\"\n  ]\n}\n\nBased on our previous conversation, select the most appropriate option for each state type listed above. The selected option should be as close as possible to my current situation. \nMake sure that every state type in the schema above has a corresponding choice in your output.\n\nPlease respond strictly in the following JSON format:\n```json\n{\n    \"info_type1\": \"choice\",\n    \"info_type2\": \"choice\",\n    ...\n}\n```\nWhere each \"info_type\" is a given state type, and \"choice\" is the exact option selected from its corresponding choices.\n\nOnly keep the JSON format output, do not include any other content.\n",
+      "raw_response": "```json\n{\n    \"craft_material_availability\": \"abundant_materials\",\n    \"project_timing_requirements\": \"flexible_medium_term\"\n}\n```",
+      "results": [
+        {
+          "info_type": "craft_material_availability",
+          "json_error": false,
+          "answer_state": "abundant_materials",
+          "response_state": "abundant_materials",
+          "write_pos": 1,
+          "read_pos": 1,
+          "score": 1.0
+        },
+        {
+          "info_type": "project_timing_requirements",
+          "json_error": false,
+          "answer_state": "flexible_medium_term",
+          "response_state": "flexible_medium_term",
+          "write_pos": 0,
+          "read_pos": 1,
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "query": "{\n  \"preferred_sports_team_type\": [\n    \"specific_baseball_team\",\n    \"specific_football_team\",\n    \"specific_basketball_team\",\n    \"newly_formed_team\",\n    \"longstanding_familiar_team\",\n    \"nostalgically_significant_team\"\n  ]\n}\n\nBased on our previous conversation, select the most appropriate option for each state type listed above. The selected option should be as close as possible to my current situation. \nMake sure that every state type in the schema above has a corresponding choice in your output.\n\nPlease respond strictly in the following JSON format:\n```json\n{\n    \"info_type1\": \"choice\",\n    \"info_type2\": \"choice\",\n    ...\n}\n```\nWhere each \"info_type\" is a given state type, and \"choice\" is the exact option selected from its corresponding choices.\n\nOnly keep the JSON format output, do not include any other content.\n",
+      "raw_response": "```json\n{\n    \"preferred_sports_team_type\": \"longstanding_familiar_team\"\n}\n```",
+      "results": [
+        {
+          "info_type": "preferred_sports_team_type",
+          "json_error": false,
+          "answer_state": "nostalgically_significant_team",
+          "response_state": "longstanding_familiar_team",
+          "write_pos": 0,
+          "read_pos": 1,
+          "score": 0.0
+        },
+        {
+          "info_type": "preferred_sports_team_type",
+          "json_error": false,
+          "answer_state": "nostalgically_significant_team",
+          "response_state": "longstanding_familiar_team",
+          "write_pos": 0,
+          "read_pos": 1,
+          "score": 0.0
+        }
+      ]
+    },
+    {
+      "query": "{\n  \"gardening_space_dimensions\": [\n    \"small_garden\",\n    \"medium_garden\",\n    \"large_garden\"\n  ],\n  \"time_spent_on_gardening\": [\n    \"very_limited_time\",\n    \"some_free_time\",\n    \"plenty_of_time\"\n  ]\n}\n\nBased on our previous conversation, select the most appropriate option for each state type listed above. The selected option should be as close as possible to my current situation. \nMake sure that every state type in the schema above has a corresponding choice in your output.\n\nPlease respond strictly in the following JSON format:\n```json\n{\n    \"info_type1\": \"choice\",\n    \"info_type2\": \"choice\",\n    ...\n}\n```\nWhere each \"info_type\" is a given state type, and \"choice\" is the exact option selected from its corresponding choices.\n\nOnly keep the JSON format output, do not include any other content.\n",
+      "raw_response": "```json\n{\n    \"gardening_space_dimensions\": \"medium_garden\",\n    \"time_spent_on_gardening\": \"some_free_time\"\n}\n```",
+      "results": [
+        {
+          "info_type": "gardening_space_dimensions",
+          "json_error": false,
+          "answer_state": "medium_garden",
+          "response_state": "medium_garden",
+          "write_pos": 0,
+          "read_pos": 1,
+          "score": 1.0
+        },
+        {
+          "info_type": "time_spent_on_gardening",
+          "json_error": false,
+          "answer_state": "some_free_time",
+          "response_state": "some_free_time",
+          "write_pos": 0,
+          "read_pos": 1,
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "query": "{\n  \"cooking_project_difficulty\": [\n    \"simple_dishes\",\n    \"moderately_complex_dishes\",\n    \"complex_dishes\"\n  ],\n  \"target_audience_for_cooking\": [\n    \"general_audience\",\n    \"culinary_enthusiasts\",\n    \"kids_and_families\"\n  ]\n}\n\nBased on our previous conversation, select the most appropriate option for each state type listed above. The selected option should be as close as possible to my current situation. \nMake sure that every state type in the schema above has a corresponding choice in your output.\n\nPlease respond strictly in the following JSON format:\n```json\n{\n    \"info_type1\": \"choice\",\n    \"info_type2\": \"choice\",\n    ...\n}\n```\nWhere each \"info_type\" is a given state type, and \"choice\" is the exact option selected from its corresponding choices.\n\nOnly keep the JSON format output, do not include any other content.\n",
+      "raw_response": "```json\n{\n    \"cooking_project_difficulty\": \"moderately_complex_dishes\",\n    \"target_audience_for_cooking\": \"general_audience\"\n}\n```",
+      "results": [
+        {
+          "info_type": "cooking_project_difficulty",
+          "json_error": false,
+          "answer_state": "moderately_complex_dishes",
+          "response_state": "moderately_complex_dishes",
+          "write_pos": 0,
+          "read_pos": 1,
+          "score": 1.0
+        },
+        {
+          "info_type": "target_audience_for_cooking",
+          "json_error": false,
+          "answer_state": "general_audience",
+          "response_state": "general_audience",
+          "write_pos": 0,
+          "read_pos": 1,
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "query": "{\n  \"memoir_research_resources\": [\n    \"few_sources\",\n    \"moderate_sources\",\n    \"abundant_sources\"\n  ],\n  \"memoir_writing_stage\": [\n    \"beginning_stages\",\n    \"middle_stages\",\n    \"near_completion\"\n  ]\n}\n\nBased on our previous conversation, select the most appropriate option for each state type listed above. The selected option should be as close as possible to my current situation. \nMake sure that every state type in the schema above has a corresponding choice in your output.\n\nPlease respond strictly in the following JSON format:\n```json\n{\n    \"info_type1\": \"choice\",\n    \"info_type2\": \"choice\",\n    ...\n}\n```\nWhere each \"info_type\" is a given state type, and \"choice\" is the exact option selected from its corresponding choices.\n\nOnly keep the JSON format output, do not include any other content.\n",
+      "raw_response": "```json\n{\n    \"memoir_research_resources\": \"moderate_sources\",\n    \"memoir_writing_stage\": \"middle_stages\"\n}\n```",
+      "results": [
+        {
+          "info_type": "memoir_research_resources",
+          "json_error": false,
+          "answer_state": "moderate_sources",
+          "response_state": "moderate_sources",
+          "write_pos": 0,
+          "read_pos": 1,
+          "score": 1.0
+        },
+        {
+          "info_type": "memoir_writing_stage",
+          "json_error": false,
+          "answer_state": "middle_stages",
+          "response_state": "middle_stages",
+          "write_pos": 0,
+          "read_pos": 1,
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "query": "{\n  \"tutoring_target_age_group\": [\n    \"seniors_only\",\n    \"youth_only\",\n    \"both_age_groups\"\n  ],\n  \"tutoring_topic_scope\": [\n    \"broad_topics\",\n    \"specific_topics\",\n    \"customized_topics\"\n  ]\n}\n\nBased on our previous conversation, select the most appropriate option for each state type listed above. The selected option should be as close as possible to my current situation. \nMake sure that every state type in the schema above has a corresponding choice in your output.\n\nPlease respond strictly in the following JSON format:\n```json\n{\n    \"info_type1\": \"choice\",\n    \"info_type2\": \"choice\",\n    ...\n}\n```\nWhere each \"info_type\" is a given state type, and \"choice\" is the exact option selected from its corresponding choices.\n\nOnly keep the JSON format output, do not include any other content.\n",
+      "raw_response": "```json\n{\n    \"tutoring_target_age_group\": \"both_age_groups\",\n    \"tutoring_topic_scope\": \"customized_topics\"\n}\n```",
+      "results": [
+        {
+          "info_type": "tutoring_target_age_group",
+          "json_error": false,
+          "answer_state": "both_age_groups",
+          "response_state": "both_age_groups",
+          "write_pos": 0,
+          "read_pos": 1,
+          "score": 1.0
+        },
+        {
+          "info_type": "tutoring_topic_scope",
+          "json_error": false,
+          "answer_state": "specific_topics",
+          "response_state": "customized_topics",
+          "write_pos": 0,
+          "read_pos": 1,
+          "score": 0.0
+        }
+      ]
+    },
+    {
+      "query": "{\n  \"volunteer_role_count\": [\n    \"few_volunteer_roles\",\n    \"moderate_volunteer_roles\",\n    \"many_volunteer_roles\"\n  ],\n  \"personal_availability_for_volunteering\": [\n    \"busy_schedule\",\n    \"moderate_schedule\",\n    \"spare_schedule\"\n  ]\n}\n\nBased on our previous conversation, select the most appropriate option for each state type listed above. The selected option should be as close as possible to my current situation. \nMake sure that every state type in the schema above has a corresponding choice in your output.\n\nPlease respond strictly in the following JSON format:\n```json\n{\n    \"info_type1\": \"choice\",\n    \"info_type2\": \"choice\",\n    ...\n}\n```\nWhere each \"info_type\" is a given state type, and \"choice\" is the exact option selected from its corresponding choices.\n\nOnly keep the JSON format output, do not include any other content.\n",
+      "raw_response": "```json\n{\n    \"volunteer_role_count\": \"moderate_volunteer_roles\",\n    \"personal_availability_for_volunteering\": \"moderate_schedule\"\n}\n```",
+      "results": [
+        {
+          "info_type": "volunteer_role_count",
+          "json_error": false,
+          "answer_state": "moderate_volunteer_roles",
+          "response_state": "moderate_volunteer_roles",
+          "write_pos": 0,
+          "read_pos": 1,
+          "score": 1.0
+        },
+        {
+          "info_type": "personal_availability_for_volunteering",
+          "json_error": false,
+          "answer_state": "moderate_schedule",
+          "response_state": "moderate_schedule",
+          "write_pos": 0,
+          "read_pos": 1,
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "query": "{\n  \"historical_fiction_time_period\": [\n    \"ancient_history\",\n    \"medieval_history\",\n    \"modern_history\"\n  ],\n  \"historical_fiction_geographic_focus\": [\n    \"global_setting\",\n    \"local_setting\",\n    \"regional_setting\"\n  ]\n}\n\nBased on our previous conversation, select the most appropriate option for each state type listed above. The selected option should be as close as possible to my current situation. \nMake sure that every state type in the schema above has a corresponding choice in your output.\n\nPlease respond strictly in the following JSON format:\n```json\n{\n    \"info_type1\": \"choice\",\n    \"info_type2\": \"choice\",\n    ...\n}\n```\nWhere each \"info_type\" is a given state type, and \"choice\" is the exact option selected from its corresponding choices.\n\nOnly keep the JSON format output, do not include any other content.\n",
+      "raw_response": "```json\n{\n    \"historical_fiction_time_period\": \"modern_history\",\n    \"historical_fiction_geographic_focus\": \"regional_setting\"\n}\n```",
+      "results": [
+        {
+          "info_type": "historical_fiction_time_period",
+          "json_error": false,
+          "answer_state": "modern_history",
+          "response_state": "modern_history",
+          "write_pos": 0,
+          "read_pos": 1,
+          "score": 1.0
+        },
+        {
+          "info_type": "historical_fiction_geographic_focus",
+          "json_error": false,
+          "answer_state": "regional_setting",
+          "response_state": "regional_setting",
+          "write_pos": 1,
+          "read_pos": 1,
+          "score": 1.0
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "query": "{\n  \"cultural_event_scale\": [\n    \"small_local_event\",\n    \"medium_community_event\",\n    \"large_citywide_event\"\n  ],\n  \"volunteer_participation_level\": [\n    \"low_volunteers\",\n    \"moderate_volunteers\",\n    \"high_volunteers\"\n  ]\n}\n\nBased on our previous conversation, select the most appropriate option for each state type listed above. The selected option should be as close as possible to my current situation. \nMake sure that every state type in the schema above has a corresponding choice in your output.\n\nPlease respond strictly in the following JSON format:\n```json\n{\n    \"info_type1\": \"choice\",\n    \"info_type2\": \"choice\",\n    ...\n}\n```\nWhere each \"info_type\" is a given state type, and \"choice\" is the exact option selected from its corresponding choices.\n\nOnly keep the JSON format output, do not include any other content.\n",
+      "raw_response": "```json\n{\n    \"cultural_event_scale\": \"medium_community_event\",\n    \"volunteer_participation_level\": \"moderate_volunteers\"\n}\n```",
+      "results": [
+        {
+          "info_type": "cultural_event_scale",
+          "json_error": false,
+          "answer_state": "large_citywide_event",
+          "response_state": "medium_community_event",
+          "write_pos": 1,
+          "read_pos": 2,
+          "score": 0.0
+        },
+        {
+          "info_type": "volunteer_participation_level",
+          "json_error": false,
+          "answer_state": "high_volunteers",
+          "response_state": "moderate_volunteers",
+          "write_pos": 2,
+          "read_pos": 2,
+          "score": 0.0
+        }
+      ]
+    },
+    {
+      "query": "{\n  \"community_engagement_interest\": [\n    \"low_interest\",\n    \"moderate_interest\",\n    \"high_interest\"\n  ],\n  \"workshop_facility_capacity\": [\n    \"limited_spaces\",\n    \"adequate_spaces\",\n    \"ample_spaces\"\n  ]\n}\n\nBased on our previous conversation, select the most appropriate option for each state type listed above. The selected option should be as close as possible to my current situation. \nMake sure that every state type in the schema above has a corresponding choice in your output.\n\nPlease respond strictly in the following JSON format:\n```json\n{\n    \"info_type1\": \"choice\",\n    \"info_type2\": \"choice\",\n    ...\n}\n```\nWhere each \"info_type\" is a given state type, and \"choice\" is the exact option selected from its corresponding choices.\n\nOnly keep the JSON format output, do not include any other content.\n",
+      "raw_response": "```json\n{\n    \"community_engagement_interest\": \"moderate_interest\",\n    \"workshop_facility_capacity\": \"adequate_spaces\"\n}\n```",
+      "results": [
+        {
+          "info_type": "community_engagement_interest",
+          "json_error": false,
+          "answer_state": "high_interest",
+          "response_state": "moderate_interest",
+          "write_pos": 0,
+          "read_pos": 2,
+          "score": 0.0
+        },
+        {
+          "info_type": "workshop_facility_capacity",
+          "json_error": false,
+          "answer_state": "ample_spaces",
+          "response_state": "adequate_spaces",
+          "write_pos": 1,
+          "read_pos": 2,
+          "score": 0.0
+        }
+      ]
+    },
+    {
+      "query": "{\n  \"craft_material_availability\": [\n    \"abundant_materials\",\n    \"moderate_materials\",\n    \"scarce_materials\"\n  ],\n  \"project_timing_requirements\": [\n    \"urgent_short_term\",\n    \"flexible_medium_term\",\n    \"long_term\"\n  ]\n}\n\nBased on our previous conversation, select the most appropriate option for each state type listed above. The selected option should be as close as possible to my current situation. \nMake sure that every state type in the schema above has a corresponding choice in your output.\n\nPlease respond strictly in the following JSON format:\n```json\n{\n    \"info_type1\": \"choice\",\n    \"info_type2\": \"choice\",\n    ...\n}\n```\nWhere each \"info_type\" is a given state type, and \"choice\" is the exact option selected from its corresponding choices.\n\nOnly keep the JSON format output, do not include any other content.\n",
+      "raw_response": "```json\n{\n    \"craft_material_availability\": \"moderate_materials\",\n    \"project_timing_requirements\": \"flexible_medium_term\"\n}\n```",
+      "results": [
+        {
+          "info_type": "craft_material_availability",
+          "json_error": false,
+          "answer_state": "abundant_materials",
+          "response_state": "moderate_materials",
+          "write_pos": 1,
+          "read_pos": 2,
+          "score": 0.0
+        },
+        {
+          "info_type": "project_timing_requirements",
+          "json_error": false,
+          "answer_state": "flexible_medium_term",
+          "response_state": "flexible_medium_term",
+          "write_pos": 0,
+          "read_pos": 2,
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "query": "{\n  \"preferred_sports_team_type\": [\n    \"specific_baseball_team\",\n    \"specific_football_team\",\n    \"specific_basketball_team\",\n    \"newly_formed_team\",\n    \"longstanding_familiar_team\",\n    \"nostalgically_significant_team\"\n  ]\n}\n\nBased on our previous conversation, select the most appropriate option for each state type listed above. The selected option should be as close as possible to my current situation. \nMake sure that every state type in the schema above has a corresponding choice in your output.\n\nPlease respond strictly in the following JSON format:\n```json\n{\n    \"info_type1\": \"choice\",\n    \"info_type2\": \"choice\",\n    ...\n}\n```\nWhere each \"info_type\" is a given state type, and \"choice\" is the exact option selected from its corresponding choices.\n\nOnly keep the JSON format output, do not include any other content.\n",
+      "raw_response": "```json\n{\n    \"preferred_sports_team_type\": \"longstanding_familiar_team\"\n}\n```",
+      "results": [
+        {
+          "info_type": "preferred_sports_team_type",
+          "json_error": false,
+          "answer_state": "nostalgically_significant_team",
+          "response_state": "longstanding_familiar_team",
+          "write_pos": 0,
+          "read_pos": 2,
+          "score": 0.0
+        },
+        {
+          "info_type": "preferred_sports_team_type",
+          "json_error": false,
+          "answer_state": "nostalgically_significant_team",
+          "response_state": "longstanding_familiar_team",
+          "write_pos": 0,
+          "read_pos": 2,
+          "score": 0.0
+        }
+      ]
+    },
+    {
+      "query": "{\n  \"gardening_space_dimensions\": [\n    \"small_garden\",\n    \"medium_garden\",\n    \"large_garden\"\n  ],\n  \"time_spent_on_gardening\": [\n    \"very_limited_time\",\n    \"some_free_time\",\n    \"plenty_of_time\"\n  ]\n}\n\nBased on our previous conversation, select the most appropriate option for each state type listed above. The selected option should be as close as possible to my current situation. \nMake sure that every state type in the schema above has a corresponding choice in your output.\n\nPlease respond strictly in the following JSON format:\n```json\n{\n    \"info_type1\": \"choice\",\n    \"info_type2\": \"choice\",\n    ...\n}\n```\nWhere each \"info_type\" is a given state type, and \"choice\" is the exact option selected from its corresponding choices.\n\nOnly keep the JSON format output, do not include any other content.\n",
+      "raw_response": "```json\n{\n    \"gardening_space_dimensions\": \"medium_garden\",\n    \"time_spent_on_gardening\": \"some_free_time\"\n}\n```",
+      "results": [
+        {
+          "info_type": "gardening_space_dimensions",
+          "json_error": false,
+          "answer_state": "medium_garden",
+          "response_state": "medium_garden",
+          "write_pos": 0,
+          "read_pos": 2,
+          "score": 1.0
+        },
+        {
+          "info_type": "time_spent_on_gardening",
+          "json_error": false,
+          "answer_state": "some_free_time",
+          "response_state": "some_free_time",
+          "write_pos": 0,
+          "read_pos": 2,
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "query": "{\n  \"cooking_project_difficulty\": [\n    \"simple_dishes\",\n    \"moderately_complex_dishes\",\n    \"complex_dishes\"\n  ],\n  \"target_audience_for_cooking\": [\n    \"general_audience\",\n    \"culinary_enthusiasts\",\n    \"kids_and_families\"\n  ]\n}\n\nBased on our previous conversation, select the most appropriate option for each state type listed above. The selected option should be as close as possible to my current situation. \nMake sure that every state type in the schema above has a corresponding choice in your output.\n\nPlease respond strictly in the following JSON format:\n```json\n{\n    \"info_type1\": \"choice\",\n    \"info_type2\": \"choice\",\n    ...\n}\n```\nWhere each \"info_type\" is a given state type, and \"choice\" is the exact option selected from its corresponding choices.\n\nOnly keep the JSON format output, do not include any other content.\n",
+      "raw_response": "```json\n{\n    \"cooking_project_difficulty\": \"complex_dishes\",\n    \"target_audience_for_cooking\": \"culinary_enthusiasts\"\n}\n```",
+      "results": [
+        {
+          "info_type": "cooking_project_difficulty",
+          "json_error": false,
+          "answer_state": "complex_dishes",
+          "response_state": "complex_dishes",
+          "write_pos": 2,
+          "read_pos": 2,
+          "score": 1.0
+        },
+        {
+          "info_type": "target_audience_for_cooking",
+          "json_error": false,
+          "answer_state": "general_audience",
+          "response_state": "culinary_enthusiasts",
+          "write_pos": 0,
+          "read_pos": 2,
+          "score": 0.0
+        }
+      ]
+    },
+    {
+      "query": "{\n  \"memoir_research_resources\": [\n    \"few_sources\",\n    \"moderate_sources\",\n    \"abundant_sources\"\n  ],\n  \"memoir_writing_stage\": [\n    \"beginning_stages\",\n    \"middle_stages\",\n    \"near_completion\"\n  ]\n}\n\nBased on our previous conversation, select the most appropriate option for each state type listed above. The selected option should be as close as possible to my current situation. \nMake sure that every state type in the schema above has a corresponding choice in your output.\n\nPlease respond strictly in the following JSON format:\n```json\n{\n    \"info_type1\": \"choice\",\n    \"info_type2\": \"choice\",\n    ...\n}\n```\nWhere each \"info_type\" is a given state type, and \"choice\" is the exact option selected from its corresponding choices.\n\nOnly keep the JSON format output, do not include any other content.\n",
+      "raw_response": "```json\n{\n    \"memoir_research_resources\": \"abundant_sources\",\n    \"memoir_writing_stage\": \"near_completion\"\n}\n```",
+      "results": [
+        {
+          "info_type": "memoir_research_resources",
+          "json_error": false,
+          "answer_state": "moderate_sources",
+          "response_state": "abundant_sources",
+          "write_pos": 0,
+          "read_pos": 2,
+          "score": 0.0
+        },
+        {
+          "info_type": "memoir_writing_stage",
+          "json_error": false,
+          "answer_state": "near_completion",
+          "response_state": "near_completion",
+          "write_pos": 2,
+          "read_pos": 2,
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "query": "{\n  \"tutoring_target_age_group\": [\n    \"seniors_only\",\n    \"youth_only\",\n    \"both_age_groups\"\n  ],\n  \"tutoring_topic_scope\": [\n    \"broad_topics\",\n    \"specific_topics\",\n    \"customized_topics\"\n  ]\n}\n\nBased on our previous conversation, select the most appropriate option for each state type listed above. The selected option should be as close as possible to my current situation. \nMake sure that every state type in the schema above has a corresponding choice in your output.\n\nPlease respond strictly in the following JSON format:\n```json\n{\n    \"info_type1\": \"choice\",\n    \"info_type2\": \"choice\",\n    ...\n}\n```\nWhere each \"info_type\" is a given state type, and \"choice\" is the exact option selected from its corresponding choices.\n\nOnly keep the JSON format output, do not include any other content.\n",
+      "raw_response": "```json\n{\n    \"tutoring_target_age_group\": \"both_age_groups\",\n    \"tutoring_topic_scope\": \"customized_topics\"\n}\n```",
+      "results": [
+        {
+          "info_type": "tutoring_target_age_group",
+          "json_error": false,
+          "answer_state": "both_age_groups",
+          "response_state": "both_age_groups",
+          "write_pos": 0,
+          "read_pos": 2,
+          "score": 1.0
+        },
+        {
+          "info_type": "tutoring_topic_scope",
+          "json_error": false,
+          "answer_state": "customized_topics",
+          "response_state": "customized_topics",
+          "write_pos": 2,
+          "read_pos": 2,
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "query": "{\n  \"volunteer_role_count\": [\n    \"few_volunteer_roles\",\n    \"moderate_volunteer_roles\",\n    \"many_volunteer_roles\"\n  ],\n  \"personal_availability_for_volunteering\": [\n    \"busy_schedule\",\n    \"moderate_schedule\",\n    \"spare_schedule\"\n  ]\n}\n\nBased on our previous conversation, select the most appropriate option for each state type listed above. The selected option should be as close as possible to my current situation. \nMake sure that every state type in the schema above has a corresponding choice in your output.\n\nPlease respond strictly in the following JSON format:\n```json\n{\n    \"info_type1\": \"choice\",\n    \"info_type2\": \"choice\",\n    ...\n}\n```\nWhere each \"info_type\" is a given state type, and \"choice\" is the exact option selected from its corresponding choices.\n\nOnly keep the JSON format output, do not include any other content.\n",
+      "raw_response": "```json\n{\n    \"volunteer_role_count\": \"moderate_volunteer_roles\",\n    \"personal_availability_for_volunteering\": \"moderate_schedule\"\n}\n```",
+      "results": [
+        {
+          "info_type": "volunteer_role_count",
+          "json_error": false,
+          "answer_state": "moderate_volunteer_roles",
+          "response_state": "moderate_volunteer_roles",
+          "write_pos": 0,
+          "read_pos": 2,
+          "score": 1.0
+        },
+        {
+          "info_type": "personal_availability_for_volunteering",
+          "json_error": false,
+          "answer_state": "moderate_schedule",
+          "response_state": "moderate_schedule",
+          "write_pos": 0,
+          "read_pos": 2,
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "query": "{\n  \"historical_fiction_time_period\": [\n    \"ancient_history\",\n    \"medieval_history\",\n    \"modern_history\"\n  ],\n  \"historical_fiction_geographic_focus\": [\n    \"global_setting\",\n    \"local_setting\",\n    \"regional_setting\"\n  ]\n}\n\nBased on our previous conversation, select the most appropriate option for each state type listed above. The selected option should be as close as possible to my current situation. \nMake sure that every state type in the schema above has a corresponding choice in your output.\n\nPlease respond strictly in the following JSON format:\n```json\n{\n    \"info_type1\": \"choice\",\n    \"info_type2\": \"choice\",\n    ...\n}\n```\nWhere each \"info_type\" is a given state type, and \"choice\" is the exact option selected from its corresponding choices.\n\nOnly keep the JSON format output, do not include any other content.\n",
+      "raw_response": "```json\n{\n    \"historical_fiction_time_period\": \"modern_history\",\n    \"historical_fiction_geographic_focus\": \"regional_setting\"\n}\n```",
+      "results": [
+        {
+          "info_type": "historical_fiction_time_period",
+          "json_error": false,
+          "answer_state": "modern_history",
+          "response_state": "modern_history",
+          "write_pos": 0,
+          "read_pos": 2,
+          "score": 1.0
+        },
+        {
+          "info_type": "historical_fiction_geographic_focus",
+          "json_error": false,
+          "answer_state": "regional_setting",
+          "response_state": "regional_setting",
+          "write_pos": 1,
+          "read_pos": 2,
+          "score": 1.0
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "query": "{\n  \"cultural_event_scale\": [\n    \"small_local_event\",\n    \"medium_community_event\",\n    \"large_citywide_event\"\n  ],\n  \"volunteer_participation_level\": [\n    \"low_volunteers\",\n    \"moderate_volunteers\",\n    \"high_volunteers\"\n  ]\n}\n\nBased on our previous conversation, select the most appropriate option for each state type listed above. The selected option should be as close as possible to my current situation. \nMake sure that every state type in the schema above has a corresponding choice in your output.\n\nPlease respond strictly in the following JSON format:\n```json\n{\n    \"info_type1\": \"choice\",\n    \"info_type2\": \"choice\",\n    ...\n}\n```\nWhere each \"info_type\" is a given state type, and \"choice\" is the exact option selected from its corresponding choices.\n\nOnly keep the JSON format output, do not include any other content.\n",
+      "raw_response": "```json\n{\n    \"cultural_event_scale\": \"medium_community_event\",\n    \"volunteer_participation_level\": \"moderate_volunteers\"\n}\n```",
+      "results": [
+        {
+          "info_type": "cultural_event_scale",
+          "json_error": false,
+          "answer_state": "large_citywide_event",
+          "response_state": "medium_community_event",
+          "write_pos": 1,
+          "read_pos": 3,
+          "score": 0.0
+        },
+        {
+          "info_type": "volunteer_participation_level",
+          "json_error": false,
+          "answer_state": "high_volunteers",
+          "response_state": "moderate_volunteers",
+          "write_pos": 2,
+          "read_pos": 3,
+          "score": 0.0
+        }
+      ]
+    },
+    {
+      "query": "{\n  \"community_engagement_interest\": [\n    \"low_interest\",\n    \"moderate_interest\",\n    \"high_interest\"\n  ],\n  \"workshop_facility_capacity\": [\n    \"limited_spaces\",\n    \"adequate_spaces\",\n    \"ample_spaces\"\n  ]\n}\n\nBased on our previous conversation, select the most appropriate option for each state type listed above. The selected option should be as close as possible to my current situation. \nMake sure that every state type in the schema above has a corresponding choice in your output.\n\nPlease respond strictly in the following JSON format:\n```json\n{\n    \"info_type1\": \"choice\",\n    \"info_type2\": \"choice\",\n    ...\n}\n```\nWhere each \"info_type\" is a given state type, and \"choice\" is the exact option selected from its corresponding choices.\n\nOnly keep the JSON format output, do not include any other content.\n",
+      "raw_response": "```json\n{\n    \"community_engagement_interest\": \"moderate_interest\",\n    \"workshop_facility_capacity\": \"adequate_spaces\"\n}\n```",
+      "results": [
+        {
+          "info_type": "community_engagement_interest",
+          "json_error": false,
+          "answer_state": "moderate_interest",
+          "response_state": "moderate_interest",
+          "write_pos": 3,
+          "read_pos": 3,
+          "score": 1.0
+        },
+        {
+          "info_type": "workshop_facility_capacity",
+          "json_error": false,
+          "answer_state": "ample_spaces",
+          "response_state": "adequate_spaces",
+          "write_pos": 1,
+          "read_pos": 3,
+          "score": 0.0
+        }
+      ]
+    },
+    {
+      "query": "{\n  \"craft_material_availability\": [\n    \"abundant_materials\",\n    \"moderate_materials\",\n    \"scarce_materials\"\n  ],\n  \"project_timing_requirements\": [\n    \"urgent_short_term\",\n    \"flexible_medium_term\",\n    \"long_term\"\n  ]\n}\n\nBased on our previous conversation, select the most appropriate option for each state type listed above. The selected option should be as close as possible to my current situation. \nMake sure that every state type in the schema above has a corresponding choice in your output.\n\nPlease respond strictly in the following JSON format:\n```json\n{\n    \"info_type1\": \"choice\",\n    \"info_type2\": \"choice\",\n    ...\n}\n```\nWhere each \"info_type\" is a given state type, and \"choice\" is the exact option selected from its corresponding choices.\n\nOnly keep the JSON format output, do not include any other content.\n",
+      "raw_response": "```json\n{\n    \"craft_material_availability\": \"moderate_materials\",\n    \"project_timing_requirements\": \"flexible_medium_term\"\n}\n```",
+      "results": [
+        {
+          "info_type": "craft_material_availability",
+          "json_error": false,
+          "answer_state": "abundant_materials",
+          "response_state": "moderate_materials",
+          "write_pos": 1,
+          "read_pos": 3,
+          "score": 0.0
+        },
+        {
+          "info_type": "project_timing_requirements",
+          "json_error": false,
+          "answer_state": "flexible_medium_term",
+          "response_state": "flexible_medium_term",
+          "write_pos": 0,
+          "read_pos": 3,
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "query": "{\n  \"preferred_sports_team_type\": [\n    \"specific_baseball_team\",\n    \"specific_football_team\",\n    \"specific_basketball_team\",\n    \"newly_formed_team\",\n    \"longstanding_familiar_team\",\n    \"nostalgically_significant_team\"\n  ]\n}\n\nBased on our previous conversation, select the most appropriate option for each state type listed above. The selected option should be as close as possible to my current situation. \nMake sure that every state type in the schema above has a corresponding choice in your output.\n\nPlease respond strictly in the following JSON format:\n```json\n{\n    \"info_type1\": \"choice\",\n    \"info_type2\": \"choice\",\n    ...\n}\n```\nWhere each \"info_type\" is a given state type, and \"choice\" is the exact option selected from its corresponding choices.\n\nOnly keep the JSON format output, do not include any other content.\n",
+      "raw_response": "```json\n{\n    \"preferred_sports_team_type\": \"longstanding_familiar_team\"\n}\n```",
+      "results": [
+        {
+          "info_type": "preferred_sports_team_type",
+          "json_error": false,
+          "answer_state": "nostalgically_significant_team",
+          "response_state": "longstanding_familiar_team",
+          "write_pos": 0,
+          "read_pos": 3,
+          "score": 0.0
+        },
+        {
+          "info_type": "preferred_sports_team_type",
+          "json_error": false,
+          "answer_state": "nostalgically_significant_team",
+          "response_state": "longstanding_familiar_team",
+          "write_pos": 0,
+          "read_pos": 3,
+          "score": 0.0
+        }
+      ]
+    },
+    {
+      "query": "{\n  \"gardening_space_dimensions\": [\n    \"small_garden\",\n    \"medium_garden\",\n    \"large_garden\"\n  ],\n  \"time_spent_on_gardening\": [\n    \"very_limited_time\",\n    \"some_free_time\",\n    \"plenty_of_time\"\n  ]\n}\n\nBased on our previous conversation, select the most appropriate option for each state type listed above. The selected option should be as close as possible to my current situation. \nMake sure that every state type in the schema above has a corresponding choice in your output.\n\nPlease respond strictly in the following JSON format:\n```json\n{\n    \"info_type1\": \"choice\",\n    \"info_type2\": \"choice\",\n    ...\n}\n```\nWhere each \"info_type\" is a given state type, and \"choice\" is the exact option selected from its corresponding choices.\n\nOnly keep the JSON format output, do not include any other content.\n",
+      "raw_response": "```json\n{\n    \"gardening_space_dimensions\": \"medium_garden\",\n    \"time_spent_on_gardening\": \"some_free_time\"\n}\n```",
+      "results": [
+        {
+          "info_type": "gardening_space_dimensions",
+          "json_error": false,
+          "answer_state": "medium_garden",
+          "response_state": "medium_garden",
+          "write_pos": 0,
+          "read_pos": 3,
+          "score": 1.0
+        },
+        {
+          "info_type": "time_spent_on_gardening",
+          "json_error": false,
+          "answer_state": "some_free_time",
+          "response_state": "some_free_time",
+          "write_pos": 0,
+          "read_pos": 3,
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "query": "{\n  \"cooking_project_difficulty\": [\n    \"simple_dishes\",\n    \"moderately_complex_dishes\",\n    \"complex_dishes\"\n  ],\n  \"target_audience_for_cooking\": [\n    \"general_audience\",\n    \"culinary_enthusiasts\",\n    \"kids_and_families\"\n  ]\n}\n\nBased on our previous conversation, select the most appropriate option for each state type listed above. The selected option should be as close as possible to my current situation. \nMake sure that every state type in the schema above has a corresponding choice in your output.\n\nPlease respond strictly in the following JSON format:\n```json\n{\n    \"info_type1\": \"choice\",\n    \"info_type2\": \"choice\",\n    ...\n}\n```\nWhere each \"info_type\" is a given state type, and \"choice\" is the exact option selected from its corresponding choices.\n\nOnly keep the JSON format output, do not include any other content.\n",
+      "raw_response": "```json\n{\n    \"cooking_project_difficulty\": \"moderately_complex_dishes\",\n    \"target_audience_for_cooking\": \"kids_and_families\"\n}\n```",
+      "results": [
+        {
+          "info_type": "cooking_project_difficulty",
+          "json_error": false,
+          "answer_state": "complex_dishes",
+          "response_state": "moderately_complex_dishes",
+          "write_pos": 2,
+          "read_pos": 3,
+          "score": 0.0
+        },
+        {
+          "info_type": "target_audience_for_cooking",
+          "json_error": false,
+          "answer_state": "kids_and_families",
+          "response_state": "kids_and_families",
+          "write_pos": 3,
+          "read_pos": 3,
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "query": "{\n  \"memoir_research_resources\": [\n    \"few_sources\",\n    \"moderate_sources\",\n    \"abundant_sources\"\n  ],\n  \"memoir_writing_stage\": [\n    \"beginning_stages\",\n    \"middle_stages\",\n    \"near_completion\"\n  ]\n}\n\nBased on our previous conversation, select the most appropriate option for each state type listed above. The selected option should be as close as possible to my current situation. \nMake sure that every state type in the schema above has a corresponding choice in your output.\n\nPlease respond strictly in the following JSON format:\n```json\n{\n    \"info_type1\": \"choice\",\n    \"info_type2\": \"choice\",\n    ...\n}\n```\nWhere each \"info_type\" is a given state type, and \"choice\" is the exact option selected from its corresponding choices.\n\nOnly keep the JSON format output, do not include any other content.\n",
+      "raw_response": "```json\n{\n    \"memoir_research_resources\": \"abundant_sources\",\n    \"memoir_writing_stage\": \"near_completion\"\n}\n```",
+      "results": [
+        {
+          "info_type": "memoir_research_resources",
+          "json_error": false,
+          "answer_state": "moderate_sources",
+          "response_state": "abundant_sources",
+          "write_pos": 0,
+          "read_pos": 3,
+          "score": 0.0
+        },
+        {
+          "info_type": "memoir_writing_stage",
+          "json_error": false,
+          "answer_state": "near_completion",
+          "response_state": "near_completion",
+          "write_pos": 2,
+          "read_pos": 3,
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "query": "{\n  \"tutoring_target_age_group\": [\n    \"seniors_only\",\n    \"youth_only\",\n    \"both_age_groups\"\n  ],\n  \"tutoring_topic_scope\": [\n    \"broad_topics\",\n    \"specific_topics\",\n    \"customized_topics\"\n  ]\n}\n\nBased on our previous conversation, select the most appropriate option for each state type listed above. The selected option should be as close as possible to my current situation. \nMake sure that every state type in the schema above has a corresponding choice in your output.\n\nPlease respond strictly in the following JSON format:\n```json\n{\n    \"info_type1\": \"choice\",\n    \"info_type2\": \"choice\",\n    ...\n}\n```\nWhere each \"info_type\" is a given state type, and \"choice\" is the exact option selected from its corresponding choices.\n\nOnly keep the JSON format output, do not include any other content.\n",
+      "raw_response": "```json\n{\n    \"tutoring_target_age_group\": \"both_age_groups\",\n    \"tutoring_topic_scope\": \"customized_topics\"\n}\n```",
+      "results": [
+        {
+          "info_type": "tutoring_target_age_group",
+          "json_error": false,
+          "answer_state": "both_age_groups",
+          "response_state": "both_age_groups",
+          "write_pos": 0,
+          "read_pos": 3,
+          "score": 1.0
+        },
+        {
+          "info_type": "tutoring_topic_scope",
+          "json_error": false,
+          "answer_state": "customized_topics",
+          "response_state": "customized_topics",
+          "write_pos": 2,
+          "read_pos": 3,
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "query": "{\n  \"volunteer_role_count\": [\n    \"few_volunteer_roles\",\n    \"moderate_volunteer_roles\",\n    \"many_volunteer_roles\"\n  ],\n  \"personal_availability_for_volunteering\": [\n    \"busy_schedule\",\n    \"moderate_schedule\",\n    \"spare_schedule\"\n  ]\n}\n\nBased on our previous conversation, select the most appropriate option for each state type listed above. The selected option should be as close as possible to my current situation. \nMake sure that every state type in the schema above has a corresponding choice in your output.\n\nPlease respond strictly in the following JSON format:\n```json\n{\n    \"info_type1\": \"choice\",\n    \"info_type2\": \"choice\",\n    ...\n}\n```\nWhere each \"info_type\" is a given state type, and \"choice\" is the exact option selected from its corresponding choices.\n\nOnly keep the JSON format output, do not include any other content.\n",
+      "raw_response": "```json\n{\n    \"volunteer_role_count\": \"moderate_volunteer_roles\",\n    \"personal_availability_for_volunteering\": \"moderate_schedule\"\n}\n```",
+      "results": [
+        {
+          "info_type": "volunteer_role_count",
+          "json_error": false,
+          "answer_state": "moderate_volunteer_roles",
+          "response_state": "moderate_volunteer_roles",
+          "write_pos": 0,
+          "read_pos": 3,
+          "score": 1.0
+        },
+        {
+          "info_type": "personal_availability_for_volunteering",
+          "json_error": false,
+          "answer_state": "moderate_schedule",
+          "response_state": "moderate_schedule",
+          "write_pos": 0,
+          "read_pos": 3,
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "query": "{\n  \"historical_fiction_time_period\": [\n    \"ancient_history\",\n    \"medieval_history\",\n    \"modern_history\"\n  ],\n  \"historical_fiction_geographic_focus\": [\n    \"global_setting\",\n    \"local_setting\",\n    \"regional_setting\"\n  ]\n}\n\nBased on our previous conversation, select the most appropriate option for each state type listed above. The selected option should be as close as possible to my current situation. \nMake sure that every state type in the schema above has a corresponding choice in your output.\n\nPlease respond strictly in the following JSON format:\n```json\n{\n    \"info_type1\": \"choice\",\n    \"info_type2\": \"choice\",\n    ...\n}\n```\nWhere each \"info_type\" is a given state type, and \"choice\" is the exact option selected from its corresponding choices.\n\nOnly keep the JSON format output, do not include any other content.\n",
+      "raw_response": "```json\n{\n    \"historical_fiction_time_period\": \"medieval_history\",\n    \"historical_fiction_geographic_focus\": \"regional_setting\"\n}\n```",
+      "results": [
+        {
+          "info_type": "historical_fiction_time_period",
+          "json_error": false,
+          "answer_state": "medieval_history",
+          "response_state": "medieval_history",
+          "write_pos": 3,
+          "read_pos": 3,
+          "score": 1.0
+        },
+        {
+          "info_type": "historical_fiction_geographic_focus",
+          "json_error": false,
+          "answer_state": "regional_setting",
+          "response_state": "regional_setting",
+          "write_pos": 1,
+          "read_pos": 3,
+          "score": 1.0
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "query": "{\n  \"cultural_event_scale\": [\n    \"small_local_event\",\n    \"medium_community_event\",\n    \"large_citywide_event\"\n  ],\n  \"volunteer_participation_level\": [\n    \"low_volunteers\",\n    \"moderate_volunteers\",\n    \"high_volunteers\"\n  ]\n}\n\nBased on our previous conversation, select the most appropriate option for each state type listed above. The selected option should be as close as possible to my current situation. \nMake sure that every state type in the schema above has a corresponding choice in your output.\n\nPlease respond strictly in the following JSON format:\n```json\n{\n    \"info_type1\": \"choice\",\n    \"info_type2\": \"choice\",\n    ...\n}\n```\nWhere each \"info_type\" is a given state type, and \"choice\" is the exact option selected from its corresponding choices.\n\nOnly keep the JSON format output, do not include any other content.\n",
+      "raw_response": "```json\n{\n    \"cultural_event_scale\": \"medium_community_event\",\n    \"volunteer_participation_level\": \"moderate_volunteers\"\n}\n```",
+      "results": [
+        {
+          "info_type": "cultural_event_scale",
+          "json_error": false,
+          "answer_state": "large_citywide_event",
+          "response_state": "medium_community_event",
+          "write_pos": 1,
+          "read_pos": 4,
+          "score": 0.0
+        },
+        {
+          "info_type": "volunteer_participation_level",
+          "json_error": false,
+          "answer_state": "high_volunteers",
+          "response_state": "moderate_volunteers",
+          "write_pos": 2,
+          "read_pos": 4,
+          "score": 0.0
+        }
+      ]
+    },
+    {
+      "query": "{\n  \"community_engagement_interest\": [\n    \"low_interest\",\n    \"moderate_interest\",\n    \"high_interest\"\n  ],\n  \"workshop_facility_capacity\": [\n    \"limited_spaces\",\n    \"adequate_spaces\",\n    \"ample_spaces\"\n  ]\n}\n\nBased on our previous conversation, select the most appropriate option for each state type listed above. The selected option should be as close as possible to my current situation. \nMake sure that every state type in the schema above has a corresponding choice in your output.\n\nPlease respond strictly in the following JSON format:\n```json\n{\n    \"info_type1\": \"choice\",\n    \"info_type2\": \"choice\",\n    ...\n}\n```\nWhere each \"info_type\" is a given state type, and \"choice\" is the exact option selected from its corresponding choices.\n\nOnly keep the JSON format output, do not include any other content.\n",
+      "raw_response": "```json\n{\n    \"community_engagement_interest\": \"high_interest\",\n    \"workshop_facility_capacity\": \"limited_spaces\"\n}\n```",
+      "results": [
+        {
+          "info_type": "community_engagement_interest",
+          "json_error": false,
+          "answer_state": "high_interest",
+          "response_state": "high_interest",
+          "write_pos": 4,
+          "read_pos": 4,
+          "score": 1.0
+        },
+        {
+          "info_type": "workshop_facility_capacity",
+          "json_error": false,
+          "answer_state": "limited_spaces",
+          "response_state": "limited_spaces",
+          "write_pos": 4,
+          "read_pos": 4,
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "query": "{\n  \"craft_material_availability\": [\n    \"abundant_materials\",\n    \"moderate_materials\",\n    \"scarce_materials\"\n  ],\n  \"project_timing_requirements\": [\n    \"urgent_short_term\",\n    \"flexible_medium_term\",\n    \"long_term\"\n  ]\n}\n\nBased on our previous conversation, select the most appropriate option for each state type listed above. The selected option should be as close as possible to my current situation. \nMake sure that every state type in the schema above has a corresponding choice in your output.\n\nPlease respond strictly in the following JSON format:\n```json\n{\n    \"info_type1\": \"choice\",\n    \"info_type2\": \"choice\",\n    ...\n}\n```\nWhere each \"info_type\" is a given state type, and \"choice\" is the exact option selected from its corresponding choices.\n\nOnly keep the JSON format output, do not include any other content.\n",
+      "raw_response": "```json\n{\n    \"craft_material_availability\": \"abundant_materials\",\n    \"project_timing_requirements\": \"flexible_medium_term\"\n}\n```",
+      "results": [
+        {
+          "info_type": "craft_material_availability",
+          "json_error": false,
+          "answer_state": "abundant_materials",
+          "response_state": "abundant_materials",
+          "write_pos": 1,
+          "read_pos": 4,
+          "score": 1.0
+        },
+        {
+          "info_type": "project_timing_requirements",
+          "json_error": false,
+          "answer_state": "flexible_medium_term",
+          "response_state": "flexible_medium_term",
+          "write_pos": 0,
+          "read_pos": 4,
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "query": "{\n  \"preferred_sports_team_type\": [\n    \"specific_baseball_team\",\n    \"specific_football_team\",\n    \"specific_basketball_team\",\n    \"newly_formed_team\",\n    \"longstanding_familiar_team\",\n    \"nostalgically_significant_team\"\n  ]\n}\n\nBased on our previous conversation, select the most appropriate option for each state type listed above. The selected option should be as close as possible to my current situation. \nMake sure that every state type in the schema above has a corresponding choice in your output.\n\nPlease respond strictly in the following JSON format:\n```json\n{\n    \"info_type1\": \"choice\",\n    \"info_type2\": \"choice\",\n    ...\n}\n```\nWhere each \"info_type\" is a given state type, and \"choice\" is the exact option selected from its corresponding choices.\n\nOnly keep the JSON format output, do not include any other content.\n",
+      "raw_response": "```json\n{\n    \"preferred_sports_team_type\": \"longstanding_familiar_team\"\n}\n```",
+      "results": [
+        {
+          "info_type": "preferred_sports_team_type",
+          "json_error": false,
+          "answer_state": "nostalgically_significant_team",
+          "response_state": "longstanding_familiar_team",
+          "write_pos": 0,
+          "read_pos": 4,
+          "score": 0.0
+        },
+        {
+          "info_type": "preferred_sports_team_type",
+          "json_error": false,
+          "answer_state": "nostalgically_significant_team",
+          "response_state": "longstanding_familiar_team",
+          "write_pos": 0,
+          "read_pos": 4,
+          "score": 0.0
+        }
+      ]
+    },
+    {
+      "query": "{\n  \"gardening_space_dimensions\": [\n    \"small_garden\",\n    \"medium_garden\",\n    \"large_garden\"\n  ],\n  \"time_spent_on_gardening\": [\n    \"very_limited_time\",\n    \"some_free_time\",\n    \"plenty_of_time\"\n  ]\n}\n\nBased on our previous conversation, select the most appropriate option for each state type listed above. The selected option should be as close as possible to my current situation. \nMake sure that every state type in the schema above has a corresponding choice in your output.\n\nPlease respond strictly in the following JSON format:\n```json\n{\n    \"info_type1\": \"choice\",\n    \"info_type2\": \"choice\",\n    ...\n}\n```\nWhere each \"info_type\" is a given state type, and \"choice\" is the exact option selected from its corresponding choices.\n\nOnly keep the JSON format output, do not include any other content.\n",
+      "raw_response": "```json\n{\n    \"gardening_space_dimensions\": \"medium_garden\",\n    \"time_spent_on_gardening\": \"some_free_time\"\n}\n```",
+      "results": [
+        {
+          "info_type": "gardening_space_dimensions",
+          "json_error": false,
+          "answer_state": "medium_garden",
+          "response_state": "medium_garden",
+          "write_pos": 0,
+          "read_pos": 4,
+          "score": 1.0
+        },
+        {
+          "info_type": "time_spent_on_gardening",
+          "json_error": false,
+          "answer_state": "plenty_of_time",
+          "response_state": "some_free_time",
+          "write_pos": 4,
+          "read_pos": 4,
+          "score": 0.0
+        }
+      ]
+    },
+    {
+      "query": "{\n  \"cooking_project_difficulty\": [\n    \"simple_dishes\",\n    \"moderately_complex_dishes\",\n    \"complex_dishes\"\n  ],\n  \"target_audience_for_cooking\": [\n    \"general_audience\",\n    \"culinary_enthusiasts\",\n    \"kids_and_families\"\n  ]\n}\n\nBased on our previous conversation, select the most appropriate option for each state type listed above. The selected option should be as close as possible to my current situation. \nMake sure that every state type in the schema above has a corresponding choice in your output.\n\nPlease respond strictly in the following JSON format:\n```json\n{\n    \"info_type1\": \"choice\",\n    \"info_type2\": \"choice\",\n    ...\n}\n```\nWhere each \"info_type\" is a given state type, and \"choice\" is the exact option selected from its corresponding choices.\n\nOnly keep the JSON format output, do not include any other content.\n",
+      "raw_response": "```json\n{\n    \"cooking_project_difficulty\": \"complex_dishes\",\n    \"target_audience_for_cooking\": \"culinary_enthusiasts\"\n}\n```",
+      "results": [
+        {
+          "info_type": "cooking_project_difficulty",
+          "json_error": false,
+          "answer_state": "complex_dishes",
+          "response_state": "complex_dishes",
+          "write_pos": 2,
+          "read_pos": 4,
+          "score": 1.0
+        },
+        {
+          "info_type": "target_audience_for_cooking",
+          "json_error": false,
+          "answer_state": "kids_and_families",
+          "response_state": "culinary_enthusiasts",
+          "write_pos": 3,
+          "read_pos": 4,
+          "score": 0.0
+        }
+      ]
+    },
+    {
+      "query": "{\n  \"memoir_research_resources\": [\n    \"few_sources\",\n    \"moderate_sources\",\n    \"abundant_sources\"\n  ],\n  \"memoir_writing_stage\": [\n    \"beginning_stages\",\n    \"middle_stages\",\n    \"near_completion\"\n  ]\n}\n\nBased on our previous conversation, select the most appropriate option for each state type listed above. The selected option should be as close as possible to my current situation. \nMake sure that every state type in the schema above has a corresponding choice in your output.\n\nPlease respond strictly in the following JSON format:\n```json\n{\n    \"info_type1\": \"choice\",\n    \"info_type2\": \"choice\",\n    ...\n}\n```\nWhere each \"info_type\" is a given state type, and \"choice\" is the exact option selected from its corresponding choices.\n\nOnly keep the JSON format output, do not include any other content.\n",
+      "raw_response": "```json\n{\n    \"memoir_research_resources\": \"abundant_sources\",\n    \"memoir_writing_stage\": \"near_completion\"\n}\n```",
+      "results": [
+        {
+          "info_type": "memoir_research_resources",
+          "json_error": false,
+          "answer_state": "moderate_sources",
+          "response_state": "abundant_sources",
+          "write_pos": 0,
+          "read_pos": 4,
+          "score": 0.0
+        },
+        {
+          "info_type": "memoir_writing_stage",
+          "json_error": false,
+          "answer_state": "near_completion",
+          "response_state": "near_completion",
+          "write_pos": 2,
+          "read_pos": 4,
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "query": "{\n  \"tutoring_target_age_group\": [\n    \"seniors_only\",\n    \"youth_only\",\n    \"both_age_groups\"\n  ],\n  \"tutoring_topic_scope\": [\n    \"broad_topics\",\n    \"specific_topics\",\n    \"customized_topics\"\n  ]\n}\n\nBased on our previous conversation, select the most appropriate option for each state type listed above. The selected option should be as close as possible to my current situation. \nMake sure that every state type in the schema above has a corresponding choice in your output.\n\nPlease respond strictly in the following JSON format:\n```json\n{\n    \"info_type1\": \"choice\",\n    \"info_type2\": \"choice\",\n    ...\n}\n```\nWhere each \"info_type\" is a given state type, and \"choice\" is the exact option selected from its corresponding choices.\n\nOnly keep the JSON format output, do not include any other content.\n",
+      "raw_response": "```json\n{\n    \"tutoring_target_age_group\": \"both_age_groups\",\n    \"tutoring_topic_scope\": \"customized_topics\"\n}\n```",
+      "results": [
+        {
+          "info_type": "tutoring_target_age_group",
+          "json_error": false,
+          "answer_state": "both_age_groups",
+          "response_state": "both_age_groups",
+          "write_pos": 0,
+          "read_pos": 4,
+          "score": 1.0
+        },
+        {
+          "info_type": "tutoring_topic_scope",
+          "json_error": false,
+          "answer_state": "customized_topics",
+          "response_state": "customized_topics",
+          "write_pos": 2,
+          "read_pos": 4,
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "query": "{\n  \"volunteer_role_count\": [\n    \"few_volunteer_roles\",\n    \"moderate_volunteer_roles\",\n    \"many_volunteer_roles\"\n  ],\n  \"personal_availability_for_volunteering\": [\n    \"busy_schedule\",\n    \"moderate_schedule\",\n    \"spare_schedule\"\n  ]\n}\n\nBased on our previous conversation, select the most appropriate option for each state type listed above. The selected option should be as close as possible to my current situation. \nMake sure that every state type in the schema above has a corresponding choice in your output.\n\nPlease respond strictly in the following JSON format:\n```json\n{\n    \"info_type1\": \"choice\",\n    \"info_type2\": \"choice\",\n    ...\n}\n```\nWhere each \"info_type\" is a given state type, and \"choice\" is the exact option selected from its corresponding choices.\n\nOnly keep the JSON format output, do not include any other content.\n",
+      "raw_response": "```json\n{\n    \"volunteer_role_count\": \"moderate_volunteer_roles\",\n    \"personal_availability_for_volunteering\": \"moderate_schedule\"\n}\n```",
+      "results": [
+        {
+          "info_type": "volunteer_role_count",
+          "json_error": false,
+          "answer_state": "moderate_volunteer_roles",
+          "response_state": "moderate_volunteer_roles",
+          "write_pos": 0,
+          "read_pos": 4,
+          "score": 1.0
+        },
+        {
+          "info_type": "personal_availability_for_volunteering",
+          "json_error": false,
+          "answer_state": "moderate_schedule",
+          "response_state": "moderate_schedule",
+          "write_pos": 0,
+          "read_pos": 4,
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "query": "{\n  \"historical_fiction_time_period\": [\n    \"ancient_history\",\n    \"medieval_history\",\n    \"modern_history\"\n  ],\n  \"historical_fiction_geographic_focus\": [\n    \"global_setting\",\n    \"local_setting\",\n    \"regional_setting\"\n  ]\n}\n\nBased on our previous conversation, select the most appropriate option for each state type listed above. The selected option should be as close as possible to my current situation. \nMake sure that every state type in the schema above has a corresponding choice in your output.\n\nPlease respond strictly in the following JSON format:\n```json\n{\n    \"info_type1\": \"choice\",\n    \"info_type2\": \"choice\",\n    ...\n}\n```\nWhere each \"info_type\" is a given state type, and \"choice\" is the exact option selected from its corresponding choices.\n\nOnly keep the JSON format output, do not include any other content.\n",
+      "raw_response": "```json\n{\n    \"historical_fiction_time_period\": \"medieval_history\",\n    \"historical_fiction_geographic_focus\": \"global_setting\"\n}\n```",
+      "results": [
+        {
+          "info_type": "historical_fiction_time_period",
+          "json_error": false,
+          "answer_state": "medieval_history",
+          "response_state": "medieval_history",
+          "write_pos": 3,
+          "read_pos": 4,
+          "score": 1.0
+        },
+        {
+          "info_type": "historical_fiction_geographic_focus",
+          "json_error": false,
+          "answer_state": "regional_setting",
+          "response_state": "global_setting",
+          "write_pos": 1,
+          "read_pos": 4,
+          "score": 0.0
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "query": "{\n  \"cultural_event_scale\": [\n    \"small_local_event\",\n    \"medium_community_event\",\n    \"large_citywide_event\"\n  ],\n  \"volunteer_participation_level\": [\n    \"low_volunteers\",\n    \"moderate_volunteers\",\n    \"high_volunteers\"\n  ]\n}\n\nBased on our previous conversation, select the most appropriate option for each state type listed above. The selected option should be as close as possible to my current situation. \nMake sure that every state type in the schema above has a corresponding choice in your output.\n\nPlease respond strictly in the following JSON format:\n```json\n{\n    \"info_type1\": \"choice\",\n    \"info_type2\": \"choice\",\n    ...\n}\n```\nWhere each \"info_type\" is a given state type, and \"choice\" is the exact option selected from its corresponding choices.\n\nOnly keep the JSON format output, do not include any other content.\n",
+      "raw_response": "```json\n{\n    \"cultural_event_scale\": \"large_citywide_event\",\n    \"volunteer_participation_level\": \"high_volunteers\"\n}\n```",
+      "results": [
+        {
+          "info_type": "cultural_event_scale",
+          "json_error": false,
+          "answer_state": "large_citywide_event",
+          "response_state": "large_citywide_event",
+          "write_pos": 1,
+          "read_pos": 5,
+          "score": 1.0
+        },
+        {
+          "info_type": "volunteer_participation_level",
+          "json_error": false,
+          "answer_state": "high_volunteers",
+          "response_state": "high_volunteers",
+          "write_pos": 2,
+          "read_pos": 5,
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "query": "{\n  \"community_engagement_interest\": [\n    \"low_interest\",\n    \"moderate_interest\",\n    \"high_interest\"\n  ],\n  \"workshop_facility_capacity\": [\n    \"limited_spaces\",\n    \"adequate_spaces\",\n    \"ample_spaces\"\n  ]\n}\n\nBased on our previous conversation, select the most appropriate option for each state type listed above. The selected option should be as close as possible to my current situation. \nMake sure that every state type in the schema above has a corresponding choice in your output.\n\nPlease respond strictly in the following JSON format:\n```json\n{\n    \"info_type1\": \"choice\",\n    \"info_type2\": \"choice\",\n    ...\n}\n```\nWhere each \"info_type\" is a given state type, and \"choice\" is the exact option selected from its corresponding choices.\n\nOnly keep the JSON format output, do not include any other content.\n",
+      "raw_response": "```json\n{\n    \"community_engagement_interest\": \"high_interest\",\n    \"workshop_facility_capacity\": \"limited_spaces\"\n}\n```",
+      "results": [
+        {
+          "info_type": "community_engagement_interest",
+          "json_error": false,
+          "answer_state": "high_interest",
+          "response_state": "high_interest",
+          "write_pos": 4,
+          "read_pos": 5,
+          "score": 1.0
+        },
+        {
+          "info_type": "workshop_facility_capacity",
+          "json_error": false,
+          "answer_state": "limited_spaces",
+          "response_state": "limited_spaces",
+          "write_pos": 4,
+          "read_pos": 5,
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "query": "{\n  \"craft_material_availability\": [\n    \"abundant_materials\",\n    \"moderate_materials\",\n    \"scarce_materials\"\n  ],\n  \"project_timing_requirements\": [\n    \"urgent_short_term\",\n    \"flexible_medium_term\",\n    \"long_term\"\n  ]\n}\n\nBased on our previous conversation, select the most appropriate option for each state type listed above. The selected option should be as close as possible to my current situation. \nMake sure that every state type in the schema above has a corresponding choice in your output.\n\nPlease respond strictly in the following JSON format:\n```json\n{\n    \"info_type1\": \"choice\",\n    \"info_type2\": \"choice\",\n    ...\n}\n```\nWhere each \"info_type\" is a given state type, and \"choice\" is the exact option selected from its corresponding choices.\n\nOnly keep the JSON format output, do not include any other content.\n",
+      "raw_response": "```json\n{\n    \"craft_material_availability\": \"moderate_materials\",\n    \"project_timing_requirements\": \"flexible_medium_term\"\n}\n```",
+      "results": [
+        {
+          "info_type": "craft_material_availability",
+          "json_error": false,
+          "answer_state": "abundant_materials",
+          "response_state": "moderate_materials",
+          "write_pos": 1,
+          "read_pos": 5,
+          "score": 0.0
+        },
+        {
+          "info_type": "project_timing_requirements",
+          "json_error": false,
+          "answer_state": "flexible_medium_term",
+          "response_state": "flexible_medium_term",
+          "write_pos": 0,
+          "read_pos": 5,
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "query": "{\n  \"preferred_sports_team_type\": [\n    \"specific_baseball_team\",\n    \"specific_football_team\",\n    \"specific_basketball_team\",\n    \"newly_formed_team\",\n    \"longstanding_familiar_team\",\n    \"nostalgically_significant_team\"\n  ]\n}\n\nBased on our previous conversation, select the most appropriate option for each state type listed above. The selected option should be as close as possible to my current situation. \nMake sure that every state type in the schema above has a corresponding choice in your output.\n\nPlease respond strictly in the following JSON format:\n```json\n{\n    \"info_type1\": \"choice\",\n    \"info_type2\": \"choice\",\n    ...\n}\n```\nWhere each \"info_type\" is a given state type, and \"choice\" is the exact option selected from its corresponding choices.\n\nOnly keep the JSON format output, do not include any other content.\n",
+      "raw_response": "```json\n{\n    \"preferred_sports_team_type\": \"longstanding_familiar_team\"\n}\n```",
+      "results": [
+        {
+          "info_type": "preferred_sports_team_type",
+          "json_error": false,
+          "answer_state": "nostalgically_significant_team",
+          "response_state": "longstanding_familiar_team",
+          "write_pos": 0,
+          "read_pos": 5,
+          "score": 0.0
+        },
+        {
+          "info_type": "preferred_sports_team_type",
+          "json_error": false,
+          "answer_state": "nostalgically_significant_team",
+          "response_state": "longstanding_familiar_team",
+          "write_pos": 0,
+          "read_pos": 5,
+          "score": 0.0
+        }
+      ]
+    },
+    {
+      "query": "{\n  \"gardening_space_dimensions\": [\n    \"small_garden\",\n    \"medium_garden\",\n    \"large_garden\"\n  ],\n  \"time_spent_on_gardening\": [\n    \"very_limited_time\",\n    \"some_free_time\",\n    \"plenty_of_time\"\n  ]\n}\n\nBased on our previous conversation, select the most appropriate option for each state type listed above. The selected option should be as close as possible to my current situation. \nMake sure that every state type in the schema above has a corresponding choice in your output.\n\nPlease respond strictly in the following JSON format:\n```json\n{\n    \"info_type1\": \"choice\",\n    \"info_type2\": \"choice\",\n    ...\n}\n```\nWhere each \"info_type\" is a given state type, and \"choice\" is the exact option selected from its corresponding choices.\n\nOnly keep the JSON format output, do not include any other content.\n",
+      "raw_response": "```json\n{\n    \"gardening_space_dimensions\": \"medium_garden\",\n    \"time_spent_on_gardening\": \"some_free_time\"\n}\n```",
+      "results": [
+        {
+          "info_type": "gardening_space_dimensions",
+          "json_error": false,
+          "answer_state": "medium_garden",
+          "response_state": "medium_garden",
+          "write_pos": 0,
+          "read_pos": 5,
+          "score": 1.0
+        },
+        {
+          "info_type": "time_spent_on_gardening",
+          "json_error": false,
+          "answer_state": "plenty_of_time",
+          "response_state": "some_free_time",
+          "write_pos": 4,
+          "read_pos": 5,
+          "score": 0.0
+        }
+      ]
+    },
+    {
+      "query": "{\n  \"cooking_project_difficulty\": [\n    \"simple_dishes\",\n    \"moderately_complex_dishes\",\n    \"complex_dishes\"\n  ],\n  \"target_audience_for_cooking\": [\n    \"general_audience\",\n    \"culinary_enthusiasts\",\n    \"kids_and_families\"\n  ]\n}\n\nBased on our previous conversation, select the most appropriate option for each state type listed above. The selected option should be as close as possible to my current situation. \nMake sure that every state type in the schema above has a corresponding choice in your output.\n\nPlease respond strictly in the following JSON format:\n```json\n{\n    \"info_type1\": \"choice\",\n    \"info_type2\": \"choice\",\n    ...\n}\n```\nWhere each \"info_type\" is a given state type, and \"choice\" is the exact option selected from its corresponding choices.\n\nOnly keep the JSON format output, do not include any other content.\n",
+      "raw_response": "```json\n{\n    \"cooking_project_difficulty\": \"moderately_complex_dishes\",\n    \"target_audience_for_cooking\": \"general_audience\"\n}\n```",
+      "results": [
+        {
+          "info_type": "cooking_project_difficulty",
+          "json_error": false,
+          "answer_state": "moderately_complex_dishes",
+          "response_state": "moderately_complex_dishes",
+          "write_pos": 5,
+          "read_pos": 5,
+          "score": 1.0
+        },
+        {
+          "info_type": "target_audience_for_cooking",
+          "json_error": false,
+          "answer_state": "kids_and_families",
+          "response_state": "general_audience",
+          "write_pos": 3,
+          "read_pos": 5,
+          "score": 0.0
+        }
+      ]
+    },
+    {
+      "query": "{\n  \"memoir_research_resources\": [\n    \"few_sources\",\n    \"moderate_sources\",\n    \"abundant_sources\"\n  ],\n  \"memoir_writing_stage\": [\n    \"beginning_stages\",\n    \"middle_stages\",\n    \"near_completion\"\n  ]\n}\n\nBased on our previous conversation, select the most appropriate option for each state type listed above. The selected option should be as close as possible to my current situation. \nMake sure that every state type in the schema above has a corresponding choice in your output.\n\nPlease respond strictly in the following JSON format:\n```json\n{\n    \"info_type1\": \"choice\",\n    \"info_type2\": \"choice\",\n    ...\n}\n```\nWhere each \"info_type\" is a given state type, and \"choice\" is the exact option selected from its corresponding choices.\n\nOnly keep the JSON format output, do not include any other content.\n",
+      "raw_response": "```json\n{\n    \"memoir_research_resources\": \"abundant_sources\",\n    \"memoir_writing_stage\": \"near_completion\"\n}\n```",
+      "results": [
+        {
+          "info_type": "memoir_research_resources",
+          "json_error": false,
+          "answer_state": "abundant_sources",
+          "response_state": "abundant_sources",
+          "write_pos": 5,
+          "read_pos": 5,
+          "score": 1.0
+        },
+        {
+          "info_type": "memoir_writing_stage",
+          "json_error": false,
+          "answer_state": "near_completion",
+          "response_state": "near_completion",
+          "write_pos": 2,
+          "read_pos": 5,
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "query": "{\n  \"tutoring_target_age_group\": [\n    \"seniors_only\",\n    \"youth_only\",\n    \"both_age_groups\"\n  ],\n  \"tutoring_topic_scope\": [\n    \"broad_topics\",\n    \"specific_topics\",\n    \"customized_topics\"\n  ]\n}\n\nBased on our previous conversation, select the most appropriate option for each state type listed above. The selected option should be as close as possible to my current situation. \nMake sure that every state type in the schema above has a corresponding choice in your output.\n\nPlease respond strictly in the following JSON format:\n```json\n{\n    \"info_type1\": \"choice\",\n    \"info_type2\": \"choice\",\n    ...\n}\n```\nWhere each \"info_type\" is a given state type, and \"choice\" is the exact option selected from its corresponding choices.\n\nOnly keep the JSON format output, do not include any other content.\n",
+      "raw_response": "```json\n{\n    \"tutoring_target_age_group\": \"both_age_groups\",\n    \"tutoring_topic_scope\": \"customized_topics\"\n}\n```",
+      "results": [
+        {
+          "info_type": "tutoring_target_age_group",
+          "json_error": false,
+          "answer_state": "both_age_groups",
+          "response_state": "both_age_groups",
+          "write_pos": 0,
+          "read_pos": 5,
+          "score": 1.0
+        },
+        {
+          "info_type": "tutoring_topic_scope",
+          "json_error": false,
+          "answer_state": "customized_topics",
+          "response_state": "customized_topics",
+          "write_pos": 2,
+          "read_pos": 5,
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "query": "{\n  \"volunteer_role_count\": [\n    \"few_volunteer_roles\",\n    \"moderate_volunteer_roles\",\n    \"many_volunteer_roles\"\n  ],\n  \"personal_availability_for_volunteering\": [\n    \"busy_schedule\",\n    \"moderate_schedule\",\n    \"spare_schedule\"\n  ]\n}\n\nBased on our previous conversation, select the most appropriate option for each state type listed above. The selected option should be as close as possible to my current situation. \nMake sure that every state type in the schema above has a corresponding choice in your output.\n\nPlease respond strictly in the following JSON format:\n```json\n{\n    \"info_type1\": \"choice\",\n    \"info_type2\": \"choice\",\n    ...\n}\n```\nWhere each \"info_type\" is a given state type, and \"choice\" is the exact option selected from its corresponding choices.\n\nOnly keep the JSON format output, do not include any other content.\n",
+      "raw_response": "```json\n{\n    \"volunteer_role_count\": \"moderate_volunteer_roles\",\n    \"personal_availability_for_volunteering\": \"moderate_schedule\"\n}\n```",
+      "results": [
+        {
+          "info_type": "volunteer_role_count",
+          "json_error": false,
+          "answer_state": "moderate_volunteer_roles",
+          "response_state": "moderate_volunteer_roles",
+          "write_pos": 0,
+          "read_pos": 5,
+          "score": 1.0
+        },
+        {
+          "info_type": "personal_availability_for_volunteering",
+          "json_error": false,
+          "answer_state": "spare_schedule",
+          "response_state": "moderate_schedule",
+          "write_pos": 5,
+          "read_pos": 5,
+          "score": 0.0
+        }
+      ]
+    },
+    {
+      "query": "{\n  \"historical_fiction_time_period\": [\n    \"ancient_history\",\n    \"medieval_history\",\n    \"modern_history\"\n  ],\n  \"historical_fiction_geographic_focus\": [\n    \"global_setting\",\n    \"local_setting\",\n    \"regional_setting\"\n  ]\n}\n\nBased on our previous conversation, select the most appropriate option for each state type listed above. The selected option should be as close as possible to my current situation. \nMake sure that every state type in the schema above has a corresponding choice in your output.\n\nPlease respond strictly in the following JSON format:\n```json\n{\n    \"info_type1\": \"choice\",\n    \"info_type2\": \"choice\",\n    ...\n}\n```\nWhere each \"info_type\" is a given state type, and \"choice\" is the exact option selected from its corresponding choices.\n\nOnly keep the JSON format output, do not include any other content.\n",
+      "raw_response": "```json\n{\n    \"historical_fiction_time_period\": \"medieval_history\",\n    \"historical_fiction_geographic_focus\": \"regional_setting\"\n}\n```",
+      "results": [
+        {
+          "info_type": "historical_fiction_time_period",
+          "json_error": false,
+          "answer_state": "medieval_history",
+          "response_state": "medieval_history",
+          "write_pos": 3,
+          "read_pos": 5,
+          "score": 1.0
+        },
+        {
+          "info_type": "historical_fiction_geographic_focus",
+          "json_error": false,
+          "answer_state": "regional_setting",
+          "response_state": "regional_setting",
+          "write_pos": 1,
+          "read_pos": 5,
+          "score": 1.0
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "query": "{\n  \"cultural_event_scale\": [\n    \"small_local_event\",\n    \"medium_community_event\",\n    \"large_citywide_event\"\n  ],\n  \"volunteer_participation_level\": [\n    \"low_volunteers\",\n    \"moderate_volunteers\",\n    \"high_volunteers\"\n  ]\n}\n\nBased on our previous conversation, select the most appropriate option for each state type listed above. The selected option should be as close as possible to my current situation. \nMake sure that every state type in the schema above has a corresponding choice in your output.\n\nPlease respond strictly in the following JSON format:\n```json\n{\n    \"info_type1\": \"choice\",\n    \"info_type2\": \"choice\",\n    ...\n}\n```\nWhere each \"info_type\" is a given state type, and \"choice\" is the exact option selected from its corresponding choices.\n\nOnly keep the JSON format output, do not include any other content.\n",
+      "raw_response": "```json\n{\n    \"cultural_event_scale\": \"medium_community_event\",\n    \"volunteer_participation_level\": \"moderate_volunteers\"\n}\n```",
+      "results": [
+        {
+          "info_type": "cultural_event_scale",
+          "json_error": false,
+          "answer_state": "large_citywide_event",
+          "response_state": "medium_community_event",
+          "write_pos": 1,
+          "read_pos": 6,
+          "score": 0.0
+        },
+        {
+          "info_type": "volunteer_participation_level",
+          "json_error": false,
+          "answer_state": "high_volunteers",
+          "response_state": "moderate_volunteers",
+          "write_pos": 2,
+          "read_pos": 6,
+          "score": 0.0
+        }
+      ]
+    },
+    {
+      "query": "{\n  \"community_engagement_interest\": [\n    \"low_interest\",\n    \"moderate_interest\",\n    \"high_interest\"\n  ],\n  \"workshop_facility_capacity\": [\n    \"limited_spaces\",\n    \"adequate_spaces\",\n    \"ample_spaces\"\n  ]\n}\n\nBased on our previous conversation, select the most appropriate option for each state type listed above. The selected option should be as close as possible to my current situation. \nMake sure that every state type in the schema above has a corresponding choice in your output.\n\nPlease respond strictly in the following JSON format:\n```json\n{\n    \"info_type1\": \"choice\",\n    \"info_type2\": \"choice\",\n    ...\n}\n```\nWhere each \"info_type\" is a given state type, and \"choice\" is the exact option selected from its corresponding choices.\n\nOnly keep the JSON format output, do not include any other content.\n",
+      "raw_response": "```json\n{\n    \"community_engagement_interest\": \"moderate_interest\",\n    \"workshop_facility_capacity\": \"adequate_spaces\"\n}\n```",
+      "results": [
+        {
+          "info_type": "community_engagement_interest",
+          "json_error": false,
+          "answer_state": "high_interest",
+          "response_state": "moderate_interest",
+          "write_pos": 4,
+          "read_pos": 6,
+          "score": 0.0
+        },
+        {
+          "info_type": "workshop_facility_capacity",
+          "json_error": false,
+          "answer_state": "adequate_spaces",
+          "response_state": "adequate_spaces",
+          "write_pos": 6,
+          "read_pos": 6,
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "query": "{\n  \"craft_material_availability\": [\n    \"abundant_materials\",\n    \"moderate_materials\",\n    \"scarce_materials\"\n  ],\n  \"project_timing_requirements\": [\n    \"urgent_short_term\",\n    \"flexible_medium_term\",\n    \"long_term\"\n  ]\n}\n\nBased on our previous conversation, select the most appropriate option for each state type listed above. The selected option should be as close as possible to my current situation. \nMake sure that every state type in the schema above has a corresponding choice in your output.\n\nPlease respond strictly in the following JSON format:\n```json\n{\n    \"info_type1\": \"choice\",\n    \"info_type2\": \"choice\",\n    ...\n}\n```\nWhere each \"info_type\" is a given state type, and \"choice\" is the exact option selected from its corresponding choices.\n\nOnly keep the JSON format output, do not include any other content.\n",
+      "raw_response": "```json\n{\n    \"craft_material_availability\": \"scarce_materials\",\n    \"project_timing_requirements\": \"flexible_medium_term\"\n}\n```",
+      "results": [
+        {
+          "info_type": "craft_material_availability",
+          "json_error": false,
+          "answer_state": "moderate_materials",
+          "response_state": "scarce_materials",
+          "write_pos": 6,
+          "read_pos": 6,
+          "score": 0.0
+        },
+        {
+          "info_type": "project_timing_requirements",
+          "json_error": false,
+          "answer_state": "flexible_medium_term",
+          "response_state": "flexible_medium_term",
+          "write_pos": 0,
+          "read_pos": 6,
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "query": "{\n  \"preferred_sports_team_type\": [\n    \"specific_baseball_team\",\n    \"specific_football_team\",\n    \"specific_basketball_team\",\n    \"newly_formed_team\",\n    \"longstanding_familiar_team\",\n    \"nostalgically_significant_team\"\n  ]\n}\n\nBased on our previous conversation, select the most appropriate option for each state type listed above. The selected option should be as close as possible to my current situation. \nMake sure that every state type in the schema above has a corresponding choice in your output.\n\nPlease respond strictly in the following JSON format:\n```json\n{\n    \"info_type1\": \"choice\",\n    \"info_type2\": \"choice\",\n    ...\n}\n```\nWhere each \"info_type\" is a given state type, and \"choice\" is the exact option selected from its corresponding choices.\n\nOnly keep the JSON format output, do not include any other content.\n",
+      "raw_response": "```json\n{\n    \"preferred_sports_team_type\": \"longstanding_familiar_team\"\n}\n```",
+      "results": [
+        {
+          "info_type": "preferred_sports_team_type",
+          "json_error": false,
+          "answer_state": "nostalgically_significant_team",
+          "response_state": "longstanding_familiar_team",
+          "write_pos": 0,
+          "read_pos": 6,
+          "score": 0.0
+        },
+        {
+          "info_type": "preferred_sports_team_type",
+          "json_error": false,
+          "answer_state": "nostalgically_significant_team",
+          "response_state": "longstanding_familiar_team",
+          "write_pos": 0,
+          "read_pos": 6,
+          "score": 0.0
+        }
+      ]
+    },
+    {
+      "query": "{\n  \"gardening_space_dimensions\": [\n    \"small_garden\",\n    \"medium_garden\",\n    \"large_garden\"\n  ],\n  \"time_spent_on_gardening\": [\n    \"very_limited_time\",\n    \"some_free_time\",\n    \"plenty_of_time\"\n  ]\n}\n\nBased on our previous conversation, select the most appropriate option for each state type listed above. The selected option should be as close as possible to my current situation. \nMake sure that every state type in the schema above has a corresponding choice in your output.\n\nPlease respond strictly in the following JSON format:\n```json\n{\n    \"info_type1\": \"choice\",\n    \"info_type2\": \"choice\",\n    ...\n}\n```\nWhere each \"info_type\" is a given state type, and \"choice\" is the exact option selected from its corresponding choices.\n\nOnly keep the JSON format output, do not include any other content.\n",
+      "raw_response": "```json\n{\n    \"gardening_space_dimensions\": \"medium_garden\",\n    \"time_spent_on_gardening\": \"some_free_time\"\n}\n```",
+      "results": [
+        {
+          "info_type": "gardening_space_dimensions",
+          "json_error": false,
+          "answer_state": "medium_garden",
+          "response_state": "medium_garden",
+          "write_pos": 0,
+          "read_pos": 6,
+          "score": 1.0
+        },
+        {
+          "info_type": "time_spent_on_gardening",
+          "json_error": false,
+          "answer_state": "plenty_of_time",
+          "response_state": "some_free_time",
+          "write_pos": 4,
+          "read_pos": 6,
+          "score": 0.0
+        }
+      ]
+    },
+    {
+      "query": "{\n  \"cooking_project_difficulty\": [\n    \"simple_dishes\",\n    \"moderately_complex_dishes\",\n    \"complex_dishes\"\n  ],\n  \"target_audience_for_cooking\": [\n    \"general_audience\",\n    \"culinary_enthusiasts\",\n    \"kids_and_families\"\n  ]\n}\n\nBased on our previous conversation, select the most appropriate option for each state type listed above. The selected option should be as close as possible to my current situation. \nMake sure that every state type in the schema above has a corresponding choice in your output.\n\nPlease respond strictly in the following JSON format:\n```json\n{\n    \"info_type1\": \"choice\",\n    \"info_type2\": \"choice\",\n    ...\n}\n```\nWhere each \"info_type\" is a given state type, and \"choice\" is the exact option selected from its corresponding choices.\n\nOnly keep the JSON format output, do not include any other content.\n",
+      "raw_response": "```json\n{\n    \"cooking_project_difficulty\": \"moderately_complex_dishes\",\n    \"target_audience_for_cooking\": \"kids_and_families\"\n}\n```",
+      "results": [
+        {
+          "info_type": "cooking_project_difficulty",
+          "json_error": false,
+          "answer_state": "simple_dishes",
+          "response_state": "moderately_complex_dishes",
+          "write_pos": 6,
+          "read_pos": 6,
+          "score": 0.0
+        },
+        {
+          "info_type": "target_audience_for_cooking",
+          "json_error": false,
+          "answer_state": "kids_and_families",
+          "response_state": "kids_and_families",
+          "write_pos": 3,
+          "read_pos": 6,
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "query": "{\n  \"memoir_research_resources\": [\n    \"few_sources\",\n    \"moderate_sources\",\n    \"abundant_sources\"\n  ],\n  \"memoir_writing_stage\": [\n    \"beginning_stages\",\n    \"middle_stages\",\n    \"near_completion\"\n  ]\n}\n\nBased on our previous conversation, select the most appropriate option for each state type listed above. The selected option should be as close as possible to my current situation. \nMake sure that every state type in the schema above has a corresponding choice in your output.\n\nPlease respond strictly in the following JSON format:\n```json\n{\n    \"info_type1\": \"choice\",\n    \"info_type2\": \"choice\",\n    ...\n}\n```\nWhere each \"info_type\" is a given state type, and \"choice\" is the exact option selected from its corresponding choices.\n\nOnly keep the JSON format output, do not include any other content.\n",
+      "raw_response": "```json\n{\n    \"memoir_research_resources\": \"moderate_sources\",\n    \"memoir_writing_stage\": \"middle_stages\"\n}\n```",
+      "results": [
+        {
+          "info_type": "memoir_research_resources",
+          "json_error": false,
+          "answer_state": "abundant_sources",
+          "response_state": "moderate_sources",
+          "write_pos": 5,
+          "read_pos": 6,
+          "score": 0.0
+        },
+        {
+          "info_type": "memoir_writing_stage",
+          "json_error": false,
+          "answer_state": "near_completion",
+          "response_state": "middle_stages",
+          "write_pos": 2,
+          "read_pos": 6,
+          "score": 0.0
+        }
+      ]
+    },
+    {
+      "query": "{\n  \"tutoring_target_age_group\": [\n    \"seniors_only\",\n    \"youth_only\",\n    \"both_age_groups\"\n  ],\n  \"tutoring_topic_scope\": [\n    \"broad_topics\",\n    \"specific_topics\",\n    \"customized_topics\"\n  ]\n}\n\nBased on our previous conversation, select the most appropriate option for each state type listed above. The selected option should be as close as possible to my current situation. \nMake sure that every state type in the schema above has a corresponding choice in your output.\n\nPlease respond strictly in the following JSON format:\n```json\n{\n    \"info_type1\": \"choice\",\n    \"info_type2\": \"choice\",\n    ...\n}\n```\nWhere each \"info_type\" is a given state type, and \"choice\" is the exact option selected from its corresponding choices.\n\nOnly keep the JSON format output, do not include any other content.\n",
+      "raw_response": "```json\n{\n    \"tutoring_target_age_group\": \"both_age_groups\",\n    \"tutoring_topic_scope\": \"customized_topics\"\n}\n```",
+      "results": [
+        {
+          "info_type": "tutoring_target_age_group",
+          "json_error": false,
+          "answer_state": "both_age_groups",
+          "response_state": "both_age_groups",
+          "write_pos": 0,
+          "read_pos": 6,
+          "score": 1.0
+        },
+        {
+          "info_type": "tutoring_topic_scope",
+          "json_error": false,
+          "answer_state": "customized_topics",
+          "response_state": "customized_topics",
+          "write_pos": 2,
+          "read_pos": 6,
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "query": "{\n  \"volunteer_role_count\": [\n    \"few_volunteer_roles\",\n    \"moderate_volunteer_roles\",\n    \"many_volunteer_roles\"\n  ],\n  \"personal_availability_for_volunteering\": [\n    \"busy_schedule\",\n    \"moderate_schedule\",\n    \"spare_schedule\"\n  ]\n}\n\nBased on our previous conversation, select the most appropriate option for each state type listed above. The selected option should be as close as possible to my current situation. \nMake sure that every state type in the schema above has a corresponding choice in your output.\n\nPlease respond strictly in the following JSON format:\n```json\n{\n    \"info_type1\": \"choice\",\n    \"info_type2\": \"choice\",\n    ...\n}\n```\nWhere each \"info_type\" is a given state type, and \"choice\" is the exact option selected from its corresponding choices.\n\nOnly keep the JSON format output, do not include any other content.\n",
+      "raw_response": "```json\n{\n    \"volunteer_role_count\": \"moderate_volunteer_roles\",\n    \"personal_availability_for_volunteering\": \"moderate_schedule\"\n}\n```",
+      "results": [
+        {
+          "info_type": "volunteer_role_count",
+          "json_error": false,
+          "answer_state": "moderate_volunteer_roles",
+          "response_state": "moderate_volunteer_roles",
+          "write_pos": 0,
+          "read_pos": 6,
+          "score": 1.0
+        },
+        {
+          "info_type": "personal_availability_for_volunteering",
+          "json_error": false,
+          "answer_state": "moderate_schedule",
+          "response_state": "moderate_schedule",
+          "write_pos": 6,
+          "read_pos": 6,
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "query": "{\n  \"historical_fiction_time_period\": [\n    \"ancient_history\",\n    \"medieval_history\",\n    \"modern_history\"\n  ],\n  \"historical_fiction_geographic_focus\": [\n    \"global_setting\",\n    \"local_setting\",\n    \"regional_setting\"\n  ]\n}\n\nBased on our previous conversation, select the most appropriate option for each state type listed above. The selected option should be as close as possible to my current situation. \nMake sure that every state type in the schema above has a corresponding choice in your output.\n\nPlease respond strictly in the following JSON format:\n```json\n{\n    \"info_type1\": \"choice\",\n    \"info_type2\": \"choice\",\n    ...\n}\n```\nWhere each \"info_type\" is a given state type, and \"choice\" is the exact option selected from its corresponding choices.\n\nOnly keep the JSON format output, do not include any other content.\n",
+      "raw_response": "```json\n{\n    \"historical_fiction_time_period\": \"medieval_history\",\n    \"historical_fiction_geographic_focus\": \"global_setting\"\n}\n```",
+      "results": [
+        {
+          "info_type": "historical_fiction_time_period",
+          "json_error": false,
+          "answer_state": "medieval_history",
+          "response_state": "medieval_history",
+          "write_pos": 3,
+          "read_pos": 6,
+          "score": 1.0
+        },
+        {
+          "info_type": "historical_fiction_geographic_focus",
+          "json_error": false,
+          "answer_state": "regional_setting",
+          "response_state": "global_setting",
+          "write_pos": 1,
+          "read_pos": 6,
+          "score": 0.0
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "query": "{\n  \"cultural_event_scale\": [\n    \"small_local_event\",\n    \"medium_community_event\",\n    \"large_citywide_event\"\n  ],\n  \"volunteer_participation_level\": [\n    \"low_volunteers\",\n    \"moderate_volunteers\",\n    \"high_volunteers\"\n  ]\n}\n\nBased on our previous conversation, select the most appropriate option for each state type listed above. The selected option should be as close as possible to my current situation. \nMake sure that every state type in the schema above has a corresponding choice in your output.\n\nPlease respond strictly in the following JSON format:\n```json\n{\n    \"info_type1\": \"choice\",\n    \"info_type2\": \"choice\",\n    ...\n}\n```\nWhere each \"info_type\" is a given state type, and \"choice\" is the exact option selected from its corresponding choices.\n\nOnly keep the JSON format output, do not include any other content.\n",
+      "raw_response": "```json\n{\n    \"cultural_event_scale\": \"medium_community_event\",\n    \"volunteer_participation_level\": \"moderate_volunteers\"\n}\n```",
+      "results": [
+        {
+          "info_type": "cultural_event_scale",
+          "json_error": false,
+          "answer_state": "large_citywide_event",
+          "response_state": "medium_community_event",
+          "write_pos": 1,
+          "read_pos": 7,
+          "score": 0.0
+        },
+        {
+          "info_type": "volunteer_participation_level",
+          "json_error": false,
+          "answer_state": "moderate_volunteers",
+          "response_state": "moderate_volunteers",
+          "write_pos": 7,
+          "read_pos": 7,
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "query": "{\n  \"community_engagement_interest\": [\n    \"low_interest\",\n    \"moderate_interest\",\n    \"high_interest\"\n  ],\n  \"workshop_facility_capacity\": [\n    \"limited_spaces\",\n    \"adequate_spaces\",\n    \"ample_spaces\"\n  ]\n}\n\nBased on our previous conversation, select the most appropriate option for each state type listed above. The selected option should be as close as possible to my current situation. \nMake sure that every state type in the schema above has a corresponding choice in your output.\n\nPlease respond strictly in the following JSON format:\n```json\n{\n    \"info_type1\": \"choice\",\n    \"info_type2\": \"choice\",\n    ...\n}\n```\nWhere each \"info_type\" is a given state type, and \"choice\" is the exact option selected from its corresponding choices.\n\nOnly keep the JSON format output, do not include any other content.\n",
+      "raw_response": "```json\n{\n    \"community_engagement_interest\": \"moderate_interest\",\n    \"workshop_facility_capacity\": \"adequate_spaces\"\n}\n```",
+      "results": [
+        {
+          "info_type": "community_engagement_interest",
+          "json_error": false,
+          "answer_state": "high_interest",
+          "response_state": "moderate_interest",
+          "write_pos": 4,
+          "read_pos": 7,
+          "score": 0.0
+        },
+        {
+          "info_type": "workshop_facility_capacity",
+          "json_error": false,
+          "answer_state": "adequate_spaces",
+          "response_state": "adequate_spaces",
+          "write_pos": 6,
+          "read_pos": 7,
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "query": "{\n  \"craft_material_availability\": [\n    \"abundant_materials\",\n    \"moderate_materials\",\n    \"scarce_materials\"\n  ],\n  \"project_timing_requirements\": [\n    \"urgent_short_term\",\n    \"flexible_medium_term\",\n    \"long_term\"\n  ]\n}\n\nBased on our previous conversation, select the most appropriate option for each state type listed above. The selected option should be as close as possible to my current situation. \nMake sure that every state type in the schema above has a corresponding choice in your output.\n\nPlease respond strictly in the following JSON format:\n```json\n{\n    \"info_type1\": \"choice\",\n    \"info_type2\": \"choice\",\n    ...\n}\n```\nWhere each \"info_type\" is a given state type, and \"choice\" is the exact option selected from its corresponding choices.\n\nOnly keep the JSON format output, do not include any other content.\n",
+      "raw_response": "```json\n{\n    \"craft_material_availability\": \"abundant_materials\",\n    \"project_timing_requirements\": \"flexible_medium_term\"\n}\n```",
+      "results": [
+        {
+          "info_type": "craft_material_availability",
+          "json_error": false,
+          "answer_state": "moderate_materials",
+          "response_state": "abundant_materials",
+          "write_pos": 6,
+          "read_pos": 7,
+          "score": 0.0
+        },
+        {
+          "info_type": "project_timing_requirements",
+          "json_error": false,
+          "answer_state": "flexible_medium_term",
+          "response_state": "flexible_medium_term",
+          "write_pos": 0,
+          "read_pos": 7,
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "query": "{\n  \"preferred_sports_team_type\": [\n    \"specific_baseball_team\",\n    \"specific_football_team\",\n    \"specific_basketball_team\",\n    \"newly_formed_team\",\n    \"longstanding_familiar_team\",\n    \"nostalgically_significant_team\"\n  ]\n}\n\nBased on our previous conversation, select the most appropriate option for each state type listed above. The selected option should be as close as possible to my current situation. \nMake sure that every state type in the schema above has a corresponding choice in your output.\n\nPlease respond strictly in the following JSON format:\n```json\n{\n    \"info_type1\": \"choice\",\n    \"info_type2\": \"choice\",\n    ...\n}\n```\nWhere each \"info_type\" is a given state type, and \"choice\" is the exact option selected from its corresponding choices.\n\nOnly keep the JSON format output, do not include any other content.\n",
+      "raw_response": "```json\n{\n    \"preferred_sports_team_type\": \"longstanding_familiar_team\"\n}\n```",
+      "results": [
+        {
+          "info_type": "preferred_sports_team_type",
+          "json_error": false,
+          "answer_state": "nostalgically_significant_team",
+          "response_state": "longstanding_familiar_team",
+          "write_pos": 0,
+          "read_pos": 7,
+          "score": 0.0
+        },
+        {
+          "info_type": "preferred_sports_team_type",
+          "json_error": false,
+          "answer_state": "nostalgically_significant_team",
+          "response_state": "longstanding_familiar_team",
+          "write_pos": 0,
+          "read_pos": 7,
+          "score": 0.0
+        }
+      ]
+    },
+    {
+      "query": "{\n  \"gardening_space_dimensions\": [\n    \"small_garden\",\n    \"medium_garden\",\n    \"large_garden\"\n  ],\n  \"time_spent_on_gardening\": [\n    \"very_limited_time\",\n    \"some_free_time\",\n    \"plenty_of_time\"\n  ]\n}\n\nBased on our previous conversation, select the most appropriate option for each state type listed above. The selected option should be as close as possible to my current situation. \nMake sure that every state type in the schema above has a corresponding choice in your output.\n\nPlease respond strictly in the following JSON format:\n```json\n{\n    \"info_type1\": \"choice\",\n    \"info_type2\": \"choice\",\n    ...\n}\n```\nWhere each \"info_type\" is a given state type, and \"choice\" is the exact option selected from its corresponding choices.\n\nOnly keep the JSON format output, do not include any other content.\n",
+      "raw_response": "```json\n{\n    \"gardening_space_dimensions\": \"large_garden\",\n    \"time_spent_on_gardening\": \"plenty_of_time\"\n}\n```",
+      "results": [
+        {
+          "info_type": "gardening_space_dimensions",
+          "json_error": false,
+          "answer_state": "large_garden",
+          "response_state": "large_garden",
+          "write_pos": 7,
+          "read_pos": 7,
+          "score": 1.0
+        },
+        {
+          "info_type": "time_spent_on_gardening",
+          "json_error": false,
+          "answer_state": "plenty_of_time",
+          "response_state": "plenty_of_time",
+          "write_pos": 4,
+          "read_pos": 7,
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "query": "{\n  \"cooking_project_difficulty\": [\n    \"simple_dishes\",\n    \"moderately_complex_dishes\",\n    \"complex_dishes\"\n  ],\n  \"target_audience_for_cooking\": [\n    \"general_audience\",\n    \"culinary_enthusiasts\",\n    \"kids_and_families\"\n  ]\n}\n\nBased on our previous conversation, select the most appropriate option for each state type listed above. The selected option should be as close as possible to my current situation. \nMake sure that every state type in the schema above has a corresponding choice in your output.\n\nPlease respond strictly in the following JSON format:\n```json\n{\n    \"info_type1\": \"choice\",\n    \"info_type2\": \"choice\",\n    ...\n}\n```\nWhere each \"info_type\" is a given state type, and \"choice\" is the exact option selected from its corresponding choices.\n\nOnly keep the JSON format output, do not include any other content.\n",
+      "raw_response": "```json\n{\n    \"cooking_project_difficulty\": \"moderately_complex_dishes\",\n    \"target_audience_for_cooking\": \"kids_and_families\"\n}\n```",
+      "results": [
+        {
+          "info_type": "cooking_project_difficulty",
+          "json_error": false,
+          "answer_state": "simple_dishes",
+          "response_state": "moderately_complex_dishes",
+          "write_pos": 6,
+          "read_pos": 7,
+          "score": 0.0
+        },
+        {
+          "info_type": "target_audience_for_cooking",
+          "json_error": false,
+          "answer_state": "kids_and_families",
+          "response_state": "kids_and_families",
+          "write_pos": 3,
+          "read_pos": 7,
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "query": "{\n  \"memoir_research_resources\": [\n    \"few_sources\",\n    \"moderate_sources\",\n    \"abundant_sources\"\n  ],\n  \"memoir_writing_stage\": [\n    \"beginning_stages\",\n    \"middle_stages\",\n    \"near_completion\"\n  ]\n}\n\nBased on our previous conversation, select the most appropriate option for each state type listed above. The selected option should be as close as possible to my current situation. \nMake sure that every state type in the schema above has a corresponding choice in your output.\n\nPlease respond strictly in the following JSON format:\n```json\n{\n    \"info_type1\": \"choice\",\n    \"info_type2\": \"choice\",\n    ...\n}\n```\nWhere each \"info_type\" is a given state type, and \"choice\" is the exact option selected from its corresponding choices.\n\nOnly keep the JSON format output, do not include any other content.\n",
+      "raw_response": "```json\n{\n    \"memoir_research_resources\": \"moderate_sources\",\n    \"memoir_writing_stage\": \"middle_stages\"\n}\n```",
+      "results": [
+        {
+          "info_type": "memoir_research_resources",
+          "json_error": false,
+          "answer_state": "abundant_sources",
+          "response_state": "moderate_sources",
+          "write_pos": 5,
+          "read_pos": 7,
+          "score": 0.0
+        },
+        {
+          "info_type": "memoir_writing_stage",
+          "json_error": false,
+          "answer_state": "near_completion",
+          "response_state": "middle_stages",
+          "write_pos": 2,
+          "read_pos": 7,
+          "score": 0.0
+        }
+      ]
+    },
+    {
+      "query": "{\n  \"tutoring_target_age_group\": [\n    \"seniors_only\",\n    \"youth_only\",\n    \"both_age_groups\"\n  ],\n  \"tutoring_topic_scope\": [\n    \"broad_topics\",\n    \"specific_topics\",\n    \"customized_topics\"\n  ]\n}\n\nBased on our previous conversation, select the most appropriate option for each state type listed above. The selected option should be as close as possible to my current situation. \nMake sure that every state type in the schema above has a corresponding choice in your output.\n\nPlease respond strictly in the following JSON format:\n```json\n{\n    \"info_type1\": \"choice\",\n    \"info_type2\": \"choice\",\n    ...\n}\n```\nWhere each \"info_type\" is a given state type, and \"choice\" is the exact option selected from its corresponding choices.\n\nOnly keep the JSON format output, do not include any other content.\n",
+      "raw_response": "```json\n{\n    \"tutoring_target_age_group\": \"both_age_groups\",\n    \"tutoring_topic_scope\": \"customized_topics\"\n}\n```",
+      "results": [
+        {
+          "info_type": "tutoring_target_age_group",
+          "json_error": false,
+          "answer_state": "both_age_groups",
+          "response_state": "both_age_groups",
+          "write_pos": 0,
+          "read_pos": 7,
+          "score": 1.0
+        },
+        {
+          "info_type": "tutoring_topic_scope",
+          "json_error": false,
+          "answer_state": "customized_topics",
+          "response_state": "customized_topics",
+          "write_pos": 2,
+          "read_pos": 7,
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "query": "{\n  \"volunteer_role_count\": [\n    \"few_volunteer_roles\",\n    \"moderate_volunteer_roles\",\n    \"many_volunteer_roles\"\n  ],\n  \"personal_availability_for_volunteering\": [\n    \"busy_schedule\",\n    \"moderate_schedule\",\n    \"spare_schedule\"\n  ]\n}\n\nBased on our previous conversation, select the most appropriate option for each state type listed above. The selected option should be as close as possible to my current situation. \nMake sure that every state type in the schema above has a corresponding choice in your output.\n\nPlease respond strictly in the following JSON format:\n```json\n{\n    \"info_type1\": \"choice\",\n    \"info_type2\": \"choice\",\n    ...\n}\n```\nWhere each \"info_type\" is a given state type, and \"choice\" is the exact option selected from its corresponding choices.\n\nOnly keep the JSON format output, do not include any other content.\n",
+      "raw_response": "```json\n{\n    \"volunteer_role_count\": \"moderate_volunteer_roles\",\n    \"personal_availability_for_volunteering\": \"moderate_schedule\"\n}\n```",
+      "results": [
+        {
+          "info_type": "volunteer_role_count",
+          "json_error": false,
+          "answer_state": "moderate_volunteer_roles",
+          "response_state": "moderate_volunteer_roles",
+          "write_pos": 0,
+          "read_pos": 7,
+          "score": 1.0
+        },
+        {
+          "info_type": "personal_availability_for_volunteering",
+          "json_error": false,
+          "answer_state": "spare_schedule",
+          "response_state": "moderate_schedule",
+          "write_pos": 7,
+          "read_pos": 7,
+          "score": 0.0
+        }
+      ]
+    },
+    {
+      "query": "{\n  \"historical_fiction_time_period\": [\n    \"ancient_history\",\n    \"medieval_history\",\n    \"modern_history\"\n  ],\n  \"historical_fiction_geographic_focus\": [\n    \"global_setting\",\n    \"local_setting\",\n    \"regional_setting\"\n  ]\n}\n\nBased on our previous conversation, select the most appropriate option for each state type listed above. The selected option should be as close as possible to my current situation. \nMake sure that every state type in the schema above has a corresponding choice in your output.\n\nPlease respond strictly in the following JSON format:\n```json\n{\n    \"info_type1\": \"choice\",\n    \"info_type2\": \"choice\",\n    ...\n}\n```\nWhere each \"info_type\" is a given state type, and \"choice\" is the exact option selected from its corresponding choices.\n\nOnly keep the JSON format output, do not include any other content.\n",
+      "raw_response": "```json\n{\n    \"historical_fiction_time_period\": \"ancient_history\",\n    \"historical_fiction_geographic_focus\": \"global_setting\"\n}\n```",
+      "results": [
+        {
+          "info_type": "historical_fiction_time_period",
+          "json_error": false,
+          "answer_state": "ancient_history",
+          "response_state": "ancient_history",
+          "write_pos": 7,
+          "read_pos": 7,
+          "score": 1.0
+        },
+        {
+          "info_type": "historical_fiction_geographic_focus",
+          "json_error": false,
+          "answer_state": "regional_setting",
+          "response_state": "global_setting",
+          "write_pos": 1,
+          "read_pos": 7,
+          "score": 0.0
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "query": "{\n  \"cultural_event_scale\": [\n    \"small_local_event\",\n    \"medium_community_event\",\n    \"large_citywide_event\"\n  ],\n  \"volunteer_participation_level\": [\n    \"low_volunteers\",\n    \"moderate_volunteers\",\n    \"high_volunteers\"\n  ]\n}\n\nBased on our previous conversation, select the most appropriate option for each state type listed above. The selected option should be as close as possible to my current situation. \nMake sure that every state type in the schema above has a corresponding choice in your output.\n\nPlease respond strictly in the following JSON format:\n```json\n{\n    \"info_type1\": \"choice\",\n    \"info_type2\": \"choice\",\n    ...\n}\n```\nWhere each \"info_type\" is a given state type, and \"choice\" is the exact option selected from its corresponding choices.\n\nOnly keep the JSON format output, do not include any other content.\n",
+      "raw_response": "```json\n{\n    \"cultural_event_scale\": \"medium_community_event\",\n    \"volunteer_participation_level\": \"moderate_volunteers\"\n}\n```",
+      "results": [
+        {
+          "info_type": "cultural_event_scale",
+          "json_error": false,
+          "answer_state": "large_citywide_event",
+          "response_state": "medium_community_event",
+          "write_pos": 1,
+          "read_pos": 8,
+          "score": 0.0
+        },
+        {
+          "info_type": "volunteer_participation_level",
+          "json_error": false,
+          "answer_state": "moderate_volunteers",
+          "response_state": "moderate_volunteers",
+          "write_pos": 7,
+          "read_pos": 8,
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "query": "{\n  \"community_engagement_interest\": [\n    \"low_interest\",\n    \"moderate_interest\",\n    \"high_interest\"\n  ],\n  \"workshop_facility_capacity\": [\n    \"limited_spaces\",\n    \"adequate_spaces\",\n    \"ample_spaces\"\n  ]\n}\n\nBased on our previous conversation, select the most appropriate option for each state type listed above. The selected option should be as close as possible to my current situation. \nMake sure that every state type in the schema above has a corresponding choice in your output.\n\nPlease respond strictly in the following JSON format:\n```json\n{\n    \"info_type1\": \"choice\",\n    \"info_type2\": \"choice\",\n    ...\n}\n```\nWhere each \"info_type\" is a given state type, and \"choice\" is the exact option selected from its corresponding choices.\n\nOnly keep the JSON format output, do not include any other content.\n",
+      "raw_response": "```json\n{\n    \"community_engagement_interest\": \"moderate_interest\",\n    \"workshop_facility_capacity\": \"adequate_spaces\"\n}\n```",
+      "results": [
+        {
+          "info_type": "community_engagement_interest",
+          "json_error": false,
+          "answer_state": "high_interest",
+          "response_state": "moderate_interest",
+          "write_pos": 4,
+          "read_pos": 8,
+          "score": 0.0
+        },
+        {
+          "info_type": "workshop_facility_capacity",
+          "json_error": false,
+          "answer_state": "ample_spaces",
+          "response_state": "adequate_spaces",
+          "write_pos": 8,
+          "read_pos": 8,
+          "score": 0.0
+        }
+      ]
+    },
+    {
+      "query": "{\n  \"craft_material_availability\": [\n    \"abundant_materials\",\n    \"moderate_materials\",\n    \"scarce_materials\"\n  ],\n  \"project_timing_requirements\": [\n    \"urgent_short_term\",\n    \"flexible_medium_term\",\n    \"long_term\"\n  ]\n}\n\nBased on our previous conversation, select the most appropriate option for each state type listed above. The selected option should be as close as possible to my current situation. \nMake sure that every state type in the schema above has a corresponding choice in your output.\n\nPlease respond strictly in the following JSON format:\n```json\n{\n    \"info_type1\": \"choice\",\n    \"info_type2\": \"choice\",\n    ...\n}\n```\nWhere each \"info_type\" is a given state type, and \"choice\" is the exact option selected from its corresponding choices.\n\nOnly keep the JSON format output, do not include any other content.\n",
+      "raw_response": "```json\n{\n    \"craft_material_availability\": \"moderate_materials\",\n    \"project_timing_requirements\": \"flexible_medium_term\"\n}\n```",
+      "results": [
+        {
+          "info_type": "craft_material_availability",
+          "json_error": false,
+          "answer_state": "moderate_materials",
+          "response_state": "moderate_materials",
+          "write_pos": 6,
+          "read_pos": 8,
+          "score": 1.0
+        },
+        {
+          "info_type": "project_timing_requirements",
+          "json_error": false,
+          "answer_state": "flexible_medium_term",
+          "response_state": "flexible_medium_term",
+          "write_pos": 0,
+          "read_pos": 8,
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "query": "{\n  \"preferred_sports_team_type\": [\n    \"specific_baseball_team\",\n    \"specific_football_team\",\n    \"specific_basketball_team\",\n    \"newly_formed_team\",\n    \"longstanding_familiar_team\",\n    \"nostalgically_significant_team\"\n  ]\n}\n\nBased on our previous conversation, select the most appropriate option for each state type listed above. The selected option should be as close as possible to my current situation. \nMake sure that every state type in the schema above has a corresponding choice in your output.\n\nPlease respond strictly in the following JSON format:\n```json\n{\n    \"info_type1\": \"choice\",\n    \"info_type2\": \"choice\",\n    ...\n}\n```\nWhere each \"info_type\" is a given state type, and \"choice\" is the exact option selected from its corresponding choices.\n\nOnly keep the JSON format output, do not include any other content.\n",
+      "raw_response": "```json\n{\n    \"preferred_sports_team_type\": \"longstanding_familiar_team\"\n}\n```",
+      "results": [
+        {
+          "info_type": "preferred_sports_team_type",
+          "json_error": false,
+          "answer_state": "nostalgically_significant_team",
+          "response_state": "longstanding_familiar_team",
+          "write_pos": 0,
+          "read_pos": 8,
+          "score": 0.0
+        },
+        {
+          "info_type": "preferred_sports_team_type",
+          "json_error": false,
+          "answer_state": "nostalgically_significant_team",
+          "response_state": "longstanding_familiar_team",
+          "write_pos": 0,
+          "read_pos": 8,
+          "score": 0.0
+        }
+      ]
+    },
+    {
+      "query": "{\n  \"gardening_space_dimensions\": [\n    \"small_garden\",\n    \"medium_garden\",\n    \"large_garden\"\n  ],\n  \"time_spent_on_gardening\": [\n    \"very_limited_time\",\n    \"some_free_time\",\n    \"plenty_of_time\"\n  ]\n}\n\nBased on our previous conversation, select the most appropriate option for each state type listed above. The selected option should be as close as possible to my current situation. \nMake sure that every state type in the schema above has a corresponding choice in your output.\n\nPlease respond strictly in the following JSON format:\n```json\n{\n    \"info_type1\": \"choice\",\n    \"info_type2\": \"choice\",\n    ...\n}\n```\nWhere each \"info_type\" is a given state type, and \"choice\" is the exact option selected from its corresponding choices.\n\nOnly keep the JSON format output, do not include any other content.\n",
+      "raw_response": "```json\n{\n    \"gardening_space_dimensions\": \"small_garden\",\n    \"time_spent_on_gardening\": \"some_free_time\"\n}\n```",
+      "results": [
+        {
+          "info_type": "gardening_space_dimensions",
+          "json_error": false,
+          "answer_state": "large_garden",
+          "response_state": "small_garden",
+          "write_pos": 7,
+          "read_pos": 8,
+          "score": 0.0
+        },
+        {
+          "info_type": "time_spent_on_gardening",
+          "json_error": false,
+          "answer_state": "plenty_of_time",
+          "response_state": "some_free_time",
+          "write_pos": 4,
+          "read_pos": 8,
+          "score": 0.0
+        }
+      ]
+    },
+    {
+      "query": "{\n  \"cooking_project_difficulty\": [\n    \"simple_dishes\",\n    \"moderately_complex_dishes\",\n    \"complex_dishes\"\n  ],\n  \"target_audience_for_cooking\": [\n    \"general_audience\",\n    \"culinary_enthusiasts\",\n    \"kids_and_families\"\n  ]\n}\n\nBased on our previous conversation, select the most appropriate option for each state type listed above. The selected option should be as close as possible to my current situation. \nMake sure that every state type in the schema above has a corresponding choice in your output.\n\nPlease respond strictly in the following JSON format:\n```json\n{\n    \"info_type1\": \"choice\",\n    \"info_type2\": \"choice\",\n    ...\n}\n```\nWhere each \"info_type\" is a given state type, and \"choice\" is the exact option selected from its corresponding choices.\n\nOnly keep the JSON format output, do not include any other content.\n",
+      "raw_response": "```json\n{\n    \"cooking_project_difficulty\": \"moderately_complex_dishes\",\n    \"target_audience_for_cooking\": \"general_audience\"\n}\n```",
+      "results": [
+        {
+          "info_type": "cooking_project_difficulty",
+          "json_error": false,
+          "answer_state": "simple_dishes",
+          "response_state": "moderately_complex_dishes",
+          "write_pos": 6,
+          "read_pos": 8,
+          "score": 0.0
+        },
+        {
+          "info_type": "target_audience_for_cooking",
+          "json_error": false,
+          "answer_state": "general_audience",
+          "response_state": "general_audience",
+          "write_pos": 8,
+          "read_pos": 8,
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "query": "{\n  \"memoir_research_resources\": [\n    \"few_sources\",\n    \"moderate_sources\",\n    \"abundant_sources\"\n  ],\n  \"memoir_writing_stage\": [\n    \"beginning_stages\",\n    \"middle_stages\",\n    \"near_completion\"\n  ]\n}\n\nBased on our previous conversation, select the most appropriate option for each state type listed above. The selected option should be as close as possible to my current situation. \nMake sure that every state type in the schema above has a corresponding choice in your output.\n\nPlease respond strictly in the following JSON format:\n```json\n{\n    \"info_type1\": \"choice\",\n    \"info_type2\": \"choice\",\n    ...\n}\n```\nWhere each \"info_type\" is a given state type, and \"choice\" is the exact option selected from its corresponding choices.\n\nOnly keep the JSON format output, do not include any other content.\n",
+      "raw_response": "```json\n{\n    \"memoir_research_resources\": \"moderate_sources\",\n    \"memoir_writing_stage\": \"middle_stages\"\n}\n```",
+      "results": [
+        {
+          "info_type": "memoir_research_resources",
+          "json_error": false,
+          "answer_state": "abundant_sources",
+          "response_state": "moderate_sources",
+          "write_pos": 5,
+          "read_pos": 8,
+          "score": 0.0
+        },
+        {
+          "info_type": "memoir_writing_stage",
+          "json_error": false,
+          "answer_state": "near_completion",
+          "response_state": "middle_stages",
+          "write_pos": 2,
+          "read_pos": 8,
+          "score": 0.0
+        }
+      ]
+    },
+    {
+      "query": "{\n  \"tutoring_target_age_group\": [\n    \"seniors_only\",\n    \"youth_only\",\n    \"both_age_groups\"\n  ],\n  \"tutoring_topic_scope\": [\n    \"broad_topics\",\n    \"specific_topics\",\n    \"customized_topics\"\n  ]\n}\n\nBased on our previous conversation, select the most appropriate option for each state type listed above. The selected option should be as close as possible to my current situation. \nMake sure that every state type in the schema above has a corresponding choice in your output.\n\nPlease respond strictly in the following JSON format:\n```json\n{\n    \"info_type1\": \"choice\",\n    \"info_type2\": \"choice\",\n    ...\n}\n```\nWhere each \"info_type\" is a given state type, and \"choice\" is the exact option selected from its corresponding choices.\n\nOnly keep the JSON format output, do not include any other content.\n",
+      "raw_response": "```json\n{\n    \"tutoring_target_age_group\": \"both_age_groups\",\n    \"tutoring_topic_scope\": \"customized_topics\"\n}\n```",
+      "results": [
+        {
+          "info_type": "tutoring_target_age_group",
+          "json_error": false,
+          "answer_state": "both_age_groups",
+          "response_state": "both_age_groups",
+          "write_pos": 0,
+          "read_pos": 8,
+          "score": 1.0
+        },
+        {
+          "info_type": "tutoring_topic_scope",
+          "json_error": false,
+          "answer_state": "customized_topics",
+          "response_state": "customized_topics",
+          "write_pos": 2,
+          "read_pos": 8,
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "query": "{\n  \"volunteer_role_count\": [\n    \"few_volunteer_roles\",\n    \"moderate_volunteer_roles\",\n    \"many_volunteer_roles\"\n  ],\n  \"personal_availability_for_volunteering\": [\n    \"busy_schedule\",\n    \"moderate_schedule\",\n    \"spare_schedule\"\n  ]\n}\n\nBased on our previous conversation, select the most appropriate option for each state type listed above. The selected option should be as close as possible to my current situation. \nMake sure that every state type in the schema above has a corresponding choice in your output.\n\nPlease respond strictly in the following JSON format:\n```json\n{\n    \"info_type1\": \"choice\",\n    \"info_type2\": \"choice\",\n    ...\n}\n```\nWhere each \"info_type\" is a given state type, and \"choice\" is the exact option selected from its corresponding choices.\n\nOnly keep the JSON format output, do not include any other content.\n",
+      "raw_response": "```json\n{\n    \"volunteer_role_count\": \"moderate_volunteer_roles\",\n    \"personal_availability_for_volunteering\": \"moderate_schedule\"\n}\n```",
+      "results": [
+        {
+          "info_type": "volunteer_role_count",
+          "json_error": false,
+          "answer_state": "moderate_volunteer_roles",
+          "response_state": "moderate_volunteer_roles",
+          "write_pos": 0,
+          "read_pos": 8,
+          "score": 1.0
+        },
+        {
+          "info_type": "personal_availability_for_volunteering",
+          "json_error": false,
+          "answer_state": "moderate_schedule",
+          "response_state": "moderate_schedule",
+          "write_pos": 8,
+          "read_pos": 8,
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "query": "{\n  \"historical_fiction_time_period\": [\n    \"ancient_history\",\n    \"medieval_history\",\n    \"modern_history\"\n  ],\n  \"historical_fiction_geographic_focus\": [\n    \"global_setting\",\n    \"local_setting\",\n    \"regional_setting\"\n  ]\n}\n\nBased on our previous conversation, select the most appropriate option for each state type listed above. The selected option should be as close as possible to my current situation. \nMake sure that every state type in the schema above has a corresponding choice in your output.\n\nPlease respond strictly in the following JSON format:\n```json\n{\n    \"info_type1\": \"choice\",\n    \"info_type2\": \"choice\",\n    ...\n}\n```\nWhere each \"info_type\" is a given state type, and \"choice\" is the exact option selected from its corresponding choices.\n\nOnly keep the JSON format output, do not include any other content.\n",
+      "raw_response": "```json\n{\n    \"historical_fiction_time_period\": \"modern_history\",\n    \"historical_fiction_geographic_focus\": \"regional_setting\"\n}\n```",
+      "results": [
+        {
+          "info_type": "historical_fiction_time_period",
+          "json_error": false,
+          "answer_state": "ancient_history",
+          "response_state": "modern_history",
+          "write_pos": 7,
+          "read_pos": 8,
+          "score": 0.0
+        },
+        {
+          "info_type": "historical_fiction_geographic_focus",
+          "json_error": false,
+          "answer_state": "global_setting",
+          "response_state": "regional_setting",
+          "write_pos": 8,
+          "read_pos": 8,
+          "score": 0.0
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "query": "{\n  \"cultural_event_scale\": [\n    \"small_local_event\",\n    \"medium_community_event\",\n    \"large_citywide_event\"\n  ],\n  \"volunteer_participation_level\": [\n    \"low_volunteers\",\n    \"moderate_volunteers\",\n    \"high_volunteers\"\n  ]\n}\n\nBased on our previous conversation, select the most appropriate option for each state type listed above. The selected option should be as close as possible to my current situation. \nMake sure that every state type in the schema above has a corresponding choice in your output.\n\nPlease respond strictly in the following JSON format:\n```json\n{\n    \"info_type1\": \"choice\",\n    \"info_type2\": \"choice\",\n    ...\n}\n```\nWhere each \"info_type\" is a given state type, and \"choice\" is the exact option selected from its corresponding choices.\n\nOnly keep the JSON format output, do not include any other content.\n",
+      "raw_response": "```json\n{\n    \"cultural_event_scale\": \"medium_community_event\",\n    \"volunteer_participation_level\": \"moderate_volunteers\"\n}\n```",
+      "results": [
+        {
+          "info_type": "cultural_event_scale",
+          "json_error": false,
+          "answer_state": "large_citywide_event",
+          "response_state": "medium_community_event",
+          "write_pos": 1,
+          "read_pos": 9,
+          "score": 0.0
+        },
+        {
+          "info_type": "volunteer_participation_level",
+          "json_error": false,
+          "answer_state": "moderate_volunteers",
+          "response_state": "moderate_volunteers",
+          "write_pos": 7,
+          "read_pos": 9,
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "query": "{\n  \"community_engagement_interest\": [\n    \"low_interest\",\n    \"moderate_interest\",\n    \"high_interest\"\n  ],\n  \"workshop_facility_capacity\": [\n    \"limited_spaces\",\n    \"adequate_spaces\",\n    \"ample_spaces\"\n  ]\n}\n\nBased on our previous conversation, select the most appropriate option for each state type listed above. The selected option should be as close as possible to my current situation. \nMake sure that every state type in the schema above has a corresponding choice in your output.\n\nPlease respond strictly in the following JSON format:\n```json\n{\n    \"info_type1\": \"choice\",\n    \"info_type2\": \"choice\",\n    ...\n}\n```\nWhere each \"info_type\" is a given state type, and \"choice\" is the exact option selected from its corresponding choices.\n\nOnly keep the JSON format output, do not include any other content.\n",
+      "raw_response": "```json\n{\n    \"community_engagement_interest\": \"moderate_interest\",\n    \"workshop_facility_capacity\": \"adequate_spaces\"\n}\n```",
+      "results": [
+        {
+          "info_type": "community_engagement_interest",
+          "json_error": false,
+          "answer_state": "high_interest",
+          "response_state": "moderate_interest",
+          "write_pos": 4,
+          "read_pos": 9,
+          "score": 0.0
+        },
+        {
+          "info_type": "workshop_facility_capacity",
+          "json_error": false,
+          "answer_state": "ample_spaces",
+          "response_state": "adequate_spaces",
+          "write_pos": 8,
+          "read_pos": 9,
+          "score": 0.0
+        }
+      ]
+    },
+    {
+      "query": "{\n  \"craft_material_availability\": [\n    \"abundant_materials\",\n    \"moderate_materials\",\n    \"scarce_materials\"\n  ],\n  \"project_timing_requirements\": [\n    \"urgent_short_term\",\n    \"flexible_medium_term\",\n    \"long_term\"\n  ]\n}\n\nBased on our previous conversation, select the most appropriate option for each state type listed above. The selected option should be as close as possible to my current situation. \nMake sure that every state type in the schema above has a corresponding choice in your output.\n\nPlease respond strictly in the following JSON format:\n```json\n{\n    \"info_type1\": \"choice\",\n    \"info_type2\": \"choice\",\n    ...\n}\n```\nWhere each \"info_type\" is a given state type, and \"choice\" is the exact option selected from its corresponding choices.\n\nOnly keep the JSON format output, do not include any other content.\n",
+      "raw_response": "```json\n{\n    \"craft_material_availability\": \"abundant_materials\",\n    \"project_timing_requirements\": \"flexible_medium_term\"\n}\n```",
+      "results": [
+        {
+          "info_type": "craft_material_availability",
+          "json_error": false,
+          "answer_state": "abundant_materials",
+          "response_state": "abundant_materials",
+          "write_pos": 9,
+          "read_pos": 9,
+          "score": 1.0
+        },
+        {
+          "info_type": "project_timing_requirements",
+          "json_error": false,
+          "answer_state": "flexible_medium_term",
+          "response_state": "flexible_medium_term",
+          "write_pos": 0,
+          "read_pos": 9,
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "query": "{\n  \"preferred_sports_team_type\": [\n    \"specific_baseball_team\",\n    \"specific_football_team\",\n    \"specific_basketball_team\",\n    \"newly_formed_team\",\n    \"longstanding_familiar_team\",\n    \"nostalgically_significant_team\"\n  ]\n}\n\nBased on our previous conversation, select the most appropriate option for each state type listed above. The selected option should be as close as possible to my current situation. \nMake sure that every state type in the schema above has a corresponding choice in your output.\n\nPlease respond strictly in the following JSON format:\n```json\n{\n    \"info_type1\": \"choice\",\n    \"info_type2\": \"choice\",\n    ...\n}\n```\nWhere each \"info_type\" is a given state type, and \"choice\" is the exact option selected from its corresponding choices.\n\nOnly keep the JSON format output, do not include any other content.\n",
+      "raw_response": "```json\n{\n    \"preferred_sports_team_type\": \"longstanding_familiar_team\"\n}\n```",
+      "results": [
+        {
+          "info_type": "preferred_sports_team_type",
+          "json_error": false,
+          "answer_state": "nostalgically_significant_team",
+          "response_state": "longstanding_familiar_team",
+          "write_pos": 0,
+          "read_pos": 9,
+          "score": 0.0
+        },
+        {
+          "info_type": "preferred_sports_team_type",
+          "json_error": false,
+          "answer_state": "nostalgically_significant_team",
+          "response_state": "longstanding_familiar_team",
+          "write_pos": 0,
+          "read_pos": 9,
+          "score": 0.0
+        }
+      ]
+    },
+    {
+      "query": "{\n  \"gardening_space_dimensions\": [\n    \"small_garden\",\n    \"medium_garden\",\n    \"large_garden\"\n  ],\n  \"time_spent_on_gardening\": [\n    \"very_limited_time\",\n    \"some_free_time\",\n    \"plenty_of_time\"\n  ]\n}\n\nBased on our previous conversation, select the most appropriate option for each state type listed above. The selected option should be as close as possible to my current situation. \nMake sure that every state type in the schema above has a corresponding choice in your output.\n\nPlease respond strictly in the following JSON format:\n```json\n{\n    \"info_type1\": \"choice\",\n    \"info_type2\": \"choice\",\n    ...\n}\n```\nWhere each \"info_type\" is a given state type, and \"choice\" is the exact option selected from its corresponding choices.\n\nOnly keep the JSON format output, do not include any other content.\n",
+      "raw_response": "```json\n{\n    \"gardening_space_dimensions\": \"medium_garden\",\n    \"time_spent_on_gardening\": \"some_free_time\"\n}\n```",
+      "results": [
+        {
+          "info_type": "gardening_space_dimensions",
+          "json_error": false,
+          "answer_state": "large_garden",
+          "response_state": "medium_garden",
+          "write_pos": 7,
+          "read_pos": 9,
+          "score": 0.0
+        },
+        {
+          "info_type": "time_spent_on_gardening",
+          "json_error": false,
+          "answer_state": "plenty_of_time",
+          "response_state": "some_free_time",
+          "write_pos": 4,
+          "read_pos": 9,
+          "score": 0.0
+        }
+      ]
+    },
+    {
+      "query": "{\n  \"cooking_project_difficulty\": [\n    \"simple_dishes\",\n    \"moderately_complex_dishes\",\n    \"complex_dishes\"\n  ],\n  \"target_audience_for_cooking\": [\n    \"general_audience\",\n    \"culinary_enthusiasts\",\n    \"kids_and_families\"\n  ]\n}\n\nBased on our previous conversation, select the most appropriate option for each state type listed above. The selected option should be as close as possible to my current situation. \nMake sure that every state type in the schema above has a corresponding choice in your output.\n\nPlease respond strictly in the following JSON format:\n```json\n{\n    \"info_type1\": \"choice\",\n    \"info_type2\": \"choice\",\n    ...\n}\n```\nWhere each \"info_type\" is a given state type, and \"choice\" is the exact option selected from its corresponding choices.\n\nOnly keep the JSON format output, do not include any other content.\n",
+      "raw_response": "```json\n{\n    \"cooking_project_difficulty\": \"complex_dishes\",\n    \"target_audience_for_cooking\": \"culinary_enthusiasts\"\n}\n```",
+      "results": [
+        {
+          "info_type": "cooking_project_difficulty",
+          "json_error": false,
+          "answer_state": "simple_dishes",
+          "response_state": "complex_dishes",
+          "write_pos": 6,
+          "read_pos": 9,
+          "score": 0.0
+        },
+        {
+          "info_type": "target_audience_for_cooking",
+          "json_error": false,
+          "answer_state": "culinary_enthusiasts",
+          "response_state": "culinary_enthusiasts",
+          "write_pos": 9,
+          "read_pos": 9,
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "query": "{\n  \"memoir_research_resources\": [\n    \"few_sources\",\n    \"moderate_sources\",\n    \"abundant_sources\"\n  ],\n  \"memoir_writing_stage\": [\n    \"beginning_stages\",\n    \"middle_stages\",\n    \"near_completion\"\n  ]\n}\n\nBased on our previous conversation, select the most appropriate option for each state type listed above. The selected option should be as close as possible to my current situation. \nMake sure that every state type in the schema above has a corresponding choice in your output.\n\nPlease respond strictly in the following JSON format:\n```json\n{\n    \"info_type1\": \"choice\",\n    \"info_type2\": \"choice\",\n    ...\n}\n```\nWhere each \"info_type\" is a given state type, and \"choice\" is the exact option selected from its corresponding choices.\n\nOnly keep the JSON format output, do not include any other content.\n",
+      "raw_response": "```json\n{\n    \"memoir_research_resources\": \"moderate_sources\",\n    \"memoir_writing_stage\": \"middle_stages\"\n}\n```",
+      "results": [
+        {
+          "info_type": "memoir_research_resources",
+          "json_error": false,
+          "answer_state": "abundant_sources",
+          "response_state": "moderate_sources",
+          "write_pos": 5,
+          "read_pos": 9,
+          "score": 0.0
+        },
+        {
+          "info_type": "memoir_writing_stage",
+          "json_error": false,
+          "answer_state": "near_completion",
+          "response_state": "middle_stages",
+          "write_pos": 2,
+          "read_pos": 9,
+          "score": 0.0
+        }
+      ]
+    },
+    {
+      "query": "{\n  \"tutoring_target_age_group\": [\n    \"seniors_only\",\n    \"youth_only\",\n    \"both_age_groups\"\n  ],\n  \"tutoring_topic_scope\": [\n    \"broad_topics\",\n    \"specific_topics\",\n    \"customized_topics\"\n  ]\n}\n\nBased on our previous conversation, select the most appropriate option for each state type listed above. The selected option should be as close as possible to my current situation. \nMake sure that every state type in the schema above has a corresponding choice in your output.\n\nPlease respond strictly in the following JSON format:\n```json\n{\n    \"info_type1\": \"choice\",\n    \"info_type2\": \"choice\",\n    ...\n}\n```\nWhere each \"info_type\" is a given state type, and \"choice\" is the exact option selected from its corresponding choices.\n\nOnly keep the JSON format output, do not include any other content.\n",
+      "raw_response": "```json\n{\n    \"tutoring_target_age_group\": \"both_age_groups\",\n    \"tutoring_topic_scope\": \"customized_topics\"\n}\n```",
+      "results": [
+        {
+          "info_type": "tutoring_target_age_group",
+          "json_error": false,
+          "answer_state": "both_age_groups",
+          "response_state": "both_age_groups",
+          "write_pos": 0,
+          "read_pos": 9,
+          "score": 1.0
+        },
+        {
+          "info_type": "tutoring_topic_scope",
+          "json_error": false,
+          "answer_state": "customized_topics",
+          "response_state": "customized_topics",
+          "write_pos": 2,
+          "read_pos": 9,
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "query": "{\n  \"volunteer_role_count\": [\n    \"few_volunteer_roles\",\n    \"moderate_volunteer_roles\",\n    \"many_volunteer_roles\"\n  ],\n  \"personal_availability_for_volunteering\": [\n    \"busy_schedule\",\n    \"moderate_schedule\",\n    \"spare_schedule\"\n  ]\n}\n\nBased on our previous conversation, select the most appropriate option for each state type listed above. The selected option should be as close as possible to my current situation. \nMake sure that every state type in the schema above has a corresponding choice in your output.\n\nPlease respond strictly in the following JSON format:\n```json\n{\n    \"info_type1\": \"choice\",\n    \"info_type2\": \"choice\",\n    ...\n}\n```\nWhere each \"info_type\" is a given state type, and \"choice\" is the exact option selected from its corresponding choices.\n\nOnly keep the JSON format output, do not include any other content.\n",
+      "raw_response": "```json\n{\n    \"volunteer_role_count\": \"moderate_volunteer_roles\",\n    \"personal_availability_for_volunteering\": \"moderate_schedule\"\n}\n```",
+      "results": [
+        {
+          "info_type": "volunteer_role_count",
+          "json_error": false,
+          "answer_state": "many_volunteer_roles",
+          "response_state": "moderate_volunteer_roles",
+          "write_pos": 9,
+          "read_pos": 9,
+          "score": 0.0
+        },
+        {
+          "info_type": "personal_availability_for_volunteering",
+          "json_error": false,
+          "answer_state": "moderate_schedule",
+          "response_state": "moderate_schedule",
+          "write_pos": 8,
+          "read_pos": 9,
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "query": "{\n  \"historical_fiction_time_period\": [\n    \"ancient_history\",\n    \"medieval_history\",\n    \"modern_history\"\n  ],\n  \"historical_fiction_geographic_focus\": [\n    \"global_setting\",\n    \"local_setting\",\n    \"regional_setting\"\n  ]\n}\n\nBased on our previous conversation, select the most appropriate option for each state type listed above. The selected option should be as close as possible to my current situation. \nMake sure that every state type in the schema above has a corresponding choice in your output.\n\nPlease respond strictly in the following JSON format:\n```json\n{\n    \"info_type1\": \"choice\",\n    \"info_type2\": \"choice\",\n    ...\n}\n```\nWhere each \"info_type\" is a given state type, and \"choice\" is the exact option selected from its corresponding choices.\n\nOnly keep the JSON format output, do not include any other content.\n",
+      "raw_response": "```json\n{\n    \"historical_fiction_time_period\": \"modern_history\",\n    \"historical_fiction_geographic_focus\": \"global_setting\"\n}\n```",
+      "results": [
+        {
+          "info_type": "historical_fiction_time_period",
+          "json_error": false,
+          "answer_state": "ancient_history",
+          "response_state": "modern_history",
+          "write_pos": 7,
+          "read_pos": 9,
+          "score": 0.0
+        },
+        {
+          "info_type": "historical_fiction_geographic_focus",
+          "json_error": false,
+          "answer_state": "global_setting",
+          "response_state": "global_setting",
+          "write_pos": 8,
+          "read_pos": 9,
+          "score": 1.0
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "query": "{\n  \"cultural_event_scale\": [\n    \"small_local_event\",\n    \"medium_community_event\",\n    \"large_citywide_event\"\n  ],\n  \"volunteer_participation_level\": [\n    \"low_volunteers\",\n    \"moderate_volunteers\",\n    \"high_volunteers\"\n  ]\n}\n\nBased on our previous conversation, select the most appropriate option for each state type listed above. The selected option should be as close as possible to my current situation. \nMake sure that every state type in the schema above has a corresponding choice in your output.\n\nPlease respond strictly in the following JSON format:\n```json\n{\n    \"info_type1\": \"choice\",\n    \"info_type2\": \"choice\",\n    ...\n}\n```\nWhere each \"info_type\" is a given state type, and \"choice\" is the exact option selected from its corresponding choices.\n\nOnly keep the JSON format output, do not include any other content.\n",
+      "raw_response": "```json\n{\n    \"cultural_event_scale\": \"medium_community_event\",\n    \"volunteer_participation_level\": \"moderate_volunteers\"\n}\n```",
+      "results": [
+        {
+          "info_type": "cultural_event_scale",
+          "json_error": false,
+          "answer_state": "large_citywide_event",
+          "response_state": "medium_community_event",
+          "write_pos": 1,
+          "read_pos": 10,
+          "score": 0.0
+        },
+        {
+          "info_type": "volunteer_participation_level",
+          "json_error": false,
+          "answer_state": "moderate_volunteers",
+          "response_state": "moderate_volunteers",
+          "write_pos": 7,
+          "read_pos": 10,
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "query": "{\n  \"community_engagement_interest\": [\n    \"low_interest\",\n    \"moderate_interest\",\n    \"high_interest\"\n  ],\n  \"workshop_facility_capacity\": [\n    \"limited_spaces\",\n    \"adequate_spaces\",\n    \"ample_spaces\"\n  ]\n}\n\nBased on our previous conversation, select the most appropriate option for each state type listed above. The selected option should be as close as possible to my current situation. \nMake sure that every state type in the schema above has a corresponding choice in your output.\n\nPlease respond strictly in the following JSON format:\n```json\n{\n    \"info_type1\": \"choice\",\n    \"info_type2\": \"choice\",\n    ...\n}\n```\nWhere each \"info_type\" is a given state type, and \"choice\" is the exact option selected from its corresponding choices.\n\nOnly keep the JSON format output, do not include any other content.\n",
+      "raw_response": "```json\n{\n    \"community_engagement_interest\": \"moderate_interest\",\n    \"workshop_facility_capacity\": \"adequate_spaces\"\n}\n```",
+      "results": [
+        {
+          "info_type": "community_engagement_interest",
+          "json_error": false,
+          "answer_state": "moderate_interest",
+          "response_state": "moderate_interest",
+          "write_pos": 10,
+          "read_pos": 10,
+          "score": 1.0
+        },
+        {
+          "info_type": "workshop_facility_capacity",
+          "json_error": false,
+          "answer_state": "ample_spaces",
+          "response_state": "adequate_spaces",
+          "write_pos": 8,
+          "read_pos": 10,
+          "score": 0.0
+        }
+      ]
+    },
+    {
+      "query": "{\n  \"craft_material_availability\": [\n    \"abundant_materials\",\n    \"moderate_materials\",\n    \"scarce_materials\"\n  ],\n  \"project_timing_requirements\": [\n    \"urgent_short_term\",\n    \"flexible_medium_term\",\n    \"long_term\"\n  ]\n}\n\nBased on our previous conversation, select the most appropriate option for each state type listed above. The selected option should be as close as possible to my current situation. \nMake sure that every state type in the schema above has a corresponding choice in your output.\n\nPlease respond strictly in the following JSON format:\n```json\n{\n    \"info_type1\": \"choice\",\n    \"info_type2\": \"choice\",\n    ...\n}\n```\nWhere each \"info_type\" is a given state type, and \"choice\" is the exact option selected from its corresponding choices.\n\nOnly keep the JSON format output, do not include any other content.\n",
+      "raw_response": "```json\n{\n    \"craft_material_availability\": \"abundant_materials\",\n    \"project_timing_requirements\": \"flexible_medium_term\"\n}\n```",
+      "results": [
+        {
+          "info_type": "craft_material_availability",
+          "json_error": false,
+          "answer_state": "abundant_materials",
+          "response_state": "abundant_materials",
+          "write_pos": 9,
+          "read_pos": 10,
+          "score": 1.0
+        },
+        {
+          "info_type": "project_timing_requirements",
+          "json_error": false,
+          "answer_state": "flexible_medium_term",
+          "response_state": "flexible_medium_term",
+          "write_pos": 0,
+          "read_pos": 10,
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "query": "{\n  \"preferred_sports_team_type\": [\n    \"specific_baseball_team\",\n    \"specific_football_team\",\n    \"specific_basketball_team\",\n    \"newly_formed_team\",\n    \"longstanding_familiar_team\",\n    \"nostalgically_significant_team\"\n  ]\n}\n\nBased on our previous conversation, select the most appropriate option for each state type listed above. The selected option should be as close as possible to my current situation. \nMake sure that every state type in the schema above has a corresponding choice in your output.\n\nPlease respond strictly in the following JSON format:\n```json\n{\n    \"info_type1\": \"choice\",\n    \"info_type2\": \"choice\",\n    ...\n}\n```\nWhere each \"info_type\" is a given state type, and \"choice\" is the exact option selected from its corresponding choices.\n\nOnly keep the JSON format output, do not include any other content.\n",
+      "raw_response": "```json\n{\n    \"preferred_sports_team_type\": \"longstanding_familiar_team\"\n}\n```",
+      "results": [
+        {
+          "info_type": "preferred_sports_team_type",
+          "json_error": false,
+          "answer_state": "nostalgically_significant_team",
+          "response_state": "longstanding_familiar_team",
+          "write_pos": 0,
+          "read_pos": 10,
+          "score": 0.0
+        },
+        {
+          "info_type": "preferred_sports_team_type",
+          "json_error": false,
+          "answer_state": "nostalgically_significant_team",
+          "response_state": "longstanding_familiar_team",
+          "write_pos": 0,
+          "read_pos": 10,
+          "score": 0.0
+        }
+      ]
+    },
+    {
+      "query": "{\n  \"gardening_space_dimensions\": [\n    \"small_garden\",\n    \"medium_garden\",\n    \"large_garden\"\n  ],\n  \"time_spent_on_gardening\": [\n    \"very_limited_time\",\n    \"some_free_time\",\n    \"plenty_of_time\"\n  ]\n}\n\nBased on our previous conversation, select the most appropriate option for each state type listed above. The selected option should be as close as possible to my current situation. \nMake sure that every state type in the schema above has a corresponding choice in your output.\n\nPlease respond strictly in the following JSON format:\n```json\n{\n    \"info_type1\": \"choice\",\n    \"info_type2\": \"choice\",\n    ...\n}\n```\nWhere each \"info_type\" is a given state type, and \"choice\" is the exact option selected from its corresponding choices.\n\nOnly keep the JSON format output, do not include any other content.\n",
+      "raw_response": "```json\n{\n    \"gardening_space_dimensions\": \"small_garden\",\n    \"time_spent_on_gardening\": \"some_free_time\"\n}\n```",
+      "results": [
+        {
+          "info_type": "gardening_space_dimensions",
+          "json_error": false,
+          "answer_state": "large_garden",
+          "response_state": "small_garden",
+          "write_pos": 7,
+          "read_pos": 10,
+          "score": 0.0
+        },
+        {
+          "info_type": "time_spent_on_gardening",
+          "json_error": false,
+          "answer_state": "plenty_of_time",
+          "response_state": "some_free_time",
+          "write_pos": 4,
+          "read_pos": 10,
+          "score": 0.0
+        }
+      ]
+    },
+    {
+      "query": "{\n  \"cooking_project_difficulty\": [\n    \"simple_dishes\",\n    \"moderately_complex_dishes\",\n    \"complex_dishes\"\n  ],\n  \"target_audience_for_cooking\": [\n    \"general_audience\",\n    \"culinary_enthusiasts\",\n    \"kids_and_families\"\n  ]\n}\n\nBased on our previous conversation, select the most appropriate option for each state type listed above. The selected option should be as close as possible to my current situation. \nMake sure that every state type in the schema above has a corresponding choice in your output.\n\nPlease respond strictly in the following JSON format:\n```json\n{\n    \"info_type1\": \"choice\",\n    \"info_type2\": \"choice\",\n    ...\n}\n```\nWhere each \"info_type\" is a given state type, and \"choice\" is the exact option selected from its corresponding choices.\n\nOnly keep the JSON format output, do not include any other content.\n",
+      "raw_response": "```json\n{\n    \"cooking_project_difficulty\": \"moderately_complex_dishes\",\n    \"target_audience_for_cooking\": \"culinary_enthusiasts\"\n}\n```",
+      "results": [
+        {
+          "info_type": "cooking_project_difficulty",
+          "json_error": false,
+          "answer_state": "simple_dishes",
+          "response_state": "moderately_complex_dishes",
+          "write_pos": 6,
+          "read_pos": 10,
+          "score": 0.0
+        },
+        {
+          "info_type": "target_audience_for_cooking",
+          "json_error": false,
+          "answer_state": "culinary_enthusiasts",
+          "response_state": "culinary_enthusiasts",
+          "write_pos": 9,
+          "read_pos": 10,
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "query": "{\n  \"memoir_research_resources\": [\n    \"few_sources\",\n    \"moderate_sources\",\n    \"abundant_sources\"\n  ],\n  \"memoir_writing_stage\": [\n    \"beginning_stages\",\n    \"middle_stages\",\n    \"near_completion\"\n  ]\n}\n\nBased on our previous conversation, select the most appropriate option for each state type listed above. The selected option should be as close as possible to my current situation. \nMake sure that every state type in the schema above has a corresponding choice in your output.\n\nPlease respond strictly in the following JSON format:\n```json\n{\n    \"info_type1\": \"choice\",\n    \"info_type2\": \"choice\",\n    ...\n}\n```\nWhere each \"info_type\" is a given state type, and \"choice\" is the exact option selected from its corresponding choices.\n\nOnly keep the JSON format output, do not include any other content.\n",
+      "raw_response": "```json\n{\n    \"memoir_research_resources\": \"moderate_sources\",\n    \"memoir_writing_stage\": \"beginning_stages\"\n}\n```",
+      "results": [
+        {
+          "info_type": "memoir_research_resources",
+          "json_error": false,
+          "answer_state": "abundant_sources",
+          "response_state": "moderate_sources",
+          "write_pos": 5,
+          "read_pos": 10,
+          "score": 0.0
+        },
+        {
+          "info_type": "memoir_writing_stage",
+          "json_error": false,
+          "answer_state": "middle_stages",
+          "response_state": "beginning_stages",
+          "write_pos": 10,
+          "read_pos": 10,
+          "score": 0.0
+        }
+      ]
+    },
+    {
+      "query": "{\n  \"tutoring_target_age_group\": [\n    \"seniors_only\",\n    \"youth_only\",\n    \"both_age_groups\"\n  ],\n  \"tutoring_topic_scope\": [\n    \"broad_topics\",\n    \"specific_topics\",\n    \"customized_topics\"\n  ]\n}\n\nBased on our previous conversation, select the most appropriate option for each state type listed above. The selected option should be as close as possible to my current situation. \nMake sure that every state type in the schema above has a corresponding choice in your output.\n\nPlease respond strictly in the following JSON format:\n```json\n{\n    \"info_type1\": \"choice\",\n    \"info_type2\": \"choice\",\n    ...\n}\n```\nWhere each \"info_type\" is a given state type, and \"choice\" is the exact option selected from its corresponding choices.\n\nOnly keep the JSON format output, do not include any other content.\n",
+      "raw_response": "```json\n{\n    \"tutoring_target_age_group\": \"both_age_groups\",\n    \"tutoring_topic_scope\": \"customized_topics\"\n}\n```",
+      "results": [
+        {
+          "info_type": "tutoring_target_age_group",
+          "json_error": false,
+          "answer_state": "both_age_groups",
+          "response_state": "both_age_groups",
+          "write_pos": 0,
+          "read_pos": 10,
+          "score": 1.0
+        },
+        {
+          "info_type": "tutoring_topic_scope",
+          "json_error": false,
+          "answer_state": "customized_topics",
+          "response_state": "customized_topics",
+          "write_pos": 2,
+          "read_pos": 10,
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "query": "{\n  \"volunteer_role_count\": [\n    \"few_volunteer_roles\",\n    \"moderate_volunteer_roles\",\n    \"many_volunteer_roles\"\n  ],\n  \"personal_availability_for_volunteering\": [\n    \"busy_schedule\",\n    \"moderate_schedule\",\n    \"spare_schedule\"\n  ]\n}\n\nBased on our previous conversation, select the most appropriate option for each state type listed above. The selected option should be as close as possible to my current situation. \nMake sure that every state type in the schema above has a corresponding choice in your output.\n\nPlease respond strictly in the following JSON format:\n```json\n{\n    \"info_type1\": \"choice\",\n    \"info_type2\": \"choice\",\n    ...\n}\n```\nWhere each \"info_type\" is a given state type, and \"choice\" is the exact option selected from its corresponding choices.\n\nOnly keep the JSON format output, do not include any other content.\n",
+      "raw_response": "```json\n{\n    \"volunteer_role_count\": \"few_volunteer_roles\",\n    \"personal_availability_for_volunteering\": \"moderate_schedule\"\n}\n```",
+      "results": [
+        {
+          "info_type": "volunteer_role_count",
+          "json_error": false,
+          "answer_state": "few_volunteer_roles",
+          "response_state": "few_volunteer_roles",
+          "write_pos": 10,
+          "read_pos": 10,
+          "score": 1.0
+        },
+        {
+          "info_type": "personal_availability_for_volunteering",
+          "json_error": false,
+          "answer_state": "spare_schedule",
+          "response_state": "moderate_schedule",
+          "write_pos": 10,
+          "read_pos": 10,
+          "score": 0.0
+        }
+      ]
+    },
+    {
+      "query": "{\n  \"historical_fiction_time_period\": [\n    \"ancient_history\",\n    \"medieval_history\",\n    \"modern_history\"\n  ],\n  \"historical_fiction_geographic_focus\": [\n    \"global_setting\",\n    \"local_setting\",\n    \"regional_setting\"\n  ]\n}\n\nBased on our previous conversation, select the most appropriate option for each state type listed above. The selected option should be as close as possible to my current situation. \nMake sure that every state type in the schema above has a corresponding choice in your output.\n\nPlease respond strictly in the following JSON format:\n```json\n{\n    \"info_type1\": \"choice\",\n    \"info_type2\": \"choice\",\n    ...\n}\n```\nWhere each \"info_type\" is a given state type, and \"choice\" is the exact option selected from its corresponding choices.\n\nOnly keep the JSON format output, do not include any other content.\n",
+      "raw_response": "```json\n{\n    \"historical_fiction_time_period\": \"modern_history\",\n    \"historical_fiction_geographic_focus\": \"regional_setting\"\n}\n```",
+      "results": [
+        {
+          "info_type": "historical_fiction_time_period",
+          "json_error": false,
+          "answer_state": "ancient_history",
+          "response_state": "modern_history",
+          "write_pos": 7,
+          "read_pos": 10,
+          "score": 0.0
+        },
+        {
+          "info_type": "historical_fiction_geographic_focus",
+          "json_error": false,
+          "answer_state": "global_setting",
+          "response_state": "regional_setting",
+          "write_pos": 8,
+          "read_pos": 10,
+          "score": 0.0
+        }
+      ]
+    }
+  ]
+]

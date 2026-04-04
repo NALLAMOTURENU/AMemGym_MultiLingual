@@ -1,0 +1,16 @@
+{
+  "type": "awi",
+  "name": "qwen-14b-awi",
+  "llm_config": {
+    "base_url": "http://localhost:8000/v1",
+    "api_key": "EMPTY",
+    "llm_model": "qwen-local",
+    "temperature": 0.0,
+    "max_tokens": 8192,
+    "source": "agent:interaction"
+  },
+  "agent_config": {
+    "update_bsz": 2,
+    "local_length": 4
+  }
+}
