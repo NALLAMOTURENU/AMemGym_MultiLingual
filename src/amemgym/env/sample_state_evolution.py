@@ -1,5 +1,5 @@
 import json
-from amemgym.utils import call_llm
+from amemgym.utils import call_llm, find_best_semantic_match
 from loguru import logger
 from backoff import on_exception, expo
 
@@ -40,21 +40,29 @@ Return a JSON object where each key is a state variable name and each value is t
     
     try:
         initial_state = json.loads(response)
-        
+
         # Validate that all keys exist in schema and values are valid choices
         for key, value in initial_state.items():
             if key not in state_schema:
                 raise ValueError(f"Invalid state variable: {key}")
-            if value not in state_schema[key]:
+
+            # Try semantic matching for value validation
+            best_match, score = find_best_semantic_match(value, state_schema[key], threshold=0.80)
+            if best_match is None:
                 raise ValueError(f"Invalid choice '{value}' for state variable '{key}'. Valid choices: {state_schema[key]}")
-        
+
+            # Replace with exact match from schema
+            if score < 1.0:
+                logger.warning(f"Initial state: semantic matched '{value}' → '{best_match}' (score: {score:.3f}) for '{key}'")
+            initial_state[key] = best_match
+
         # Ensure all schema keys are present
         for key in state_schema:
             if key not in initial_state:
                 raise ValueError(f"Missing state variable: {key}")
-        
+
         return initial_state
-    
+
     except (json.JSONDecodeError, ValueError) as e:
         logger.error(f"Error parsing initial state: {e}\nRaw response: {response}")
         raise e
@@ -169,30 +177,44 @@ Return JSON format:
                 remaining_steps, total_steps, error_hist + (error_info,)
             )
 
-        # Validate each update
+        # Validate each update with semantic matching
         for state_var, new_value in updates.items():
+            error_info = None
+
             if state_var not in state_schema:
                 error_info = {
                     "response": json.dumps(update_info, indent=2, ensure_ascii=False),
                     "info": f"Invalid state variable '{state_var}' in updates"
-                }                
-            if new_value not in state_schema[state_var]:
-                error_info = {
-                    "response": json.dumps(update_info, indent=2, ensure_ascii=False),
-                    "info": f"Invalid value '{new_value}' for state variable '{state_var}'. Valid choices: {state_schema[state_var]}"
                 }
-            if latest_state[state_var] == new_value:
-                error_info = {
-                    "response": json.dumps(update_info, indent=2, ensure_ascii=False),
-                    "info": f"State variable '{state_var}' is not actually changing from '{new_value}'"
-                }
-        if error_info:
-            update_info = sample_state_updates(
-                llm_config, start_date, user_profile, num_months, current_date, end_date,
-                num_changes_per_period, max_changes_per_state,
-                state_schema, latest_state, prior_updates, update_cnts,
-                remaining_steps, total_steps, error_hist + (error_info,)
-            )
+            else:
+                # Try semantic matching for value validation
+                best_match, score = find_best_semantic_match(new_value, state_schema[state_var], threshold=0.80)
+                if best_match is None:
+                    error_info = {
+                        "response": json.dumps(update_info, indent=2, ensure_ascii=False),
+                        "info": f"Invalid value '{new_value}' for state variable '{state_var}'. Valid choices: {state_schema[state_var]}"
+                    }
+                else:
+                    # Replace with exact match from schema
+                    if score < 1.0:
+                        logger.warning(f"Semantic matched '{new_value}' → '{best_match}' (score: {score:.3f}) for state var '{state_var}'")
+                    updates[state_var] = best_match
+
+                    # Check if value actually changed
+                    if latest_state[state_var] == best_match:
+                        error_info = {
+                            "response": json.dumps(update_info, indent=2, ensure_ascii=False),
+                            "info": f"State variable '{state_var}' is not actually changing from '{best_match}'"
+                        }
+
+            if error_info:
+                update_info = sample_state_updates(
+                    llm_config, start_date, user_profile, num_months, current_date, end_date,
+                    num_changes_per_period, max_changes_per_state,
+                    state_schema, latest_state, prior_updates, update_cnts,
+                    remaining_steps, total_steps, error_hist + (error_info,)
+                )
+                return update_info
         update_info["period_end"] = end_date_str
         update_info["period_start"] = current_date_str
         return update_info
