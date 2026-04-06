@@ -1,6 +1,6 @@
 {
     "type": "awi-hack",
-    "name": "qwen-14b-awi-hack",
+    "name": "qwen-32b",
     "llm_config": {
         "base_url": null,
         "api_key": null,

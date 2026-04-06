@@ -1,6 +1,6 @@
 {
     "type": "awi",
-    "name": "qwen-14b-awi",
+    "name": "qwen-32b-awi",
     "llm_config": {
         "base_url": null,
         "api_key": null,
