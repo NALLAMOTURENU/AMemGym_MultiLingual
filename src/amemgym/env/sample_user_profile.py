@@ -1,6 +1,7 @@
 import json
 import pandas as pd
 from amemgym.utils import call_llm
+from amemgym.utils.prompt_loader import load_prompts
 from loguru import logger
 
 
@@ -60,7 +61,7 @@ def sample_nemotron_persona(
     return sampled_df.to_dict(orient="records")
 
 
-def format_nemotron_persona(persona, llm_config):
+def format_nemotron_persona(persona, llm_config, lang="en"):
     """
     Format a Nemotron persona dictionary into a well-structured user profile
     suitable for role-play LLMs.
@@ -107,13 +108,10 @@ def format_nemotron_persona(persona, llm_config):
     complementary_info = {k: persona[k] for k in ["persona", "professional_persona", "sports_persona", "arts_persona", "travel_persona", "culinary_persona", "career_goals_and_ambitions", "skills_and_expertise", "hobbies_and_interests"]}
     
     # call llm to format
-    completion_prompt = (
-        f"You have two tasks:\n"
-        f"1. Extract the full name from the complementary information below\n"
-        f"2. Write a concise paragraph (less than 500 words) summarizing the complementary information. Include only details that cannot be derived from the basic profile.\n\n"
-        f"Basic Profile:\n{basic_profile_str}\n\n"
-        f"Complementary Information:\n{json.dumps(complementary_info, indent=2, ensure_ascii=False)}\n\n"
-        f"Keep the summary professional and suitable for role-play scenarios. Make it informative but concise. Respond in JSON format with `name` and `profile` as keys."
+    env_prompts = load_prompts("env", lang=lang, escape=False)
+    completion_prompt = env_prompts["format_nemotron_persona_prompt"].format(
+        basic_profile_str=basic_profile_str,
+        complementary_info_json=json.dumps(complementary_info, indent=2, ensure_ascii=False),
     )
     ret = call_llm(
         messages=[

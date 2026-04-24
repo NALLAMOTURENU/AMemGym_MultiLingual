@@ -23,6 +23,7 @@ def sample_env_data_given_profile(user_dir, user_profile, llm_config_high, llm_c
     if not os.path.exists(user_profile_path):
         save_json(user_profile_path, user_profile)
 
+    lang = config.get("lang", "en")
     start_date = load_date(config["start_date"])
     num_total_months = config["num_periods"] * config["num_months_per_period"]
 
@@ -58,7 +59,7 @@ def sample_env_data_given_profile(user_dir, user_profile, llm_config_high, llm_c
         logger.info(f"Sampling state transitions for user {user_profile['uuid']}")
         prev_state = sample_initial_state(
             llm_config_low, config["start_date"], user_profile["formatted_str"],
-            num_total_months, schema
+            num_total_months, schema, lang=lang
         )
         current_date = load_date(config["start_date"])
         states = [prev_state]
@@ -72,12 +73,13 @@ def sample_env_data_given_profile(user_dir, user_profile, llm_config_high, llm_c
                 config["num_changes_per_period"], config["max_changes_per_state"],
                 schema, prev_state, updates, update_cnts,
                 remaining_steps=config["num_periods"]-pi,
-                total_steps=config["num_periods"]
+                total_steps=config["num_periods"],
+                lang=lang
             )
             update["old"] = {k: prev_state[k] for k in update["updated"]}
             explanation = elaborate_state_updates(
                 llm_config_low, config["start_date"], user_profile["formatted_str"],
-                prev_state, update, schema
+                prev_state, update, schema, lang=lang
             )
             update["events"] = explanation
             # update loop variables
@@ -95,8 +97,6 @@ def sample_env_data_given_profile(user_dir, user_profile, llm_config_high, llm_c
         state_transition = load_json(transition_path)
         states, updates = state_transition["states"], state_transition["updates"]
         logger.info(f"Loaded existing state transitions from {transition_path}")
-
-    lang = config.get("lang", "en")
 
     # sample personalized answers & reflection
     answer_path = os.path.join(user_dir, "personalized_answers.json")
@@ -313,7 +313,7 @@ def main():
             random_state=config["seed"]
         )
         personas = [
-            format_nemotron_persona(persona, llm_config=llm_config_low)
+            format_nemotron_persona(persona, llm_config=llm_config_low, lang=config.get("lang", "en"))
             for persona in tqdm(personas, ncols=100, desc="Formatting user profiles", leave=False)
         ]
         save_json(user_profile_path, personas)

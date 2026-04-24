@@ -97,8 +97,9 @@ def evaluate_utilization(data, llm_config, output_dir):
         for k, v in utilization_metrics.items():
             utilization_metrics[k] = np.array(v)
     else:
-        N, Np, Nq = len(data), len(data[0]["periods"]), len(data[0]["qas"])
-        utilization_metrics = {metric: np.zeros((N, Np, Nq)) for metric in METRICS}
+        N, Nq = len(data), len(data[0]["qas"])
+        Np = max(len(item["periods"]) for item in data)
+        utilization_metrics = {metric: np.full((N, Np, Nq), np.nan) for metric in METRICS}
         for i, item in enumerate(data):
             # construct mapping from given state to score
             state2score = {}
@@ -117,7 +118,7 @@ def evaluate_utilization(data, llm_config, output_dir):
             k: v.tolist() for k, v in utilization_metrics.items()
         }
         save_json(metrics_path, utilization_metrics_serializable)
-    logger.info(f"Utilization Mean: {utilization_metrics['accuracy'].mean()}")
+    logger.info(f"Utilization Mean: {np.nanmean(utilization_metrics['accuracy'])}")
 
 
 if __name__ == "__main__":

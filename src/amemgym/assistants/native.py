@@ -8,14 +8,24 @@ class NaiveAgent(BaseAgent):
 
     def __init__(self, config):
         self.llm_config = config
+        # max number of messages to keep in history (sliding window); None = unlimited
+        self.max_history_msgs = config.get("max_history_msgs", None)
         self.reset()
 
     def reset(self):
         self.msg_history = []
 
+    def _truncated_history(self):
+        """Return msg_history trimmed to max_history_msgs, always dropping from the front."""
+        if self.max_history_msgs is None or len(self.msg_history) <= self.max_history_msgs:
+            return self.msg_history
+        # Drop oldest messages in pairs (user+assistant) to preserve role alternation
+        overflow = len(self.msg_history) - self.max_history_msgs
+        return self.msg_history[overflow:]
+
     def act(self, obs: str) -> str:
         self.msg_history.append({"role": "user", "content": obs})
-        response = call_llm(self.msg_history, self.llm_config)
+        response = call_llm(self._truncated_history(), self.llm_config)
         self.msg_history.append({"role": "assistant", "content": response})
         return response
 
@@ -31,4 +41,4 @@ class NaiveAgent(BaseAgent):
 
     def answer_question(self, question: str):
         msg = {"role": "user", "content": question}
-        return call_llm(self.msg_history + [msg], self.llm_config, return_token_usage=True)
+        return call_llm(self._truncated_history() + [msg], self.llm_config, return_token_usage=True)
